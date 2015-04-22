@@ -98,6 +98,26 @@
             @Html.DisplayFor(model => model.UserName)
         </dd>
 
+        <dt>
+            @Html.DisplayName("Rolecount")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Roles.Count)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Roles")
+        </dt>
+
+        <dd>
+            @foreach (var role in Model.Roles)
+            {
+                @(role.Role.Name+" ")
+            }            
+        </dd>
+
+
     </dl>
 </div>
 <p>

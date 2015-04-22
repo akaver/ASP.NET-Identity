@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity", "Identity\Identity.csproj", "{A2F0C00C-7977-454F-B5FD-3600C55B08A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{662F423A-229A-4D98-9E32-96F82E2D91F2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppNoEF", "WebAppNoEF\WebAppNoEF.csproj", "{ABFF44BF-C3CE-4208-987B-3F2E6AD1D03C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestApp", "ConsoleTestApp\ConsoleTestApp.csproj", "{7B2FD10A-326B-49A3-929A-11C49F26A3DE}"
@@ -18,33 +16,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiApp", "WebApiApp\WebApiApp.csproj", "{CF6ACD20-4C98-4262-8F78-2BD8EEB5CF1F}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 8
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://akaver.visualstudio.com/defaultcollection
-		SccProjectUniqueName0 = DAL\\DAL.csproj
-		SccProjectName0 = DAL
-		SccLocalPath0 = DAL
-		SccProjectUniqueName1 = Domain\\Domain.csproj
-		SccProjectName1 = Domain
-		SccLocalPath1 = Domain
-		SccProjectUniqueName2 = Identity\\Identity.csproj
-		SccProjectName2 = Identity
-		SccLocalPath2 = Identity
-		SccProjectUniqueName3 = WebApp\\WebApp.csproj
-		SccProjectName3 = WebApp
-		SccLocalPath3 = WebApp
-		SccProjectUniqueName4 = WebAppNoEF\\WebAppNoEF.csproj
-		SccProjectName4 = WebAppNoEF
-		SccLocalPath4 = WebAppNoEF
-		SccLocalPath5 = .
-		SccProjectUniqueName6 = ConsoleTestApp\\ConsoleTestApp.csproj
-		SccProjectName6 = ConsoleTestApp
-		SccLocalPath6 = ConsoleTestApp
-		SccProjectUniqueName7 = WebApiApp\\WebApiApp.csproj
-		SccProjectName7 = WebApiApp
-		SccLocalPath7 = WebApiApp
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -62,10 +33,6 @@ Global
 		{A2F0C00C-7977-454F-B5FD-3600C55B08A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2F0C00C-7977-454F-B5FD-3600C55B08A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2F0C00C-7977-454F-B5FD-3600C55B08A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{662F423A-229A-4D98-9E32-96F82E2D91F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{662F423A-229A-4D98-9E32-96F82E2D91F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{662F423A-229A-4D98-9E32-96F82E2D91F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{662F423A-229A-4D98-9E32-96F82E2D91F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ABFF44BF-C3CE-4208-987B-3F2E6AD1D03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ABFF44BF-C3CE-4208-987B-3F2E6AD1D03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABFF44BF-C3CE-4208-987B-3F2E6AD1D03C}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Index - Users and Roles</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -29,7 +29,6 @@
             @Html.DisplayFor(modelItem => item.User.Email)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { userId = item.UserId, roleId = item.RoleId }) |
             @Html.ActionLink("Details", "Details", new { userId=item.UserId, roleId=item.RoleId}) |
             @Html.ActionLink("Delete", "Delete", new { userId = item.UserId, roleId = item.RoleId })
         </td>
