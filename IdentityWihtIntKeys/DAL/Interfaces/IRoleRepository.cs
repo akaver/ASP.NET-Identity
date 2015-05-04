@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Domain.IdentityModels;
+using Domain.IdentityBaseModels;
+using Microsoft.AspNet.Identity;
 
 namespace DAL.Interfaces
 {
-	public interface IRoleRepository : IEFRepository<Role>
+	public interface IRoleRepository<TRole, TKey, TUserRole> : IEFRepository<TRole>
+        where TUserRole : UserRole<TKey>, new()
+        where TRole : Role<TKey, TUserRole>, new()
 	{
-	    Role GetByRoleName(string roleName);
-	    List<Role> GetRolesForUser(string userId);
+	    TRole GetByRoleName(string roleName);
+	    List<TRole> GetRolesForUser(TKey userId);
 	}
 }

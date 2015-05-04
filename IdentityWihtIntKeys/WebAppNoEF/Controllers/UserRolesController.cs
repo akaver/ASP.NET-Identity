@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using DAL;
 using DAL.Interfaces;
-using Domain.IdentityModels;
+using Domain.IdentityBaseModels;
 using Microsoft.Owin.Security;
 using WebAppNoEF.ViewModels;
 

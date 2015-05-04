@@ -56,16 +56,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IdentityModelsIntId\Role.cs" />
-    <Compile Include="IdentityModelsIntId\User.cs" />
-    <Compile Include="IdentityModelsIntId\UserClaim.cs" />
-    <Compile Include="IdentityModelsIntId\UserLogin.cs" />
-    <Compile Include="IdentityModelsIntId\UserRole.cs" />
-    <Compile Include="IdentityModels\Role.cs" />
-    <Compile Include="IdentityModels\User.cs" />
-    <Compile Include="IdentityModels\UserClaim.cs" />
-    <Compile Include="IdentityModels\UserLogin.cs" />
-    <Compile Include="IdentityModels\UserRole.cs" />
+    <Compile Include="IdentityBaseModels\Role.cs" />
+    <Compile Include="IdentityBaseModels\User.cs" />
+    <Compile Include="IdentityBaseModels\UserClaim.cs" />
+    <Compile Include="IdentityBaseModels\UserLogin.cs" />
+    <Compile Include="IdentityBaseModels\UserRole.cs" />
+    <Compile Include="IdentityModels\CustomRole.cs" />
+    <Compile Include="IdentityModels\CustomUserRole.cs" />
+    <Compile Include="IdentityModels\CustomUser.cs" />
+    <Compile Include="IdentityModels\CustomUserClaim.cs" />
+    <Compile Include="IdentityModels\CustomUserLogin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

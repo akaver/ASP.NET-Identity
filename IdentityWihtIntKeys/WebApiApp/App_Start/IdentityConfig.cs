@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Domain.IdentityModels;
+using Domain.IdentityBaseModels;
 using Identity;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL.Interfaces;
-using Domain.IdentityModels;
+using Domain.IdentityBaseModels;
 
 namespace DAL.Repositories
 {

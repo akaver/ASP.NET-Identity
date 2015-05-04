@@ -1,5 +1,5 @@
 using System.Data.Entity.ModelConfiguration;
-using Domain.IdentityModels;
+using Domain.IdentityBaseModels;
 
 namespace DAL.EFConfiguration
 {

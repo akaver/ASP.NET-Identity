@@ -2,7 +2,7 @@ using System;
 using System.Data.Entity;
 using DAL.EFConfiguration;
 using DAL.Interfaces;
-using Domain.IdentityModels;
+using Domain.IdentityBaseModels;
 
 namespace DAL
 {

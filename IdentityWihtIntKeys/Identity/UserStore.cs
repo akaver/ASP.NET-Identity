@@ -7,23 +7,37 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using DAL.Interfaces;
-using Domain.IdentityModels;
+using Domain.IdentityBaseModels;
 using Microsoft.AspNet.Identity;
 
 namespace Identity
 {
-	public class UserStore<TUser> : 
-		IUserStore<TUser>, 
-		IUserPasswordStore<TUser>,
- 		IUserEmailStore<TUser>,
- 		IUserLockoutStore<TUser, string>,
-		IUserTwoFactorStore<TUser, string>,
-        IUserPhoneNumberStore<TUser>,
-        IUserLoginStore<TUser>,
-        IUserRoleStore<TUser>,
-        IUserClaimStore<TUser>,
-        IUserSecurityStampStore<TUser>
-		where TUser : User
+    public class UserStore<TUser> :
+        UserStore<TUser, Role, string, UserLogin, UserRole, UserClaim>,
+        IUserStore<TUser> where TUser : User
+    {
+        public UserStore(IUOW uow) : base(uow)
+        {
+        }
+    }
+
+    public class UserStore<TUser, TRole, TKey, TUserLogin, TUserRole, TUserClaim> :
+        IUserStore<TUser, TKey>,
+        IUserPasswordStore<TUser, TKey>,
+        IUserEmailStore<TUser, TKey>,
+        IUserLockoutStore<TUser, TKey>,
+        IUserTwoFactorStore<TUser, TKey>,
+        IUserPhoneNumberStore<TUser, TKey>,
+        IUserLoginStore<TUser, TKey>,
+        IUserRoleStore<TUser, TKey>,
+        IUserClaimStore<TUser, TKey>,
+        IUserSecurityStampStore<TUser, TKey>
+        where TUser : User<TKey, TUserLogin, TUserRole, TUserClaim>
+        where TRole : Role<TKey, TUserRole>
+        where TKey : IEquatable<TKey>
+        where TUserLogin : UserLogin<TKey>, new()
+        where TUserRole : UserRole<TKey>, new()
+        where TUserClaim : UserClaim<TKey>, new()
 	{
         private readonly NLog.Logger _logger = NLog.LogManager.GetCurrentClassLogger();
         private readonly string _instanceId = Guid.NewGuid().ToString();
@@ -69,7 +83,7 @@ namespace Identity
 			{
 				throw new ArgumentNullException("user");
 			}
-			_uow.Users.Add(user);
+			_uow.Users.Add(user as User);
 			_uow.Commit();
 			return Task.FromResult<Object>(null);
 		}
@@ -83,7 +97,7 @@ namespace Identity
             {
                 throw new ArgumentNullException("user");
             }
-            _uow.Users.Update(user);
+            _uow.Users.Update(user as User);
             _uow.Commit();
 
             return Task.FromResult<Object>(null);
@@ -103,7 +117,7 @@ namespace Identity
             return Task.FromResult<Object>(null);
 		}
 
-		public Task<TUser> FindByIdAsync(string userId)
+		public Task<TUser> FindByIdAsync(TKey userId)
 		{
             _logger.Info("_instanceId: " + _instanceId+" userId:"+userId);
             ThrowIfDisposed();

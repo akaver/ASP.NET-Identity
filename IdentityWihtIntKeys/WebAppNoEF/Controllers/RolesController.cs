@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using DAL;
 using DAL.Interfaces;
-using Domain.IdentityModels;
+using Domain.IdentityBaseModels;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
@@ -46,9 +46,9 @@ namespace WebAppNoEF.Controllers
         }
 
         // GET: Roles/Details/5
-        public ActionResult Details(string id)
+        public ActionResult Details(int id)
         {
-            if (id == null)
+            if (id == default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }

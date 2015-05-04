@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Web;
 using DAL;
 using DAL.Helpers;
+using Domain.IdentityBaseModels;
 using Domain.IdentityModels;
 using Identity;
 using Microsoft.AspNet.Identity;
@@ -16,18 +17,18 @@ using Microsoft.Owin.Security;
 namespace WebAppNoEF
 {
     // Configure the application user manager used in this application. UserManager is defined in ASP.NET Identity and is used by the application.
-    public class ApplicationUserManager : UserManager<User>
+    public class ApplicationUserManager : UserManager<CustomUser, int>
     {
         private readonly NLog.Logger _logger = NLog.LogManager.GetCurrentClassLogger();
         private readonly string _instanceId = Guid.NewGuid().ToString();
 
-        public ApplicationUserManager(IUserStore<User> store)
+        public ApplicationUserManager(IUserStore<CustomUser, int> store)
             : base(store)
         {
 			_logger.Info("_instanceId: " + _instanceId);
 
 			// Configure validation logic for usernames
-			UserValidator = new UserValidator<User>(this)
+			UserValidator = new UserValidator<CustomUser, int>(this)
 			{
 				AllowOnlyAlphanumericUserNames = false,
 				RequireUniqueEmail = true
@@ -50,11 +51,11 @@ namespace WebAppNoEF
 
 			// Register two factor authentication providers. This application uses Phone and Emails as a step of receiving a code for verifying the user
 			// You can write your own provider and plug it in here.
-			RegisterTwoFactorProvider("Phone Code", new PhoneNumberTokenProvider<User>
+			RegisterTwoFactorProvider("Phone Code", new PhoneNumberTokenProvider<CustomUser, int>
 			{
 				MessageFormat = "Your security code is {0}"
 			});
-			RegisterTwoFactorProvider("Email Code", new EmailTokenProvider<User>
+			RegisterTwoFactorProvider("Email Code", new EmailTokenProvider<CustomUser, int>
 			{
 				Subject = "Security Code",
 				BodyFormat = "Your security code is {0}"
@@ -64,13 +65,13 @@ namespace WebAppNoEF
 			if (Startup.DataProtectionProvider != null)
 			{
 				UserTokenProvider =
-					new DataProtectorTokenProvider<User>(Startup.DataProtectionProvider.Create("ASP.NET Identity"));
+					new DataProtectorTokenProvider<CustomUser, int>(Startup.DataProtectionProvider.Create("ASP.NET Identity"));
 			}
         }
     }
 
     // Configure the application sign-in manager which is used in this application.
-    public class ApplicationSignInManager : SignInManager<User, string>
+    public class ApplicationSignInManager : SignInManager<CustomUser, int>
     {
         private readonly NLog.Logger _logger = NLog.LogManager.GetCurrentClassLogger();
         private readonly string _instanceId = Guid.NewGuid().ToString();
@@ -81,7 +82,7 @@ namespace WebAppNoEF
 			_logger.Info("_instanceId: " + _instanceId);
         }
 
-        public override Task<ClaimsIdentity> CreateUserIdentityAsync(User user)
+        public override Task<ClaimsIdentity> CreateUserIdentityAsync(CustomUser user)
         {
             return user.GenerateUserIdentityAsync((ApplicationUserManager)UserManager);
         }
@@ -94,15 +95,15 @@ namespace WebAppNoEF
 
     }
 
-    public class ApplicationRoleManager : RoleManager<Role>
+    public class ApplicationRoleManager : RoleManager<CustomRole, int>
     {
         private readonly NLog.Logger _logger = NLog.LogManager.GetCurrentClassLogger();
         private readonly string _instanceId = Guid.NewGuid().ToString();
 
-        public ApplicationRoleManager(IRoleStore<Role> store) : base(store)
+        public ApplicationRoleManager(IRoleStore<CustomRole, int> store) : base(store)
         {
             _logger.Info("_instanceId: " + _instanceId);
-            RoleValidator = new RoleValidator<Role>(this);
+            RoleValidator = new RoleValidator<CustomRole, int>(this);
         }
     }
 
