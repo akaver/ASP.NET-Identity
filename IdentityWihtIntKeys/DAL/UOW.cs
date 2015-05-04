@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL.Interfaces;
-using Domain.IdentityBaseModels;
+using Domain.IdentityModels;
 
 namespace DAL
 {
@@ -43,7 +43,7 @@ namespace DAL
         // add it also in EFRepositoryFactories.cs, in method GetCustomFactories
         public IUserRepository Users { get { return GetRepo<IUserRepository>(); } }
         public IUserRoleRepository UserRoles { get { return GetRepo<IUserRoleRepository>(); } }
-        public IRoleRepository<Role<int, UserRole<int>>, int, UserRole<int>> Roles { get { return GetRepo<IRoleRepository<Role<int, UserRole<int>>, int, UserRole<int>>>(); } }
+        public IRoleRepository Roles { get { return GetRepo<IRoleRepository>(); } }
 		public IUserClaimRepository UserClaims { get { return GetRepo<IUserClaimRepository>(); } }
 		public IUserLoginRepository UserLogins { get { return GetRepo<IUserLoginRepository>(); } }
 

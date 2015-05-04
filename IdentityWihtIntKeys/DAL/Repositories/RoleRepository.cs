@@ -4,26 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL.Interfaces;
-using Domain.IdentityBaseModels;
-using Microsoft.AspNet.Identity;
+using Domain.IdentityModels;
 
 namespace DAL.Repositories
 {
-	public class RoleRepository<TRole, TKey, TUserRole> : EFRepository<TRole>, IRoleRepository<TRole, TKey, TUserRole>
-        where TUserRole : UserRole<TKey>, new()
-        where TRole : Role<TKey, TUserRole>, new()
+	public class RoleRepository : EFRepository<Role>, IRoleRepository
 	{
 		public RoleRepository(IDbContext dbContext) : base(dbContext)
 		{
 		}
 
-	    public TRole GetByRoleName(string roleName)
+	    public Role GetByRoleName(string roleName)
 	    {
             return DbSet.FirstOrDefault(a => a.Name.ToUpper() == roleName.ToUpper());
 
 	    }
 
-	    public List<TRole> GetRolesForUser(TKey userId)
+	    public List<Role> GetRolesForUser(string userId)
 	    {
             //var query = from userRole in _userRoles
             //            where userRole.UserId.Equals(userId)
@@ -39,7 +36,7 @@ namespace DAL.Repositories
             //    }
             //}
 
-	        return (from role in DbSet from user in role.Users.Where(a => a.UserId.Equals(userId)) select role).ToList();
+	        return (from role in DbSet from user in role.Users.Where(a => a.UserId == userId) select role).ToList();
 	    }
 	}
 }

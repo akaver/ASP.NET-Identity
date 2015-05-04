@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Domain.IdentityBaseModels;
 using Domain.IdentityModels;
 
 namespace DAL.Interfaces
@@ -20,7 +19,7 @@ namespace DAL.Interfaces
 
         IUserRepository Users { get; }
         IUserRoleRepository UserRoles { get; }
-        IRoleRepository<Role<int,UserRole<int>>,int,UserRole<int>>  Roles { get; }
+        IRoleRepository Roles { get; }
 		IUserClaimRepository UserClaims { get; }
 		IUserLoginRepository UserLogins { get; }
     }

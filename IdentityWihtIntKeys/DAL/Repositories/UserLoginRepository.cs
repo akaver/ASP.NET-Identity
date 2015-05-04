@@ -2,7 +2,7 @@
 using System.Data.Entity;
 using System.Linq;
 using DAL.Interfaces;
-using Domain.IdentityBaseModels;
+using Domain.IdentityModels;
 
 namespace DAL.Repositories
 {

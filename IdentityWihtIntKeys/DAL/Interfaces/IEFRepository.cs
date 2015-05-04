@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 namespace DAL.Interfaces
 {
     // this is the base repository interface for all EF repositories
-    public interface IEFRepository<T> : IDisposable 
-        where T : class
+    public interface IEFRepository<T> : IDisposable where T : class
     {
         // gett all records in table
 		//IQueryable<T> All { get; }

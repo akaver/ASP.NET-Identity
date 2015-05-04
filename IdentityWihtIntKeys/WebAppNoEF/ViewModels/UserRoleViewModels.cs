@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Domain.IdentityBaseModels;
+using Domain.IdentityModels;
 
 namespace WebAppNoEF.ViewModels
 {

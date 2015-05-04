@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using DAL;
 using DAL.Helpers;
 using DAL.Interfaces;
+using Domain.IdentityModels;
 using Newtonsoft.Json;
 using Ninject;
 

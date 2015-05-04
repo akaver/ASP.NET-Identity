@@ -3,7 +3,7 @@ using System.Web;
 using DAL;
 using DAL.Helpers;
 using DAL.Interfaces;
-using Domain.IdentityBaseModels;
+using Domain.IdentityModels;
 using Identity;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;

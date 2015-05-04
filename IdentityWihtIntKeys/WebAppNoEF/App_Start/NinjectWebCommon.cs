@@ -3,7 +3,6 @@ using System.Web;
 using DAL;
 using DAL.Helpers;
 using DAL.Interfaces;
-using Domain.IdentityBaseModels;
 using Domain.IdentityModels;
 using Identity;
 using Microsoft.AspNet.Identity;
@@ -75,8 +74,8 @@ namespace WebAppNoEF
 			kernel.Bind<IEFRepositoryProvider>().To<EFRepositoryProvider>().InRequestScope();
 			kernel.Bind<IUOW>().To<UOW>().InRequestScope();
 
-	        kernel.Bind<IUserStore<CustomUser, int>>().To<CustomUserStore>();
-            kernel.Bind<IRoleStore<CustomRole, int>>().To<CustomRoleStore>();
+	        kernel.Bind<IUserStore<User>>().To<UserStore<User>>();
+            kernel.Bind<IRoleStore<Role>>().To<RoleStore<Role>>();
 
 	        kernel.Bind<ApplicationSignInManager>().To<ApplicationSignInManager>();
 	        kernel.Bind<ApplicationUserManager>().To<ApplicationUserManager>();

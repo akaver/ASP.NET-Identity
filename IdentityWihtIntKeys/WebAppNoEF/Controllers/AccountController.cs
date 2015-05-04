@@ -5,7 +5,6 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using Domain.IdentityBaseModels;
 using Domain.IdentityModels;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
@@ -131,7 +130,7 @@ namespace WebAppNoEF.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new CustomUser { UserName = model.Email, Email = model.Email };
+                var user = new User { UserName = model.Email, Email = model.Email };
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
@@ -155,13 +154,13 @@ namespace WebAppNoEF.Controllers
         //
         // GET: /Account/ConfirmEmail
         [AllowAnonymous]
-        public async Task<ActionResult> ConfirmEmail(int? userId, string code)
+        public async Task<ActionResult> ConfirmEmail(string userId, string code)
         {
-            if (!userId.HasValue || code == null)
+            if (userId == null || code == null)
             {
                 return View("Error");
             }
-            var result = await _userManager.ConfirmEmailAsync(userId.Value, code);
+            var result = await _userManager.ConfirmEmailAsync(userId, code);
             return View(result.Succeeded ? "ConfirmEmail" : "Error");
         }
 
@@ -268,7 +267,7 @@ namespace WebAppNoEF.Controllers
         public async Task<ActionResult> SendCode(string returnUrl, bool rememberMe)
         {
             var userId = await _signInManager.GetVerifiedUserIdAsync();
-            if (userId == default(int))
+            if (userId == null)
             {
                 return View("Error");
             }

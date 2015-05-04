@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using DAL.Interfaces;
 using DAL.Repositories;
-using Domain.IdentityBaseModels;
 
 namespace DAL.Helpers
 {
@@ -40,7 +39,7 @@ namespace DAL.Helpers
                     {typeof(IUserRoleRepository), dbContext => new UserRoleRepository(dbContext)},
                     {typeof(IUserClaimRepository), dbContext => new UserClaimRepository(dbContext)},
                     {typeof(IUserLoginRepository), dbContext => new UserLoginRepository(dbContext)},
-                    {typeof(IRoleRepository<Role<int, UserRole<int>>, int, UserRole<int>>), dbContext => new RoleRepository<Role<int, UserRole<int>>, int, UserRole<int>>(dbContext)},
+                    {typeof(IRoleRepository), dbContext => new RoleRepository(dbContext)},
                 };
         }
 

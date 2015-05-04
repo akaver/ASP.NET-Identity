@@ -4,26 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL.Interfaces;
-using Domain.IdentityBaseModels;
+using Domain.IdentityModels;
 using Microsoft.AspNet.Identity;
 
 namespace Identity
 {
-
-    public class RoleStore<TRole> : RoleStore<TRole, string, UserRole>, IRoleStore<TRole>
-        where TRole : Role, new()
-    {
-        public RoleStore(IUOW uow) : base(uow)
-        {
-        }
-    }
-
-
- //   public class RoleStore<TRole> : IRoleStore<TRole>
- //       where TRole : Role
-    public class RoleStore<TRole, TKey, TUserRole> : IRoleStore<TRole,TKey>
-        where TUserRole : UserRole<TKey>, new()
-        where TRole : Role<TKey, TUserRole>, new()
+    public class RoleStore<TRole> : IRoleStore<TRole>
+        where TRole : Role
     {
         private readonly NLog.Logger _logger = NLog.LogManager.GetCurrentClassLogger();
         private readonly string _instanceId = Guid.NewGuid().ToString();
@@ -61,7 +48,8 @@ namespace Identity
                 throw new ObjectDisposedException(GetType().Name);
             }
         }
-        #region IRoleStore
+
+        #region IQueryableRoleStore
         public Task CreateAsync(TRole role)
         {
             _logger.Info("_instanceId: " + _instanceId);
@@ -73,7 +61,7 @@ namespace Identity
             }
             _uow.Roles.Add(role);
             _uow.Commit();
-
+            
             return Task.FromResult<Object>(null);
         }
 
@@ -86,7 +74,7 @@ namespace Identity
             {
                 throw new ArgumentNullException("role");
             }
-            _uow.Roles.Update(role as Role);
+            _uow.Roles.Update(role);
             _uow.Commit();
 
             return Task.FromResult<Object>(null);
@@ -104,9 +92,10 @@ namespace Identity
             _uow.Roles.Delete(role);
             _uow.Commit();
             return Task.FromResult<Object>(null);
+
         }
 
-        public Task<TRole> FindByIdAsync(TKey roleId)
+        public Task<TRole> FindByIdAsync(string roleId)
         {
             _logger.Info("_instanceId: " + _instanceId);
 
@@ -121,6 +110,9 @@ namespace Identity
             ThrowIfDisposed();
             return Task.FromResult(_uow.Roles.GetByRoleName(roleName) as TRole);
         }
-        #endregion IRoleStore
+
+ 
+        #endregion
+
     }
 }
