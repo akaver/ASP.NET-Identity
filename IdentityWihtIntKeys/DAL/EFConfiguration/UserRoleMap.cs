@@ -8,8 +8,17 @@ namespace DAL.EFConfiguration
         public UserRoleMap()
         {
             // Primary Key
-            HasKey(t => new {t.UserId, t.RoleId});
-           
+            HasKey(t => new { t.UserId, t.RoleId });
+
+        }
+    }
+    public class UserRoleIntMap : EntityTypeConfiguration<UserRoleInt>
+    {
+        public UserRoleIntMap()
+        {
+            // Primary Key
+            HasKey(t => new { t.UserId, t.RoleId });
+
         }
     }
 }

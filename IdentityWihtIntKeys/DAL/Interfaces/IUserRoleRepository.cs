@@ -7,9 +7,18 @@ using Domain.IdentityModels;
 
 namespace DAL.Interfaces
 {
-	public interface IUserRoleRepository : IEFRepository<UserRole>
-	{
-	    UserRole GetByUserIdAndRoleId(object roleId, object userId);
+    public interface IUserRoleIntRepository : IUserRoleRepository<int, UserRoleInt>
+    {
 
-	}
+    }
+    public interface IUserRoleRepository : IUserRoleRepository<string, UserRole>
+    {
+
+    }
+    public interface IUserRoleRepository<in TKey, TUserRole> : IEFRepository<TUserRole>
+        where TUserRole : class
+    {
+        TUserRole GetByUserIdAndRoleId(TKey roleId, TKey userId);
+
+    }
 }

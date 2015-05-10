@@ -7,12 +7,28 @@ namespace Domain.IdentityModels
 {
 
     /// <summary>
-    ///     Represents a Role entity
+    ///     Represents a Role entity, PK - int
     /// </summary>
-    public class Role : Role<string, UserRole>
+    public class RoleInt : Role<int, RoleInt, UserInt, UserClaimInt, UserLoginInt, UserRoleInt>
+    {
+        public RoleInt()
+        {
+            
+        }
+
+        public RoleInt(string roleName) : this()
+        {
+            Name = roleName;
+        }
+    }
+
+    /// <summary>
+    ///     Represents a Role entity, PK - string
+    /// </summary>
+    public class Role : Role<string, Role, User, UserClaim, UserLogin, UserRole>
     {
         /// <summary>
-        ///     Constructor
+        ///     Constructor, initializes Id with new Guid
         /// </summary>
         public Role()
         {
@@ -22,7 +38,7 @@ namespace Domain.IdentityModels
         /// <summary>
         ///     Constructor
         /// </summary>
-        /// <param name="roleName"></param>
+        /// <param name="roleName">name of the role</param>
         public Role(string roleName)
             : this()
         {
@@ -30,17 +46,22 @@ namespace Domain.IdentityModels
         }
     }
 
-    public class Role<TKey, TUserRole> : IRole<TKey> where TUserRole : UserRole<TKey>
+    public class Role<TKey, TRole, TUser, TUserClaim, TUserLogin, TUserRole> : IRole<TKey>
+        where TRole : Role<TKey, TRole, TUser, TUserClaim, TUserLogin, TUserRole>
+        where TUser : User<TKey, TRole, TUser, TUserClaim, TUserLogin, TUserRole>
+        where TUserClaim : UserClaim<TKey, TRole, TUser, TUserClaim, TUserLogin, TUserRole>
+        where TUserLogin : UserLogin<TKey, TRole, TUser, TUserClaim, TUserLogin, TUserRole>
+        where TUserRole : UserRole<TKey, TRole, TUser, TUserClaim, TUserLogin, TUserRole>
     {
         public Role()
         {
-            Users = new List<UserRole>();
+            Users = new List<TUserRole>();
         }
 
         public TKey Id { get; set; }
         [DisplayName("Role name")]
         public string Name { get; set; }
-        public virtual ICollection<UserRole> Users { get; set; }
+        public virtual ICollection<TUserRole> Users { get; set; }
     }
 
 

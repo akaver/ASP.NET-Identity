@@ -47,6 +47,12 @@ namespace DAL
 		public IUserClaimRepository UserClaims { get { return GetRepo<IUserClaimRepository>(); } }
 		public IUserLoginRepository UserLogins { get { return GetRepo<IUserLoginRepository>(); } }
 
+        public IUserIntRepository UsersInt { get { return GetRepo<IUserIntRepository>(); } }
+        public IUserRoleIntRepository UserRolesInt { get { return GetRepo<IUserRoleIntRepository>(); } }
+        public IRoleIntRepository RolesInt { get { return GetRepo<IRoleIntRepository>(); } }
+        public IUserClaimIntRepository UserClaimsInt { get { return GetRepo<IUserClaimIntRepository>(); } }
+        public IUserLoginIntRepository UserLoginsInt { get { return GetRepo<IUserLoginIntRepository>(); } }
+
         // calling standard EF repo provider
         private IEFRepository<T> GetStandardRepo<T>() where T : class
         {
@@ -54,11 +60,22 @@ namespace DAL
         }
 
         // calling custom repo provier
-        private T GetRepo<T>() where T : class
+        private T GetRepo<T>() where T: class
         {
             return RepositoryProvider.GetRepository<T>();
         }
 
+        // try to find repository
+        public T GetRepository<T>() where T: class
+        {
+            var res = GetRepo<T>() ?? GetStandardRepo<T>() as T;
+            if (res == null)
+            {
+                throw new NotImplementedException("No repository for type, " + typeof(T).FullName);
+            }
+            return res;
+        }
+        
         #region IDisposable
         public void Dispose()
         {

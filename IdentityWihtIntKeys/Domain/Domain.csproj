@@ -59,11 +59,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IdentityModelsIntId\Role.cs" />
-    <Compile Include="IdentityModelsIntId\User.cs" />
-    <Compile Include="IdentityModelsIntId\UserClaim.cs" />
-    <Compile Include="IdentityModelsIntId\UserLogin.cs" />
-    <Compile Include="IdentityModelsIntId\UserRole.cs" />
     <Compile Include="IdentityModels\Role.cs" />
     <Compile Include="IdentityModels\User.cs" />
     <Compile Include="IdentityModels\UserClaim.cs" />

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Domain.IdentityModels.UserRole>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index - Users and Roles</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Role.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User.Email)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Role.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.User.Email)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Details", new { userId=item.UserId, roleId=item.RoleId}) |
+            @Html.ActionLink("Delete", "Delete", new { userId = item.UserId, roleId = item.RoleId })
+        </td>
+    </tr>
+}
+
+</table>

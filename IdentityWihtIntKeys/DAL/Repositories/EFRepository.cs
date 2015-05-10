@@ -61,7 +61,7 @@ namespace DAL.Repositories
 		//	*/
 		//}
 
-		public T GetById(object id)
+		public T GetById(params object[] id)
 		{
 			return DbSet.Find(id);
 		}
@@ -103,7 +103,7 @@ namespace DAL.Repositories
             }
         }
 
-        public void Delete(object id)
+        public void Delete(params object[] id)
         {
             var entity = GetById(id);
             if (entity == null) return;

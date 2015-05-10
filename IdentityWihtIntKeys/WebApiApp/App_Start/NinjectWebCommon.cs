@@ -74,8 +74,11 @@ namespace WebApiApp
             kernel.Bind<IEFRepositoryProvider>().To<EFRepositoryProvider>().InRequestScope();
             kernel.Bind<IUOW>().To<UOW>().InRequestScope();
 
-            kernel.Bind<IUserStore<User>>().To<UserStore<User>>();
-            kernel.Bind<IRoleStore<Role>>().To<RoleStore<Role>>();
+            kernel.Bind<IUserStore<User>>().To<UserStore>();
+            kernel.Bind<IRoleStore<Role>>().To<RoleStore>();
+
+            //kernel.Bind<IUserStore<UserInt, int>>().To<UserStoreInt>();
+            //kernel.Bind<IRoleStore<RoleInt, int>>().To<RoleStoreInt>();
 
             //kernel.Bind<ApplicationSignInManager>().To<ApplicationSignInManager>();
             kernel.Bind<ApplicationUserManager>().To<ApplicationUserManager>();

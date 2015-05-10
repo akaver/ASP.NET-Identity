@@ -4,12 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.IdentityModels;
+using Microsoft.AspNet.Identity;
 
 namespace DAL.Interfaces
 {
-	public interface IRoleRepository : IEFRepository<Role>
+    public interface IRoleIntRepository :  IRoleRepository<int, RoleInt>
+    {
+    }
+
+    public interface IRoleRepository : IRoleRepository<string, Role>
 	{
-	    Role GetByRoleName(string roleName);
-	    List<Role> GetRolesForUser(string userId);
 	}
+
+    public interface IRoleRepository<in TKey, TRole> : IEFRepository<TRole>
+        where TRole : class, IRole<TKey>
+    {
+        TRole GetByRoleName(string roleName);
+        List<TRole> GetRolesForUser(TKey userId);
+    }
+
 }

@@ -74,14 +74,18 @@ namespace WebAppNoEF
 			kernel.Bind<IEFRepositoryProvider>().To<EFRepositoryProvider>().InRequestScope();
 			kernel.Bind<IUOW>().To<UOW>().InRequestScope();
 
-	        kernel.Bind<IUserStore<User>>().To<UserStore<User>>();
-            kernel.Bind<IRoleStore<Role>>().To<RoleStore<Role>>();
+            kernel.Bind<IUserStore<User>>().To<UserStore>();
+            kernel.Bind<IRoleStore<Role>>().To<RoleStore>();
 
 	        kernel.Bind<ApplicationSignInManager>().To<ApplicationSignInManager>();
 	        kernel.Bind<ApplicationUserManager>().To<ApplicationUserManager>();
             kernel.Bind<ApplicationRoleManager>().To<ApplicationRoleManager>();
 
 	        kernel.Bind<IAuthenticationManager>().ToMethod(a => HttpContext.Current.GetOwinContext().Authentication);
+
+            // http://stackoverflow.com/questions/5646820/logger-wrapper-best-practice
+            kernel.Bind<NLog.Logger>().ToMethod(a => NLog.LogManager.GetCurrentClassLogger());
+
         }        
     }
 }

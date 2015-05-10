@@ -8,12 +8,26 @@ namespace DAL.EFConfiguration
         public UserClaimMap()
         {
             // Primary Key
-            this.HasKey(t => t.Id);
+            HasKey(t => t.Id);
 
             // Properties
-            this.Property(t => t.UserId)
+            Property(t => t.UserId)
                 .IsRequired()
                 .HasMaxLength(128);
+        }
+    }
+
+
+    public class UserClaimIntMap : EntityTypeConfiguration<UserClaimInt>
+    {
+        public UserClaimIntMap()
+        {
+            // Primary Key
+            HasKey(t => t.Id);
+
+            // Properties
+            Property(t => t.UserId)
+                .IsRequired();
         }
     }
 }

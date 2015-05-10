@@ -7,9 +7,16 @@ using Domain.IdentityModels;
 
 namespace DAL.Interfaces
 {
-	public interface IUserLoginRepository : IEFRepository<UserLogin>
-	{
-	    List<UserLogin> GetAllIncludeUser();
-        UserLogin GetUserLoginByProviderAndProviderKey(string loginProvider, string providerKey);
-	}
+    public interface IUserLoginIntRepository : IUserLoginRepository<UserLoginInt>
+    {
+    }
+    public interface IUserLoginRepository : IUserLoginRepository<UserLogin>
+    {
+    }
+    public interface IUserLoginRepository<TUserLogin> : IEFRepository<TUserLogin>
+        where TUserLogin : class 
+    {
+        List<TUserLogin> GetAllIncludeUser();
+        TUserLogin GetUserLoginByProviderAndProviderKey(string loginProvider, string providerKey);
+    }
 }
