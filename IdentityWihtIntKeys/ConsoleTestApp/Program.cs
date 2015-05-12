@@ -60,7 +60,7 @@ namespace ConsoleTestApp
                     new MediaTypeWithQualityHeaderValue("application/json"));
                 var response = await client.PostAsync("token",
                     new StringContent(
-                        "grant_type=password&username=api@akaver.com&password=Kala.Maja1",
+                        "grant_type=password&username=1@akaver.com&password=a",
                         Encoding.UTF8,
                         "application/x-www-form-urlencoded")
                         );

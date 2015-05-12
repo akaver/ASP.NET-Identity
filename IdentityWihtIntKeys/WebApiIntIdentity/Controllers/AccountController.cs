@@ -69,16 +69,16 @@ namespace WebApiApp.Controllers
         [Route("ManageInfo")]
         public async Task<ManageInfoViewModel> GetManageInfo(string returnUrl, bool generateState = false)
         {
-            var user = await _userManager.FindByIdAsync(User.Identity.GetUserId());
+            var user = await _userManager.FindByIdAsync(User.Identity.GetUserId<int>());
 
             if (user == null)
             {
                 return null;
             }
 
-            List<UserLoginInfoViewModel> logins = new List<UserLoginInfoViewModel>();
+            var logins = new List<UserLoginInfoViewModel>();
 
-            foreach (UserLogin linkedAccount in user.Logins)
+            foreach (UserLoginInt linkedAccount in user.Logins)
             {
                 logins.Add(new UserLoginInfoViewModel
                 {
@@ -114,7 +114,7 @@ namespace WebApiApp.Controllers
                 return BadRequest(ModelState);
             }
 
-            IdentityResult result = await _userManager.ChangePasswordAsync(User.Identity.GetUserId(), model.OldPassword,
+            IdentityResult result = await _userManager.ChangePasswordAsync(User.Identity.GetUserId<int>(), model.OldPassword,
                 model.NewPassword);
             
             if (!result.Succeeded)
@@ -134,7 +134,7 @@ namespace WebApiApp.Controllers
                 return BadRequest(ModelState);
             }
 
-            IdentityResult result = await _userManager.AddPasswordAsync(User.Identity.GetUserId(), model.NewPassword);
+            IdentityResult result = await _userManager.AddPasswordAsync(User.Identity.GetUserId<int>(), model.NewPassword);
 
             if (!result.Succeeded)
             {
@@ -171,7 +171,7 @@ namespace WebApiApp.Controllers
                 return BadRequest("The external login is already associated with an account.");
             }
 
-            IdentityResult result = await _userManager.AddLoginAsync(User.Identity.GetUserId(),
+            var result = await _userManager.AddLoginAsync(User.Identity.GetUserId<int>(),
                 new UserLoginInfo(externalData.LoginProvider, externalData.ProviderKey));
 
             if (!result.Succeeded)
@@ -195,11 +195,11 @@ namespace WebApiApp.Controllers
 
             if (model.LoginProvider == LocalLoginProvider)
             {
-                result = await _userManager.RemovePasswordAsync(User.Identity.GetUserId());
+                result = await _userManager.RemovePasswordAsync(User.Identity.GetUserId<int>());
             }
             else
             {
-                result = await _userManager.RemoveLoginAsync(User.Identity.GetUserId(),
+                result = await _userManager.RemoveLoginAsync(User.Identity.GetUserId<int>(),
                     new UserLoginInfo(model.LoginProvider, model.ProviderKey));
             }
 
@@ -241,7 +241,7 @@ namespace WebApiApp.Controllers
                 return new ChallengeResult(provider, this);
             }
 
-            User user = await _userManager.FindAsync(new UserLoginInfo(externalLogin.LoginProvider,
+            var user = await _userManager.FindAsync(new UserLoginInfo(externalLogin.LoginProvider,
                 externalLogin.ProviderKey));
 
             bool hasRegistered = user != null;
@@ -261,7 +261,7 @@ namespace WebApiApp.Controllers
             else
             {
                 IEnumerable<Claim> claims = externalLogin.GetClaims();
-                ClaimsIdentity identity = new ClaimsIdentity(claims, OAuthDefaults.AuthenticationType);
+                var identity = new ClaimsIdentity(claims, OAuthDefaults.AuthenticationType);
                 Authentication.SignIn(identity);
             }
 
@@ -273,8 +273,8 @@ namespace WebApiApp.Controllers
         [Route("ExternalLogins")]
         public IEnumerable<ExternalLoginViewModel> GetExternalLogins(string returnUrl, bool generateState = false)
         {
-            IEnumerable<AuthenticationDescription> descriptions = Authentication.GetExternalAuthenticationTypes();
-            List<ExternalLoginViewModel> logins = new List<ExternalLoginViewModel>();
+            var descriptions = Authentication.GetExternalAuthenticationTypes();
+            var logins = new List<ExternalLoginViewModel>();
 
             string state;
 
@@ -290,7 +290,7 @@ namespace WebApiApp.Controllers
 
             foreach (AuthenticationDescription description in descriptions)
             {
-                ExternalLoginViewModel login = new ExternalLoginViewModel
+                var login = new ExternalLoginViewModel
                 {
                     Name = description.Caption,
                     Url = Url.Route("ExternalLogin", new
@@ -319,9 +319,9 @@ namespace WebApiApp.Controllers
                 return BadRequest(ModelState);
             }
 
-            var user = new User() { UserName = model.Email, Email = model.Email };
+            var user = new UserInt() { UserName = model.Email, Email = model.Email };
 
-            IdentityResult result = await _userManager.CreateAsync(user, model.Password);
+            var result = await _userManager.CreateAsync(user, model.Password);
 
             if (!result.Succeeded)
             {
@@ -348,9 +348,9 @@ namespace WebApiApp.Controllers
                 return InternalServerError();
             }
 
-            var user = new User() { UserName = model.Email, Email = model.Email };
+            var user = new UserInt() { UserName = model.Email, Email = model.Email };
 
-            IdentityResult result = await _userManager.CreateAsync(user);
+            var result = await _userManager.CreateAsync(user);
             if (!result.Succeeded)
             {
                 return GetErrorResult(result);
@@ -364,16 +364,7 @@ namespace WebApiApp.Controllers
             return Ok();
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && _userManager != null)
-            {
-                _userManager.Dispose();
-                _userManager = null;
-            }
 
-            base.Dispose(disposing);
-        }
 
         #region Helpers
 

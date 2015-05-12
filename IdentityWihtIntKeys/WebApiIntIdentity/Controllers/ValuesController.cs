@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -21,7 +22,7 @@ namespace WebApiApp.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            return _uow.Users.All.Select(a=>a.Email);
+            return _uow.UsersInt.All.Select(a=> a.Id.ToString(CultureInfo.InvariantCulture)+" - "+a.Email);
         }
 
         // GET api/values/5
