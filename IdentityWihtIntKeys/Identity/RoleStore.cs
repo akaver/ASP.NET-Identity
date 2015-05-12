@@ -15,7 +15,7 @@ namespace Identity
     /// <summary>
     ///     RoleStore implementation, PK - int
     /// </summary>
-    public class RoleStoreInt : RoleStore<int, RoleInt, UserInt, UserClaimInt, UserLoginInt, UserRoleInt, RoleIntRepository>
+    public class RoleStoreInt : RoleStore<int, RoleInt, UserInt, UserClaimInt, UserLoginInt, UserRoleInt, IRoleIntRepository>
     {
         public RoleStoreInt(IUOW uow, NLog.Logger logger)
             : base(uow, logger)
@@ -26,7 +26,7 @@ namespace Identity
     /// <summary>
     ///     RoleStore implementation, PK - string
     /// </summary>
-    public class RoleStore : RoleStore<string, Role, User, UserClaim, UserLogin, UserRole, RoleRepository>, IRoleStore<Role>
+    public class RoleStore : RoleStore<string, Role, User, UserClaim, UserLogin, UserRole, IRoleRepository>, IRoleStore<Role>
     {
         public RoleStore(IUOW uow, NLog.Logger logger)
             : base(uow, logger)
@@ -44,7 +44,7 @@ namespace Identity
         where TUserClaim : UserClaim<TKey, TRole, TUser, TUserClaim, TUserLogin, TUserRole>
         where TUserLogin : UserLogin<TKey, TRole, TUser, TUserClaim, TUserLogin, TUserRole>
         where TUserRole : UserRole<TKey, TRole, TUser, TUserClaim, TUserLogin, TUserRole>
-        where TRepo : RoleRepository<TKey, TRole, TUser, TUserClaim, TUserLogin, TUserRole>   
+        where TRepo : class, IRoleRepository<TKey, TRole>   
     {
     private readonly IUOW _uow;
     private readonly NLog.Logger _logger;

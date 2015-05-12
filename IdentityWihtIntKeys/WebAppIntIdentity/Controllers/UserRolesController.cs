@@ -16,7 +16,7 @@ namespace WebAppNoEF.Controllers
 {
     public class UserRolesController : Controller
     {
-        private WebAppEFContext db = new WebAppEFContext();
+        private readonly WebAppEFContext _db = new WebAppEFContext();
 
         private readonly NLog.Logger _logger = NLog.LogManager.GetCurrentClassLogger();
         private readonly string _instanceId = Guid.NewGuid().ToString();
@@ -41,18 +41,18 @@ namespace WebAppNoEF.Controllers
         // GET: UserRoles
         public ActionResult Index()
         {
-            var userRoles = db.UserRoles.Include(u => u.Role).Include(u => u.User).OrderBy(a => a.Role.Name);
+            var userRoles = _db.UserRolesInt.Include(u => u.Role).Include(u => u.User).OrderBy(a => a.Role.Name);
             return View(userRoles.ToList());
         }
 
         // GET: UserRoles/Details/5
-        public ActionResult Details(string userId, string roleId)
+        public ActionResult Details(int userId, int roleId)
         {
-            if (userId == null || roleId==null)
+            if (userId == default(int) || roleId==default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UserRole userRole = db.UserRoles.Find(userId,roleId);
+            var userRole = _db.UserRolesInt.Find(userId,roleId);
             if (userRole == null)
             {
                 return HttpNotFound();
@@ -63,8 +63,8 @@ namespace WebAppNoEF.Controllers
         // GET: UserRoles/Create
         public ActionResult Create()
         {
-            ViewBag.RoleId = new SelectList(db.Roles, "Id", "Name");
-            ViewBag.UserId = new SelectList(db.Users, "Id", "Email");
+            ViewBag.RoleId = new SelectList(_uow.GetRepository<IRoleIntRepository>().All, "Id", "Name");
+            ViewBag.UserId = new SelectList(_uow.GetRepository<IUserIntRepository>().All, "Id", "Email");
             return View();
         }
 
@@ -73,28 +73,28 @@ namespace WebAppNoEF.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "UserId,RoleId")] UserRole userRole)
+        public ActionResult Create([Bind(Include = "UserId,RoleId")] UserRoleInt userRole)
         {
             if (ModelState.IsValid)
             {
-                db.UserRoles.Add(userRole);
-                db.SaveChanges();
+                _uow.GetRepository<IUserRoleIntRepository>().Add(userRole);
+                _uow.Commit();
                 return RedirectToAction("Index");
             }
 
-            ViewBag.RoleId = new SelectList(db.Roles, "Id", "Name", userRole.RoleId);
-            ViewBag.UserId = new SelectList(db.Users, "Id", "Email", userRole.UserId);
+            ViewBag.RoleId = new SelectList(_uow.GetRepository<IRoleIntRepository>().All, "Id", "Name", userRole.RoleId);
+            ViewBag.UserId = new SelectList(_uow.GetRepository<IUserIntRepository>().All, "Id", "Email", userRole.UserId);
             return View(userRole);
         }
 
         // GET: UserRoles/Edit/5
-        public ActionResult Edit(string userId, string roleId)
+        public ActionResult Edit(int userId, int roleId)
         {
-            if (userId == null || roleId == null)
+            if (userId == default(int) || roleId == default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UserRole userRole = db.UserRoles.Find(userId, roleId);
+            var userRole = _db.UserRolesInt.Find(userId, roleId);
             if (userRole == null)
             {
                 return HttpNotFound();
@@ -103,8 +103,8 @@ namespace WebAppNoEF.Controllers
                      {
                          UserRole = userRole, 
                          OriginalUserRole = userRole,
-                         UserSelectList = new SelectList(db.Users, "Id", "Email", userRole.UserId), 
-                         RoleSelectList = new SelectList(db.Roles, "Id", "Name", userRole.RoleId)
+                         UserSelectList = new SelectList(_db.Users, "Id", "Email", userRole.UserId), 
+                         RoleSelectList = new SelectList(_db.Roles, "Id", "Name", userRole.RoleId)
                      };
             return View(vm);
         }
@@ -122,26 +122,26 @@ namespace WebAppNoEF.Controllers
                 // nii ei tohiks üldse midagi muuta
                 // ei tohiks korraga muuta nii rolli kui ka kasutajat
 
-                db.Entry(vm.OriginalUserRole).State = EntityState.Deleted;
-                db.UserRoles.Add(vm.UserRole);
+                _db.Entry(vm.OriginalUserRole).State = EntityState.Deleted;
+                _db.UserRolesInt.Add(vm.UserRole);
 
-                db.SaveChanges();
+                _db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            vm.UserSelectList = new SelectList(db.Users, "Id", "Email", vm.UserRole.UserId);
-            vm.RoleSelectList = new SelectList(db.Roles, "Id", "Name", vm.UserRole.RoleId);
+            vm.UserSelectList = new SelectList(_db.Users, "Id", "Email", vm.UserRole.UserId);
+            vm.RoleSelectList = new SelectList(_db.Roles, "Id", "Name", vm.UserRole.RoleId);
             return View(vm);
         }
 
         // GET: UserRoles/Delete/5
-        public ActionResult Delete(string userId, string roleId)
+        public ActionResult Delete(int userId, int roleId)
         {
-            if (userId == null || roleId == null)
+            if (userId == default(int) || roleId == default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UserRole userRole = db.UserRoles.Find(userId, roleId);
+            var userRole = _db.UserRolesInt.Find(userId, roleId);
             if (userRole == null)
             {
                 return HttpNotFound();
@@ -152,11 +152,11 @@ namespace WebAppNoEF.Controllers
         // POST: UserRoles/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(string userId, string roleId)
+        public ActionResult DeleteConfirmed(int userId, int roleId)
         {
-            UserRole userRole = db.UserRoles.Find(userId, roleId);
-            db.UserRoles.Remove(userRole);
-            db.SaveChanges();
+            var userRole = _db.UserRolesInt.Find(userId, roleId);
+            _db.UserRolesInt.Remove(userRole);
+            _db.SaveChanges();
             return RedirectToAction("Index");
         }
 
@@ -164,7 +164,7 @@ namespace WebAppNoEF.Controllers
         {
             if (disposing)
             {
-                db.Dispose();
+                _db.Dispose();
             }
             base.Dispose(disposing);
         }

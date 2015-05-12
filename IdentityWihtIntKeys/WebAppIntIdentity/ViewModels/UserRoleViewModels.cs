@@ -12,8 +12,8 @@ namespace WebAppNoEF.ViewModels
     [Bind(Exclude = "UserSelectList,RoleSelectList")]
     public class EditViewModel
     {
-        public UserRole UserRole { get; set; }
-        public UserRole OriginalUserRole { get; set; }
+        public UserRoleInt UserRole { get; set; }
+        public UserRoleInt OriginalUserRole { get; set; }
         [DisplayName("User")]
         public SelectList UserSelectList { get; set; }
         [DisplayName("Role")]

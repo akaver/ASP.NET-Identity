@@ -1,15 +1,23 @@
-﻿@model Domain.IdentityModels.User
+﻿@model Domain.IdentityModels.UserInt
 
 @{
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Details of user</h2>
 
 <div>
     <h4>User</h4>
     <hr />
     <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+
         <dt>
             @Html.DisplayNameFor(model => model.Email)
         </dt>

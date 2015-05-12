@@ -26,17 +26,17 @@ namespace WebAppNoEF.Controllers
         // GET: UserClaims
         public ActionResult Index()
         {
-            return View(_uow.UserClaims.AllIncludeUser());
+            return View(_uow.GetRepository<IUserClaimIntRepository>().AllIncludeUser());
         }
 
         // GET: UserClaims/Details/5
-        public ActionResult Details(int? id)
+        public ActionResult Details(int id)
         {
-            if (id == null)
+            if (id == default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UserClaim userClaim = _uow.UserClaims.GetById(id);
+            var userClaim = _uow.GetRepository<IUserClaimIntRepository>().GetById(id);
             if (userClaim == null)
             {
                 return HttpNotFound();
@@ -47,7 +47,7 @@ namespace WebAppNoEF.Controllers
         // GET: UserClaims/Create
         public ActionResult Create()
         {
-            ViewBag.UserId = new SelectList(_uow.Users.All, "Id", "Email");
+            ViewBag.UserId = new SelectList(_uow.GetRepository<IUserIntRepository>().All, "Id", "Email");
             return View();
         }
 
@@ -56,11 +56,11 @@ namespace WebAppNoEF.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,UserId,ClaimType,ClaimValue")] UserClaim userClaim)
+        public ActionResult Create([Bind(Include = "Id,UserId,ClaimType,ClaimValue")] UserClaimInt userClaim)
         {
             if (ModelState.IsValid)
             {
-                _uow.UserClaims.Add(userClaim);
+                _uow.GetRepository<IUserClaimIntRepository>().Add(userClaim);
                 _uow.Commit();
                 return RedirectToAction("Index");
             }
@@ -70,18 +70,18 @@ namespace WebAppNoEF.Controllers
         }
 
         // GET: UserClaims/Edit/5
-        public ActionResult Edit(int? id)
+        public ActionResult Edit(int id)
         {
-            if (id == null)
+            if (id == default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UserClaim userClaim = _uow.UserClaims.GetById(id);
+            var userClaim = _uow.GetRepository<IUserClaimIntRepository>().GetById(id);
             if (userClaim == null)
             {
                 return HttpNotFound();
             }
-            ViewBag.UserId = new SelectList(_uow.Users.All, "Id", "Email", userClaim.UserId);
+            ViewBag.UserId = new SelectList(_uow.GetRepository<IUserIntRepository>().All, "Id", "Email", userClaim.UserId);
             return View(userClaim);
         }
 
@@ -90,26 +90,26 @@ namespace WebAppNoEF.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,UserId,ClaimType,ClaimValue")] UserClaim userClaim)
+        public ActionResult Edit([Bind(Include = "Id,UserId,ClaimType,ClaimValue")] UserClaimInt userClaim)
         {
             if (ModelState.IsValid)
             {
-                _uow.UserClaims.Update(userClaim);
+                _uow.GetRepository<IUserClaimIntRepository>().Update(userClaim);
                 _uow.Commit();
                 return RedirectToAction("Index");
             }
-            ViewBag.UserId = new SelectList(_uow.Users.All, "Id", "Email", userClaim.UserId);
+            ViewBag.UserId = new SelectList(_uow.GetRepository<IUserIntRepository>().All, "Id", "Email", userClaim.UserId);
             return View(userClaim);
         }
 
         // GET: UserClaims/Delete/5
-        public ActionResult Delete(int? id)
+        public ActionResult Delete(int id)
         {
-            if (id == null)
+            if (id == default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UserClaim userClaim = _uow.UserClaims.GetById(id);
+            var userClaim = _uow.GetRepository<IUserClaimIntRepository>().GetById(id);
             if (userClaim == null)
             {
                 return HttpNotFound();
@@ -122,7 +122,7 @@ namespace WebAppNoEF.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            _uow.UserClaims.Delete(id);
+            _uow.GetRepository<IUserClaimIntRepository>().Delete(id);
             _uow.Commit();
 
             return RedirectToAction("Index");

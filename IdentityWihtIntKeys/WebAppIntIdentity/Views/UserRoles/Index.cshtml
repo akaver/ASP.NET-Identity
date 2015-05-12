@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Domain.IdentityModels.UserRole>
+﻿@model List<Domain.IdentityModels.UserRoleInt>
 
 @{
     ViewBag.Title = "Index";
@@ -12,10 +12,10 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Role.Name)
+            @Html.DisplayNameFor(model => model.FirstOrDefault().Role.Name)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.User.Email)
+            @Html.DisplayNameFor(model => model.FirstOrDefault().User.Email)
         </th>
         <th></th>
     </tr>

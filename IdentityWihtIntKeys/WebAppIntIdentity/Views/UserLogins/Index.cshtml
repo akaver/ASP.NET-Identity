@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Domain.IdentityModels.UserLogin>
+﻿@model List<Domain.IdentityModels.UserLoginInt>
 
 @{
     ViewBag.Title = "Index";
@@ -12,22 +12,30 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.User.Email)
+            @Html.DisplayNameFor(model => model.FirstOrDefault().User.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().LoginProvider)
         </th>
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.User.Email)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoginProvider)
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { loginProvider = item.LoginProvider, providerKey = item.ProviderKey, userId = item.UserId }) |
+                @Html.ActionLink("Details", "Details", new { loginProvider = item.LoginProvider, providerKey = item.ProviderKey, userId = item.UserId }) |
+                @Html.ActionLink("Delete", "Delete", new { loginProvider = item.LoginProvider, providerKey = item.ProviderKey, userId = item.UserId })
+            </td>
+        </tr>
+    }
 
 </table>

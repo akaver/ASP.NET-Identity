@@ -8,7 +8,7 @@ using Microsoft.AspNet.Identity;
 namespace Domain.IdentityModels
 {
     /// <summary>
-    ///     IUser implementation, PK - string
+    ///     IUser implementation, PK - int
     /// </summary>
     public class UserInt : User<int, RoleInt, UserInt, UserClaimInt, UserLoginInt, UserRoleInt>
     {
@@ -102,10 +102,11 @@ namespace Domain.IdentityModels
     {
         public User()
         {
-            //SecurityStamp = Guid.NewGuid().ToString();
+            // ReSharper disable DoNotCallOverridableMethodsInConstructor
             this.Claims = new List<TUserClaim>();
             this.Logins = new List<TUserLogin>();
             this.Roles = new List<TUserRole>();
+            // ReSharper restore DoNotCallOverridableMethodsInConstructor
         }
 
         public TKey Id { get; set; }
@@ -119,7 +120,6 @@ namespace Domain.IdentityModels
         public DateTime? LockoutEndDateUtc { get; set; }
         public bool LockoutEnabled { get; set; }
         public int AccessFailedCount { get; set; }
-        [DisplayName("User name")]
         public string UserName { get; set; }
         public virtual ICollection<TUserClaim> Claims { get; set; }
         public virtual ICollection<TUserLogin> Logins { get; set; }

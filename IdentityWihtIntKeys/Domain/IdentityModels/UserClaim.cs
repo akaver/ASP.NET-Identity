@@ -5,9 +5,9 @@ namespace Domain.IdentityModels
     /// </summary>
     public class UserClaimInt : UserClaim<int, RoleInt, UserInt, UserClaimInt, UserLoginInt, UserRoleInt>
     {
-    }    
-    
-    
+    }
+
+
     /// <summary>
     ///     EntityType that represents one specific user claim, PK - string
     /// </summary>
@@ -17,7 +17,8 @@ namespace Domain.IdentityModels
 
     /// <summary>
     ///     EntityType that represents one specific user claim, generic
-    ///     TKey - type for Id (string, int)
+    ///     TKey - type for Id in other classes (string, int)
+    ///     UserClaim is using int as PK
     /// </summary>
     public class UserClaim<TKey, TRole, TUser, TUserClaim, TUserLogin, TUserRole>
         where TRole : Role<TKey, TRole, TUser, TUserClaim, TUserLogin, TUserRole>
@@ -28,10 +29,10 @@ namespace Domain.IdentityModels
     {
         public int Id { get; set; }
 
-        public  TKey UserId { get; set; }
+        public TKey UserId { get; set; }
         public virtual TUser User { get; set; }
 
-        public virtual string ClaimType { get; set; }
-        public virtual string ClaimValue { get; set; }
+        public string ClaimType { get; set; }
+        public string ClaimValue { get; set; }
     }
 }

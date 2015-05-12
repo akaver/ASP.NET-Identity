@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Domain.IdentityModels.UserClaim>
+﻿@model List<Domain.IdentityModels.UserClaimInt>
 
 @{
     ViewBag.Title = "Index";
@@ -12,13 +12,13 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.User.Email)
+            @Html.DisplayNameFor(model => model.FirstOrDefault().User.Email)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.ClaimType)
+            @Html.DisplayNameFor(model => model.FirstOrDefault().ClaimType)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.ClaimValue)
+            @Html.DisplayNameFor(model => model.FirstOrDefault().ClaimValue)
         </th>
         <th></th>
     </tr>

@@ -29,17 +29,17 @@ namespace WebAppNoEF.Controllers
         // GET: Users
         public ActionResult Index()
         {
-			return View(_uow.Users.All);
+			return View(_uow.UsersInt.All);
         }
 
         // GET: Users/Details/5
-        public ActionResult Details(string id)
+        public ActionResult Details(int id)
         {
-            if (id == null)
+            if (id == default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-			User user = _uow.Users.GetById(id);
+			var user = _uow.UsersInt.GetById(id);
             if (user == null)
             {
                 return HttpNotFound();
@@ -58,11 +58,11 @@ namespace WebAppNoEF.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Email,EmailConfirmed,PasswordHash,SecurityStamp,PhoneNumber,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEndDateUtc,LockoutEnabled,AccessFailedCount,UserName")] User user)
+        public ActionResult Create([Bind(Include = "Id,Email,EmailConfirmed,PasswordHash,SecurityStamp,PhoneNumber,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEndDateUtc,LockoutEnabled,AccessFailedCount,UserName")] UserInt user)
         {
             if (ModelState.IsValid)
             {
-                _uow.Users.Add(user);
+                _uow.UsersInt.Add(user);
                 _uow.Commit();
                 return RedirectToAction("Index");
             }
@@ -71,13 +71,13 @@ namespace WebAppNoEF.Controllers
         }
 
         // GET: Users/Edit/5
-        public ActionResult Edit(string id)
+        public ActionResult Edit(int id)
         {
-            if (id == null)
+            if (id == default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            User user = _uow.Users.GetById(id);
+            var user = _uow.UsersInt.GetById(id);
             if (user == null)
             {
                 return HttpNotFound();
@@ -90,11 +90,11 @@ namespace WebAppNoEF.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Email,EmailConfirmed,PasswordHash,SecurityStamp,PhoneNumber,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEndDateUtc,LockoutEnabled,AccessFailedCount,UserName")] User user)
+        public ActionResult Edit([Bind(Include = "Id,Email,EmailConfirmed,PasswordHash,SecurityStamp,PhoneNumber,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEndDateUtc,LockoutEnabled,AccessFailedCount,UserName")] UserInt user)
         {
             if (ModelState.IsValid)
             {
-				_uow.Users.Update(user);
+				_uow.UsersInt.Update(user);
                 _uow.Commit();
                 return RedirectToAction("Index");
             }
@@ -102,13 +102,13 @@ namespace WebAppNoEF.Controllers
         }
 
         // GET: Users/Delete/5
-        public ActionResult Delete(string id)
+        public ActionResult Delete(int id)
         {
-            if (id == null)
+            if (id == default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-			User user = _uow.Users.GetById(id);
+			var user = _uow.UsersInt.GetById(id);
             if (user == null)
             {
                 return HttpNotFound();
@@ -119,9 +119,9 @@ namespace WebAppNoEF.Controllers
         // POST: Users/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(string id)
+        public ActionResult DeleteConfirmed(int id)
         {
-			_uow.Users.Delete(id);
+			_uow.UsersInt.Delete(id);
             _uow.Commit();
             return RedirectToAction("Index");
         }

@@ -1,4 +1,4 @@
-﻿@model Domain.IdentityModels.UserLogin
+﻿@model Domain.IdentityModels.UserLoginInt
 
 @{
     ViewBag.Title = "Details";
@@ -10,6 +10,20 @@
     <h4>UserLogin</h4>
     <hr />
     <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LoginProvider)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LoginProvider)
+        </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.ProviderKey)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProviderKey)
+        </dd>
+
         <dt>
             @Html.DisplayNameFor(model => model.User.Email)
         </dt>

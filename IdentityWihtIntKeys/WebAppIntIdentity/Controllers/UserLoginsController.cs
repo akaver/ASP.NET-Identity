@@ -27,17 +27,17 @@ namespace WebAppNoEF.Controllers
         // GET: UserLogins
         public ActionResult Index()
         {
-            return View(_uow.UserLogins.GetAllIncludeUser());
+            return View(_uow.GetRepository<IUserLoginIntRepository>().GetAllIncludeUser());
         }
 
         // GET: UserLogins/Details/5
-        public ActionResult Details(string id)
+        public ActionResult Details(string loginProvider, string providerKey, int userId)
         {
-            if (id == null)
+            if (userId == default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UserLogin userLogin = _uow.UserLogins.GetById(id);
+            var userLogin = _uow.GetRepository<IUserLoginIntRepository>().GetById(loginProvider, providerKey, userId);
             if (userLogin == null)
             {
                 return HttpNotFound();
@@ -48,7 +48,7 @@ namespace WebAppNoEF.Controllers
         // GET: UserLogins/Create
         public ActionResult Create()
         {
-            ViewBag.UserId = new SelectList(_uow.Users.All, "Id", "Email");
+            ViewBag.UserId = new SelectList(_uow.GetRepository<IUserIntRepository>().All, "Id", "Email");
             return View();
         }
 
@@ -57,11 +57,11 @@ namespace WebAppNoEF.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "LoginProvider,ProviderKey,UserId")] UserLogin userLogin)
+        public ActionResult Create([Bind(Include = "LoginProvider,ProviderKey,UserId")] UserLoginInt userLogin)
         {
             if (ModelState.IsValid)
             {
-                _uow.UserLogins.Add(userLogin);
+                _uow.GetRepository<IUserLoginIntRepository>().Add(userLogin);
                 _uow.Commit();
                 return RedirectToAction("Index");
             }
@@ -71,18 +71,18 @@ namespace WebAppNoEF.Controllers
         }
 
         // GET: UserLogins/Edit/5
-        public ActionResult Edit(string id)
+        public ActionResult Edit(int id)
         {
-            if (id == null)
+            if (id == default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UserLogin userLogin = _uow.UserLogins.GetById(id);
+            var userLogin = _uow.GetRepository<IUserLoginIntRepository>().GetById(id);
             if (userLogin == null)
             {
                 return HttpNotFound();
             }
-            ViewBag.UserId = new SelectList(_uow.Users.All, "Id", "Email", userLogin.UserId);
+            ViewBag.UserId = new SelectList(_uow.GetRepository<IUserIntRepository>().All, "Id", "Email", userLogin.UserId);
             return View(userLogin);
         }
 
@@ -91,26 +91,26 @@ namespace WebAppNoEF.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "LoginProvider,ProviderKey,UserId")] UserLogin userLogin)
+        public ActionResult Edit([Bind(Include = "LoginProvider,ProviderKey,UserId")] UserLoginInt userLogin)
         {
             if (ModelState.IsValid)
             {
-                _uow.UserLogins.Update(userLogin);
+                _uow.GetRepository<IUserLoginIntRepository>().Update(userLogin);
                 _uow.Commit();
                 return RedirectToAction("Index");
             }
-            ViewBag.UserId = new SelectList(_uow.Users.All, "Id", "Email", userLogin.UserId);
+            ViewBag.UserId = new SelectList(_uow.GetRepository<IUserIntRepository>().All, "Id", "Email", userLogin.UserId);
             return View(userLogin);
         }
 
         // GET: UserLogins/Delete/5
-        public ActionResult Delete(string id)
+        public ActionResult Delete(int id)
         {
-            if (id == null)
+            if (id == default(int))
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UserLogin userLogin = _uow.UserLogins.GetById(id);
+            var userLogin = _uow.GetRepository<IUserLoginIntRepository>().GetById(id);
             if (userLogin == null)
             {
                 return HttpNotFound();
@@ -121,9 +121,9 @@ namespace WebAppNoEF.Controllers
         // POST: UserLogins/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(string id)
+        public ActionResult DeleteConfirmed(int id)
         {
-            _uow.UserLogins.Delete(id);
+            _uow.GetRepository<IUserLoginIntRepository>().Delete(id);
             _uow.Commit();
             return RedirectToAction("Index");
         }

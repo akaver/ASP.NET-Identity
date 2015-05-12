@@ -40,9 +40,9 @@ namespace WebAppNoEF.Controllers
         {
             // our rolemanager does not implement IQueryableRoleStore by choice
             // so lets drop down to ef 
-            //return View(_roleManager.Roles.ToList());
+            //return View(_roleManager.RolesInt.ToList());
 
-            return View(_uow.Roles.All.OrderBy(a => a.Name));
+            return View(_uow.RolesInt.All.OrderBy(a => a.Name).ToList());
         }
 
         // GET: Roles/Details/5
@@ -119,7 +119,7 @@ namespace WebAppNoEF.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            RoleInt role = _roleManager.FindById(id);
+            var role = _roleManager.FindById(id);
             if (role == null)
             {
                 return HttpNotFound();
@@ -132,7 +132,7 @@ namespace WebAppNoEF.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            RoleInt role = _roleManager.FindById(id);
+            var role = _roleManager.FindById(id);
             _roleManager.Delete(role);
             return RedirectToAction("Index");
         }
