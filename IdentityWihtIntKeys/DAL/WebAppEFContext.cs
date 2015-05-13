@@ -2,6 +2,7 @@ using System;
 using System.Data.Entity;
 using DAL.EFConfiguration;
 using DAL.Interfaces;
+using Domain;
 using Domain.IdentityModels;
 
 namespace DAL
@@ -15,22 +16,25 @@ namespace DAL
 			: base("Name=WebAppNoEFConnection")
         {
 			_logger.Info("_instanceId: " + _instanceId);
-			Database.SetInitializer(new DropCreateDatabaseIfModelChanges<WebAppEFContext>());
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<WebAppEFContext>());
+            //Database.SetInitializer(new DropCreateDatabaseAlways<WebAppEFContext>());
         }
 
+        public IDbSet<Value> Values { get; set; }
+
         // Identity tables, PK - string
-        public DbSet<Role> Roles { get; set; }
-        public DbSet<UserClaim> UserClaims { get; set; }
-        public DbSet<UserLogin> UserLogins { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<UserRole> UserRoles { get; set; }
+        public IDbSet<Role> Roles { get; set; }
+        public IDbSet<UserClaim> UserClaims { get; set; }
+        public IDbSet<UserLogin> UserLogins { get; set; }
+        public IDbSet<User> Users { get; set; }
+        public IDbSet<UserRole> UserRoles { get; set; }
 
         // Identity tables, PK - int
-        public DbSet<RoleInt> RolesInt { get; set; }
-        public DbSet<UserClaimInt> UserClaimsInt { get; set; }
-        public DbSet<UserLoginInt> UserLoginsInt { get; set; }
-        public DbSet<UserInt> UsersInt { get; set; }
-        public DbSet<UserRoleInt> UserRolesInt { get; set; }
+        public IDbSet<RoleInt> RolesInt { get; set; }
+        public IDbSet<UserClaimInt> UserClaimsInt { get; set; }
+        public IDbSet<UserLoginInt> UserLoginsInt { get; set; }
+        public IDbSet<UserInt> UsersInt { get; set; }
+        public IDbSet<UserRoleInt> UserRolesInt { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -54,5 +58,6 @@ namespace DAL
 			_logger.Info("Disposing: " + disposing + " _instanceId: " + _instanceId);
 		    base.Dispose(disposing);
 	    }
+
     }
 }

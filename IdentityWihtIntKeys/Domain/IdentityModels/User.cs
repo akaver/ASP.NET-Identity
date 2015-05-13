@@ -18,6 +18,8 @@ namespace Domain.IdentityModels
         public UserInt()
         {
             //nothing to do, PK is initialized by DB
+
+            this.Values = new List<Value>();
         }
 
         /// <summary>
@@ -45,6 +47,14 @@ namespace Domain.IdentityModels
             // Add custom user claims here
             return userIdentity;
         }
+
+
+
+        /// <summary>
+        /// Demo field, to show relatshionp with other pocos
+        /// This is not required field by Identity system, remove in production
+        /// </summary>
+        public virtual ICollection<Value> Values { get; set; }
     }
 
 
@@ -87,7 +97,6 @@ namespace Domain.IdentityModels
             return userIdentity;
         }
 
-
     }
 
     /// <summary>
@@ -106,6 +115,7 @@ namespace Domain.IdentityModels
             this.Claims = new List<TUserClaim>();
             this.Logins = new List<TUserLogin>();
             this.Roles = new List<TUserRole>();
+ 
             // ReSharper restore DoNotCallOverridableMethodsInConstructor
         }
 
@@ -124,6 +134,8 @@ namespace Domain.IdentityModels
         public virtual ICollection<TUserClaim> Claims { get; set; }
         public virtual ICollection<TUserLogin> Logins { get; set; }
         public virtual ICollection<TUserRole> Roles { get; set; }
+
+
 
     }
 }
