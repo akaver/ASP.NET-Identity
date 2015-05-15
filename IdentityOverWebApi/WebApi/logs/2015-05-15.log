@@ -1,0 +1,863 @@
+2015-05-15 13:48:10.0518 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/12@akaver.com/
+2015-05-15 13:48:10.0878 |   INFO |                              DALEF.Helpers.EFRepositoryFactories..ctor | _instanceId: c6cf14fa-b7b7-4fbd-afaf-b08c31edb51a
+2015-05-15 13:48:10.0878 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: b2eb422c-2ecb-4aa2-b4ed-89945a331b5a
+2015-05-15 13:48:10.2158 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 26345eb9-4df1-41f2-90a2-154733b807be
+2015-05-15 13:48:10.2238 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: c7b2e09d-5b78-49bb-bac9-0a81a89e3118
+2015-05-15 13:48:10.2238 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 4c862efb-2608-4fff-a020-28cb31e607f7
+2015-05-15 13:48:10.2918 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/12@akaver.com/
+2015-05-15 13:48:10.2918 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: e4c8cba7-4ea5-4334-9698-4d32d4b7d9c0
+2015-05-15 13:48:10.2918 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 82b22863-8b40-413f-bedb-abc495380b6d
+2015-05-15 13:48:10.2918 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 0510151b-7bdb-4d03-ab4d-8d4582baa546
+2015-05-15 13:48:10.3038 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 87668ae9-3e27-4010-acbb-e6af01d96f6c
+2015-05-15 13:48:10.3557 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 87668ae9-3e27-4010-acbb-e6af01d96f6c
+2015-05-15 13:48:10.3638 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: e4c8cba7-4ea5-4334-9698-4d32d4b7d9c0
+2015-05-15 13:48:10.3797 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 82b22863-8b40-413f-bedb-abc495380b6d
+2015-05-15 13:48:10.3797 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByEmail/12@akaver.com/
+2015-05-15 13:48:10.3797 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 0510151b-7bdb-4d03-ab4d-8d4582baa546
+2015-05-15 13:48:10.3797 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 82b0e154-3422-4c4c-a169-45102df1fdcc
+2015-05-15 13:48:10.3957 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 62bd1b71-d2b5-4b30-a3e9-3a5079e07eae
+2015-05-15 13:48:10.3957 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 2151ac86-ec80-4f02-9542-6047ad8f499e
+2015-05-15 13:48:10.3957 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: fce21a31-f8b6-45d1-ba00-76b56524b16f
+2015-05-15 13:48:10.4118 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByEmail/12@akaver.com/
+2015-05-15 13:48:10.4118 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 42b5a1be-d402-456d-8a7b-d95366d4092f
+2015-05-15 13:48:10.3957 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 4c862efb-2608-4fff-a020-28cb31e607f7
+2015-05-15 13:48:10.4118 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: b2eb422c-2ecb-4aa2-b4ed-89945a331b5a
+2015-05-15 13:48:10.4118 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 26345eb9-4df1-41f2-90a2-154733b807be
+2015-05-15 13:48:10.4118 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: c7b2e09d-5b78-49bb-bac9-0a81a89e3118
+2015-05-15 13:48:10.4118 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: eebdb3d1-96d5-40be-a44f-7beff380394c
+2015-05-15 13:48:10.4358 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 03f4bb7a-d85a-4c2b-a35b-d349ddb2169e
+2015-05-15 13:48:10.4358 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: a8038a2d-be34-4cb5-a8db-71c7d68d1642
+2015-05-15 13:48:10.4438 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: a8038a2d-be34-4cb5-a8db-71c7d68d1642
+2015-05-15 13:48:10.4438 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 42b5a1be-d402-456d-8a7b-d95366d4092f
+2015-05-15 13:48:10.4438 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: eebdb3d1-96d5-40be-a44f-7beff380394c
+2015-05-15 13:48:10.4597 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 03f4bb7a-d85a-4c2b-a35b-d349ddb2169e
+2015-05-15 13:48:10.4597 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: fce21a31-f8b6-45d1-ba00-76b56524b16f
+2015-05-15 13:48:10.5157 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 82b0e154-3422-4c4c-a169-45102df1fdcc
+2015-05-15 13:48:10.5557 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 62bd1b71-d2b5-4b30-a3e9-3a5079e07eae
+2015-05-15 13:48:10.5838 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 2151ac86-ec80-4f02-9542-6047ad8f499e
+2015-05-15 13:48:10.6878 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(POST): /api/UsersInt/
+2015-05-15 13:48:10.7078 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 412ef525-c74b-4a22-9ac1-ed4d36a9124d
+2015-05-15 13:48:10.7078 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: dd03fe47-626b-4c72-aea3-f597d147be14
+2015-05-15 13:48:10.7078 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: d3a6365d-caf7-4b43-ab96-87c2b1300325
+2015-05-15 13:48:10.7237 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 3affde16-c9dd-4f3e-ac7e-7860489573d3
+2015-05-15 13:48:10.7717 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | d6944132-107a-404c-926c-a273ec913873
+2015-05-15 13:48:11.1117 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 87f7b228-598d-4194-b2b5-863a2aa09794 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 13:48:14.3958 |  DEBUG |                      WebApi.Controllers.UsersIntController.PostUserInt | 12@akaver.com (11)
+2015-05-15 13:48:14.5237 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 3affde16-c9dd-4f3e-ac7e-7860489573d3
+2015-05-15 13:48:14.5237 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 412ef525-c74b-4a22-9ac1-ed4d36a9124d
+2015-05-15 13:48:14.5237 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: dd03fe47-626b-4c72-aea3-f597d147be14
+2015-05-15 13:48:14.6118 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: d3a6365d-caf7-4b43-ab96-87c2b1300325
+2015-05-15 13:48:14.7037 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/0
+2015-05-15 13:48:14.7117 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 40341839-440e-45ff-b5c0-1c9c9b8890c1
+2015-05-15 13:48:14.7117 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: e62454c2-e572-42e0-9c8a-547fa120ff9f
+2015-05-15 13:48:14.7237 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: f72cce4c-f8a3-41b6-8458-dfb06d361ec9
+2015-05-15 13:48:14.7237 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: a86d9843-6004-4755-af9a-1da975da79b1
+2015-05-15 13:48:14.7237 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 06fec975-fe59-45d1-a963-6f80cd0a86ee
+2015-05-15 13:48:14.7637 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 21310139-8ad4-47bc-9c7c-cb7a5587086b dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 13:48:14.8917 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: a86d9843-6004-4755-af9a-1da975da79b1
+2015-05-15 13:48:14.8917 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 40341839-440e-45ff-b5c0-1c9c9b8890c1
+2015-05-15 13:48:14.8958 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: e62454c2-e572-42e0-9c8a-547fa120ff9f
+2015-05-15 13:48:14.8958 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: f72cce4c-f8a3-41b6-8458-dfb06d361ec9
+2015-05-15 14:28:13.2880 |   INFO |                            DALEF.Helpers.EFRepositoryFactories.Dispose | _instanceId: c6cf14fa-b7b7-4fbd-afaf-b08c31edb51a
+2015-05-15 14:28:29.5486 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /GetUserByEmail/7@akaver.com/
+2015-05-15 14:28:29.6016 |   INFO |                              DALEF.Helpers.EFRepositoryFactories..ctor | _instanceId: 83c19c7d-d302-4a34-9791-9d0cb4292e31
+2015-05-15 14:28:29.6166 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 1a91c540-85ab-45bb-912b-05fa742b6ff5
+2015-05-15 14:28:29.8506 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: f4b3e3aa-848e-4f88-ba94-771b748392bc
+2015-05-15 14:28:29.8756 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: c4033aec-967d-45c6-8fff-125757673acf
+2015-05-15 14:28:29.8886 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 079bf690-14aa-4472-b21a-a718734f1ce5
+2015-05-15 14:28:30.0636 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 793e74f6-3f92-4044-aea8-0b69bb030382
+2015-05-15 14:28:30.2106 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 542e1672-e136-4402-ba60-a3d4329ba80c dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:28:34.5906 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 079bf690-14aa-4472-b21a-a718734f1ce5
+2015-05-15 14:28:34.6076 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 1a91c540-85ab-45bb-912b-05fa742b6ff5
+2015-05-15 14:28:34.6156 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: f4b3e3aa-848e-4f88-ba94-771b748392bc
+2015-05-15 14:28:34.6296 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: c4033aec-967d-45c6-8fff-125757673acf
+2015-05-15 14:28:49.3353 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/13@akaver.com/
+2015-05-15 14:28:49.3353 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: be14573f-45cd-46ce-99bd-1b67e266dcfd
+2015-05-15 14:28:49.3353 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: f9dc32f4-a176-48f4-bf5c-34de2c6c9f86
+2015-05-15 14:28:49.3353 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 721ee778-7aaf-4d59-9b2e-b3e3704d40fd
+2015-05-15 14:28:49.3353 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 4c02e58e-5e07-4127-83a9-1ffe23636c1b
+2015-05-15 14:28:49.3520 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/13@akaver.com/
+2015-05-15 14:28:49.3660 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 595a208d-aaf3-48ac-a522-1dfe106fae38
+2015-05-15 14:28:49.3800 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 85e11c59-e26f-4dd9-9786-9288d1d50cda
+2015-05-15 14:28:49.3800 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: f3d8cd4c-40d2-48a7-ad1c-0a15cb6f2840
+2015-05-15 14:28:49.3800 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 36b288a9-e3ee-481a-884b-05ffa43e9051
+2015-05-15 14:28:49.4220 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 36b288a9-e3ee-481a-884b-05ffa43e9051
+2015-05-15 14:28:49.4220 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByEmail/13@akaver.com/
+2015-05-15 14:28:49.4270 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 595a208d-aaf3-48ac-a522-1dfe106fae38
+2015-05-15 14:28:49.4270 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 85e11c59-e26f-4dd9-9786-9288d1d50cda
+2015-05-15 14:28:49.4270 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: f3d8cd4c-40d2-48a7-ad1c-0a15cb6f2840
+2015-05-15 14:28:49.4270 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 4c02e58e-5e07-4127-83a9-1ffe23636c1b
+2015-05-15 14:28:49.4270 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: be14573f-45cd-46ce-99bd-1b67e266dcfd
+2015-05-15 14:28:49.4270 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: f9dc32f4-a176-48f4-bf5c-34de2c6c9f86
+2015-05-15 14:28:49.4450 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 721ee778-7aaf-4d59-9b2e-b3e3704d40fd
+2015-05-15 14:28:49.4270 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: d18ad971-bfc7-4044-87f6-60b95300415d
+2015-05-15 14:28:49.4670 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 866511e0-3623-4a51-998c-9655037149eb
+2015-05-15 14:28:49.4670 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: baaa40ae-dc6e-458f-96aa-70db76946b63
+2015-05-15 14:28:49.4670 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: d7c014e1-bab1-4e4e-871b-6cdc7fc59b43
+2015-05-15 14:28:49.4670 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByEmail/13@akaver.com/
+2015-05-15 14:28:49.4740 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: ed820ffe-6ba6-49a2-8bf5-11ebc0277ce2
+2015-05-15 14:28:49.4740 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: ddca89fe-0e86-4a64-8f36-c9108fb00dd7
+2015-05-15 14:28:49.4740 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 471c5c28-f7be-4b7f-9c30-cfd9f8c53377
+2015-05-15 14:28:49.4740 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: c1f4158f-f4d6-4e86-acaf-795487247998
+2015-05-15 14:28:49.4950 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: c1f4158f-f4d6-4e86-acaf-795487247998
+2015-05-15 14:28:49.4950 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: ed820ffe-6ba6-49a2-8bf5-11ebc0277ce2
+2015-05-15 14:28:49.4950 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: ddca89fe-0e86-4a64-8f36-c9108fb00dd7
+2015-05-15 14:28:49.5537 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 471c5c28-f7be-4b7f-9c30-cfd9f8c53377
+2015-05-15 14:28:49.5537 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: d7c014e1-bab1-4e4e-871b-6cdc7fc59b43
+2015-05-15 14:28:49.6010 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: d18ad971-bfc7-4044-87f6-60b95300415d
+2015-05-15 14:28:49.6460 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 866511e0-3623-4a51-998c-9655037149eb
+2015-05-15 14:28:49.6720 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: baaa40ae-dc6e-458f-96aa-70db76946b63
+2015-05-15 14:28:49.7710 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(POST): /api/UsersInt/
+2015-05-15 14:28:49.7710 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 759f2159-271a-4aa4-ae90-a9860db246d4
+2015-05-15 14:28:49.7710 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 58df5149-0290-4cc4-9573-09dea0e8df16
+2015-05-15 14:28:49.7710 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 2476284e-6f12-4920-aafc-074e38d671e1
+2015-05-15 14:28:49.7710 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: d5892f6d-b1fc-4928-bb92-e9cd6d68e2d8
+2015-05-15 14:28:49.7710 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | ea266cf5-e9b6-4722-95a4-e58f37298ae5
+2015-05-15 14:28:49.9190 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 18c34db8-cc2a-4169-b8f8-c3fd0d4df0c2 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:28:50.2820 |  DEBUG |                      WebApi.Controllers.UsersIntController.PostUserInt | 13@akaver.com (12)
+2015-05-15 14:28:50.3080 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: d5892f6d-b1fc-4928-bb92-e9cd6d68e2d8
+2015-05-15 14:28:50.3170 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 759f2159-271a-4aa4-ae90-a9860db246d4
+2015-05-15 14:28:50.3170 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 58df5149-0290-4cc4-9573-09dea0e8df16
+2015-05-15 14:28:50.3360 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 2476284e-6f12-4920-aafc-074e38d671e1
+2015-05-15 14:28:50.5540 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/13@akaver.com/
+2015-05-15 14:28:50.5540 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 95d56f56-dd14-4071-b2a8-4f7d56551a4a
+2015-05-15 14:28:50.5750 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 8d9baa0d-b77a-43d2-8a90-c89c2c63b281
+2015-05-15 14:28:50.5750 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: a7c6c4e9-9fc3-4af7-ad8c-87d0b2319e77
+2015-05-15 14:28:50.5860 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 59e5c15f-724f-4bea-a937-a1cebb940a18
+2015-05-15 14:28:50.6011 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/13@akaver.com/
+2015-05-15 14:28:50.6011 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: f5244e05-d82d-41e0-8370-6c9b0df02c18
+2015-05-15 14:28:50.6011 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 42f654b7-6d2b-4d11-93a4-da54664c93ec
+2015-05-15 14:28:50.6180 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 2e18b30d-fb91-44b9-ad9f-136a89fdc3d8
+2015-05-15 14:28:50.6180 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: c28d0c54-59ef-4687-a089-5fe829104cd6
+2015-05-15 14:28:50.6540 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: c28d0c54-59ef-4687-a089-5fe829104cd6
+2015-05-15 14:28:50.6540 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: f5244e05-d82d-41e0-8370-6c9b0df02c18
+2015-05-15 14:28:50.6720 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 42f654b7-6d2b-4d11-93a4-da54664c93ec
+2015-05-15 14:28:50.6900 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 2e18b30d-fb91-44b9-ad9f-136a89fdc3d8
+2015-05-15 14:28:50.7181 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 59e5c15f-724f-4bea-a937-a1cebb940a18
+2015-05-15 14:28:50.7450 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 95d56f56-dd14-4071-b2a8-4f7d56551a4a
+2015-05-15 14:28:50.7940 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 8d9baa0d-b77a-43d2-8a90-c89c2c63b281
+2015-05-15 14:28:50.8420 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: a7c6c4e9-9fc3-4af7-ad8c-87d0b2319e77
+2015-05-15 14:30:54.4064 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/13@akaver.com/
+2015-05-15 14:30:54.4234 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 50bf8684-e221-429c-b9b6-8002517abc07
+2015-05-15 14:30:54.4374 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: d2f6c14d-c9dc-4645-ad07-3ffba55ea0a5
+2015-05-15 14:30:54.4424 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 41abcd6e-f799-4a58-8ce3-caa2680746da
+2015-05-15 14:30:54.4424 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: a7a65f99-d293-4ce2-99ad-180ae7b1864e
+2015-05-15 14:30:54.4584 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/13@akaver.com/
+2015-05-15 14:30:54.4584 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 9abb8e4c-a51e-4d08-9ee8-b9103b52f56b
+2015-05-15 14:30:54.4584 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 3122e83c-abac-46b9-b681-8307f3bf574a
+2015-05-15 14:30:54.4584 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: b0a218f4-5fe6-4c7b-a4d6-f1d07c1813f0
+2015-05-15 14:30:54.4584 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 4704256d-a9c8-4214-a0b4-f23cae773dca
+2015-05-15 14:30:54.5184 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 4704256d-a9c8-4214-a0b4-f23cae773dca
+2015-05-15 14:30:54.5624 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 9abb8e4c-a51e-4d08-9ee8-b9103b52f56b
+2015-05-15 14:30:54.5725 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 3122e83c-abac-46b9-b681-8307f3bf574a
+2015-05-15 14:30:54.6074 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: b0a218f4-5fe6-4c7b-a4d6-f1d07c1813f0
+2015-05-15 14:30:54.6254 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: a7a65f99-d293-4ce2-99ad-180ae7b1864e
+2015-05-15 14:30:54.6695 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 50bf8684-e221-429c-b9b6-8002517abc07
+2015-05-15 14:30:54.7505 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: d2f6c14d-c9dc-4645-ad07-3ffba55ea0a5
+2015-05-15 14:30:54.8034 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 41abcd6e-f799-4a58-8ce3-caa2680746da
+2015-05-15 14:32:03.5514 |   INFO |                            DALEF.Helpers.EFRepositoryFactories.Dispose | _instanceId: 83c19c7d-d302-4a34-9791-9d0cb4292e31
+2015-05-15 14:32:18.6103 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/13@akaver.com/
+2015-05-15 14:32:18.6573 |   INFO |                              DALEF.Helpers.EFRepositoryFactories..ctor | _instanceId: 634125f0-ab74-4aac-a2cf-ee7ab5aceac6
+2015-05-15 14:32:18.6653 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: c5a34d62-13c8-4cf3-b7f7-63ed0e06e6bf
+2015-05-15 14:32:18.9133 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 76665cee-8176-406e-92b0-f5f559c15139
+2015-05-15 14:32:18.9133 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 2e0e9e67-7f08-4f61-b4a0-b2e19a163dcc
+2015-05-15 14:32:18.9303 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: e27ba45e-94ba-4008-9935-7bd0917c7252
+2015-05-15 14:32:19.1033 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 98637707-3037-4c7f-b669-b8ec76e62629
+2015-05-15 14:32:19.2097 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | 98637707-3037-4c7f-b669-b8ec76e62629
+2015-05-15 14:32:19.2253 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 4d5eb395-0ea5-4abe-9751-5e51184360b6 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:32:23.8533 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | Found: 13@akaver.com
+2015-05-15 14:32:24.4473 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: e27ba45e-94ba-4008-9935-7bd0917c7252
+2015-05-15 14:32:24.4753 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: c5a34d62-13c8-4cf3-b7f7-63ed0e06e6bf
+2015-05-15 14:32:24.4753 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 76665cee-8176-406e-92b0-f5f559c15139
+2015-05-15 14:32:24.4753 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 2e0e9e67-7f08-4f61-b4a0-b2e19a163dcc
+2015-05-15 14:32:57.2874 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/14@akaver.com/
+2015-05-15 14:32:57.2874 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: aef0c900-361a-433e-8859-7525d023dfac
+2015-05-15 14:32:57.2874 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: cde14114-8384-4f86-b780-85ba78be1936
+2015-05-15 14:32:57.2874 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 4e51c9e3-801b-4385-8613-003b6c75e6ed
+2015-05-15 14:32:57.2874 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 097e44e4-75cf-4d03-85b8-32e64552d222
+2015-05-15 14:32:57.2874 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | f6d46f76-042c-4630-8e5b-d3d0e5b5a608
+2015-05-15 14:32:57.2874 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | f6d46f76-042c-4630-8e5b-d3d0e5b5a608
+2015-05-15 14:32:57.2874 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: f34f9fab-0d12-4190-b8d6-91029ddc61fd dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:32:57.3088 |   INFO |                WebApi.Controllers.UsersIntController.GetUserByUserName | NotFound: 14@akaver.com
+2015-05-15 14:32:57.3088 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 097e44e4-75cf-4d03-85b8-32e64552d222
+2015-05-15 14:32:57.3088 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: aef0c900-361a-433e-8859-7525d023dfac
+2015-05-15 14:32:57.3088 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: cde14114-8384-4f86-b780-85ba78be1936
+2015-05-15 14:32:57.3088 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 4e51c9e3-801b-4385-8613-003b6c75e6ed
+2015-05-15 14:32:57.3474 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByEmail/14@akaver.com/
+2015-05-15 14:32:57.3484 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 45d85ceb-ddc6-4875-870d-7d25a0382ecb
+2015-05-15 14:32:57.3484 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 092cf53e-c774-4ede-b501-ca492f620899
+2015-05-15 14:32:57.3484 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 8549747e-67cf-485c-a288-80b4d82681a0
+2015-05-15 14:32:57.3484 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 8a4925c7-9654-4363-9d61-c2db30fa3dc2
+2015-05-15 14:32:57.3484 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 161e888c-b67d-4b16-8b92-4cd82f8e074f
+2015-05-15 14:32:57.3484 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 002c14e8-05ef-4873-8ada-8d23b22d3d7e dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:32:57.3714 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 8a4925c7-9654-4363-9d61-c2db30fa3dc2
+2015-05-15 14:32:57.3714 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 45d85ceb-ddc6-4875-870d-7d25a0382ecb
+2015-05-15 14:32:57.3714 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 092cf53e-c774-4ede-b501-ca492f620899
+2015-05-15 14:32:57.3714 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 8549747e-67cf-485c-a288-80b4d82681a0
+2015-05-15 14:32:57.6004 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(POST): /api/UsersInt/
+2015-05-15 14:32:57.6004 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 672cd24a-29c7-4a00-847d-1b582396c4a8
+2015-05-15 14:32:57.6004 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: b7e7ac34-62b4-444a-8273-ce82a2efd311
+2015-05-15 14:32:57.6004 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: c9c278ec-dbb8-4958-9bdf-3ce7c2f38480
+2015-05-15 14:32:57.6004 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 003223ac-a711-4920-9bae-7af4bae9c284
+2015-05-15 14:32:57.6164 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | fbbf3731-1d20-4568-bb8f-040e2ae12bb6
+2015-05-15 14:32:57.7174 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 2d7d11ec-42b3-40b6-8f61-b4c8480732d9 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:32:58.0714 |  DEBUG |                      WebApi.Controllers.UsersIntController.PostUserInt | 14@akaver.com (13)
+2015-05-15 14:32:58.0884 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 003223ac-a711-4920-9bae-7af4bae9c284
+2015-05-15 14:32:58.0884 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 672cd24a-29c7-4a00-847d-1b582396c4a8
+2015-05-15 14:32:58.0884 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: b7e7ac34-62b4-444a-8273-ce82a2efd311
+2015-05-15 14:32:58.0884 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: c9c278ec-dbb8-4958-9bdf-3ce7c2f38480
+2015-05-15 14:32:58.2914 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/14@akaver.com/
+2015-05-15 14:32:58.2914 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 69cfee57-85ab-48a6-a511-77aec3dcbac3
+2015-05-15 14:32:58.3038 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 50114ea9-7e0a-4621-b332-8cd1b91a3f66
+2015-05-15 14:32:58.3038 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 6a8f10f8-653b-4b06-b906-d6f499971e7f
+2015-05-15 14:32:58.3264 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 22a4fc94-6f4b-4815-88b7-dc792895f7df
+2015-05-15 14:32:58.3536 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 03bd787f-48d6-4e52-98f0-1d6129293df6
+2015-05-15 14:32:58.3674 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | 03bd787f-48d6-4e52-98f0-1d6129293df6
+2015-05-15 14:32:58.3674 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: c9e5cd47-e1f4-45e0-a4d0-39bf6ddaf604 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:32:58.3835 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | Found: 14@akaver.com
+2015-05-15 14:32:58.4464 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 22a4fc94-6f4b-4815-88b7-dc792895f7df
+2015-05-15 14:32:58.4464 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 69cfee57-85ab-48a6-a511-77aec3dcbac3
+2015-05-15 14:32:58.4464 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 50114ea9-7e0a-4621-b332-8cd1b91a3f66
+2015-05-15 14:32:58.4585 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 6a8f10f8-653b-4b06-b906-d6f499971e7f
+2015-05-15 14:32:58.4934 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:32:58.4934 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: e7cc6fcc-7db3-456b-8581-ec9cb3bc0564
+2015-05-15 14:32:58.5234 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 4e88e53d-cc6f-4c8b-916f-6701ed7cc92f
+2015-05-15 14:32:58.5234 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 0071d61c-93ac-433f-86f0-189aeb180bfa
+2015-05-15 14:32:58.5234 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 265e079e-8a94-41fc-8a0b-fdc707afcbd0
+2015-05-15 14:32:58.5384 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 44629bce-ec36-4cfb-89f3-515c9bc38584
+2015-05-15 14:32:58.5514 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 57ea756b-7b47-460d-b9fc-771344e21821 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:32:58.6044 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 265e079e-8a94-41fc-8a0b-fdc707afcbd0
+2015-05-15 14:32:58.6044 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: e7cc6fcc-7db3-456b-8581-ec9cb3bc0564
+2015-05-15 14:32:58.6044 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 4e88e53d-cc6f-4c8b-916f-6701ed7cc92f
+2015-05-15 14:32:58.6044 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 0071d61c-93ac-433f-86f0-189aeb180bfa
+2015-05-15 14:32:58.6364 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/RolesInt/GetRolesForUser/13
+2015-05-15 14:32:58.6454 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: e1bbefd8-be61-4efa-a310-99ac6e463433
+2015-05-15 14:32:58.6454 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 9a1c7522-e4d3-4cb9-80df-10d23cbd5442
+2015-05-15 14:32:58.6614 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 2d6b3030-3aba-4f2d-934c-aee29171d72c
+2015-05-15 14:32:58.6614 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: b7136bf7-5541-46cb-8006-d805f90cee85
+2015-05-15 14:32:58.6774 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/RolesInt/GetRolesForUser/13
+2015-05-15 14:32:58.6774 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 20acf9ac-5717-45d7-8d01-c6d6e73dcd85
+2015-05-15 14:32:58.6774 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: e2c2cfe1-cd4e-4123-b25e-8e865d8a0f59
+2015-05-15 14:32:58.6944 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: d6ce64d4-88c5-4196-b0fa-2bbebcffedde
+2015-05-15 14:32:58.6944 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 286f3699-c00e-499e-b83e-8afd7a620af5
+2015-05-15 14:32:58.7334 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 286f3699-c00e-499e-b83e-8afd7a620af5
+2015-05-15 14:32:58.7334 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:32:58.7404 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 20acf9ac-5717-45d7-8d01-c6d6e73dcd85
+2015-05-15 14:32:58.7404 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: e2c2cfe1-cd4e-4123-b25e-8e865d8a0f59
+2015-05-15 14:32:58.7584 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: d6ce64d4-88c5-4196-b0fa-2bbebcffedde
+2015-05-15 14:32:58.7584 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 9a932119-963e-4627-89a2-d872fc78bd9b
+2015-05-15 14:32:58.7584 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 0ba6b094-03f9-412f-90cd-b42be1ae4cc2
+2015-05-15 14:32:58.7584 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: f82933a8-ca87-4c45-98d0-e267e1ee9a6c
+2015-05-15 14:32:58.7584 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 6bb3719b-04ed-40f7-bee3-5a66fc822a8f
+2015-05-15 14:32:58.7724 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 13c1a106-ad4b-4f67-9ef0-8a4d72b634de
+2015-05-15 14:32:58.7724 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: cb4b5b05-b5c7-486f-9b4a-fcd5cafd64fd dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:32:58.7584 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: b7136bf7-5541-46cb-8006-d805f90cee85
+2015-05-15 14:32:58.7724 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: e1bbefd8-be61-4efa-a310-99ac6e463433
+2015-05-15 14:32:58.7724 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 9a1c7522-e4d3-4cb9-80df-10d23cbd5442
+2015-05-15 14:32:58.7724 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 2d6b3030-3aba-4f2d-934c-aee29171d72c
+2015-05-15 14:32:58.7964 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 6bb3719b-04ed-40f7-bee3-5a66fc822a8f
+2015-05-15 14:32:58.7964 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 9a932119-963e-4627-89a2-d872fc78bd9b
+2015-05-15 14:32:58.7964 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 0ba6b094-03f9-412f-90cd-b42be1ae4cc2
+2015-05-15 14:32:58.7964 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: f82933a8-ca87-4c45-98d0-e267e1ee9a6c
+2015-05-15 14:37:21.3097 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/14@akaver.com/
+2015-05-15 14:37:21.3097 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: f5d93f75-86ae-49ac-be67-45eca2e80344
+2015-05-15 14:37:21.3460 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: c5e448bf-2e02-4e9d-ad23-d79ede0bb8c5
+2015-05-15 14:37:21.3519 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 61c63f04-739f-4c1b-893c-1e4813f607e7
+2015-05-15 14:37:21.3519 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 003bdb8f-767b-491a-af2d-855f7c12ec4c
+2015-05-15 14:37:21.3646 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 29adf764-cfff-44b0-9775-c1d507365f2d
+2015-05-15 14:37:21.3646 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | 29adf764-cfff-44b0-9775-c1d507365f2d
+2015-05-15 14:37:21.3646 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: db1f4c4d-eb3d-4a50-8009-44314f54c01e dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:37:21.3966 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | Found: 14@akaver.com
+2015-05-15 14:37:21.4637 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 003bdb8f-767b-491a-af2d-855f7c12ec4c
+2015-05-15 14:37:21.4637 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: f5d93f75-86ae-49ac-be67-45eca2e80344
+2015-05-15 14:37:21.4637 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: c5e448bf-2e02-4e9d-ad23-d79ede0bb8c5
+2015-05-15 14:37:21.4637 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 61c63f04-739f-4c1b-893c-1e4813f607e7
+2015-05-15 14:37:21.5077 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:37:21.5077 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 418cf4ee-5d62-45e4-b7eb-d5cbb00b57cc
+2015-05-15 14:37:21.5077 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 857f675d-aa5a-49bc-8aed-0933c2be5050
+2015-05-15 14:37:21.5237 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: e1de89e8-96b5-40df-9c60-826ca357900c
+2015-05-15 14:37:21.5237 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: cb0f6719-d0a5-4b33-9fa7-fa1cb06400a2
+2015-05-15 14:37:21.5237 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | b7774df4-7057-480b-ac8b-74f2e49c95fb
+2015-05-15 14:37:21.5237 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: b04eb0b3-5317-472e-8d4b-ca2ace3e9e44 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:37:21.5497 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: cb0f6719-d0a5-4b33-9fa7-fa1cb06400a2
+2015-05-15 14:37:21.5517 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 418cf4ee-5d62-45e4-b7eb-d5cbb00b57cc
+2015-05-15 14:37:21.5517 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 857f675d-aa5a-49bc-8aed-0933c2be5050
+2015-05-15 14:37:21.5517 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: e1de89e8-96b5-40df-9c60-826ca357900c
+2015-05-15 14:37:21.5996 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:37:21.5996 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 7677ab17-03d6-4c16-825a-43fd19b5f0f9
+2015-05-15 14:37:21.6157 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 34669204-94fb-4117-a004-0218e8821217
+2015-05-15 14:37:21.6157 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 9a9b8416-3523-4c25-bb7f-83c799b4e5de
+2015-05-15 14:37:21.6157 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 0edf2ed5-4e23-40c0-bd23-75d6880719de
+2015-05-15 14:37:21.6306 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 7dc096cc-106a-44d8-9c6f-06828beb51c6
+2015-05-15 14:37:21.6306 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: e2e4ad6d-463c-4b78-a2e9-b857a1b249cf dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:37:21.6497 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 0edf2ed5-4e23-40c0-bd23-75d6880719de
+2015-05-15 14:37:21.6497 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 7677ab17-03d6-4c16-825a-43fd19b5f0f9
+2015-05-15 14:37:21.6497 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 34669204-94fb-4117-a004-0218e8821217
+2015-05-15 14:37:21.6497 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 9a9b8416-3523-4c25-bb7f-83c799b4e5de
+2015-05-15 14:37:21.6807 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:37:21.6807 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 7d2b1c2f-7708-4fa5-a762-5cb0c11108dd
+2015-05-15 14:37:21.6807 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 2819a058-c1f0-41fd-a25a-396c85dcc6cf
+2015-05-15 14:37:21.6807 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: e7a0bb64-0c20-4ea5-b591-f9be7f29c7b8
+2015-05-15 14:37:21.6807 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 193ef4e2-6e89-4d37-8344-4fdf0d06f90b
+2015-05-15 14:37:21.6807 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 1925bfd9-2012-40bb-be47-f4d13b1106eb
+2015-05-15 14:37:21.6957 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: c6d55ca1-f53f-454d-bd2a-d61def6eab8a dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:37:21.6957 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 193ef4e2-6e89-4d37-8344-4fdf0d06f90b
+2015-05-15 14:37:21.6957 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 7d2b1c2f-7708-4fa5-a762-5cb0c11108dd
+2015-05-15 14:37:21.7086 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 2819a058-c1f0-41fd-a25a-396c85dcc6cf
+2015-05-15 14:37:21.7086 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: e7a0bb64-0c20-4ea5-b591-f9be7f29c7b8
+2015-05-15 14:37:21.7516 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:37:21.7516 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 423197f5-f415-4487-b8cc-62b7a03f5316
+2015-05-15 14:37:21.7576 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: f86b63dd-0b64-446e-ad4e-4f08168834e5
+2015-05-15 14:37:21.7576 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: c5d3e6d3-765c-40bd-aabe-c1cdc1b65bef
+2015-05-15 14:37:21.7576 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 00a85b7a-c3b3-4f3d-96cf-9976d22a6666
+2015-05-15 14:37:21.7576 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | d90df8db-b3f7-4676-bed8-d95eadf9aee5
+2015-05-15 14:37:21.7576 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 24d21fbe-446e-40f5-8689-e25e22a49500 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:37:21.7707 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 00a85b7a-c3b3-4f3d-96cf-9976d22a6666
+2015-05-15 14:37:21.7707 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 423197f5-f415-4487-b8cc-62b7a03f5316
+2015-05-15 14:37:21.7707 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: f86b63dd-0b64-446e-ad4e-4f08168834e5
+2015-05-15 14:37:21.7707 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: c5d3e6d3-765c-40bd-aabe-c1cdc1b65bef
+2015-05-15 14:37:21.7976 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:37:21.7976 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: afdd3068-5a7c-410d-bbb8-1256a3135080
+2015-05-15 14:37:21.8016 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 56a2cdac-e30a-429a-b645-5db48fb07c03
+2015-05-15 14:37:21.8016 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: d96a4847-f679-43cc-b277-8e5729c8b93a
+2015-05-15 14:37:21.8016 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 6d4fad19-6ae7-4f6e-94f9-0e8e49ee30df
+2015-05-15 14:37:21.8016 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 1719fab0-9fe6-4036-9aed-e48061280b03
+2015-05-15 14:37:21.8016 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 721090b4-db12-42ef-8145-2d454a34b078 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:37:21.8176 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 6d4fad19-6ae7-4f6e-94f9-0e8e49ee30df
+2015-05-15 14:37:21.8176 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: afdd3068-5a7c-410d-bbb8-1256a3135080
+2015-05-15 14:37:21.8176 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 56a2cdac-e30a-429a-b645-5db48fb07c03
+2015-05-15 14:37:21.8176 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: d96a4847-f679-43cc-b277-8e5729c8b93a
+2015-05-15 14:37:21.8176 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/RolesInt/GetRolesForUser/13
+2015-05-15 14:37:21.8366 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: e7ab409b-c94e-4f60-9ffe-87ac7ba06336
+2015-05-15 14:37:21.8366 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 79c42d8d-fb4e-4143-9165-cb26c17c20ce
+2015-05-15 14:37:21.8366 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 88e41073-5452-4489-9ceb-5b250292a2e9
+2015-05-15 14:37:21.8366 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 8457a131-ae11-41be-9fc7-a5edbf9d412d
+2015-05-15 14:37:21.8486 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/RolesInt/GetRolesForUser/13
+2015-05-15 14:37:21.8486 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 4ac3428b-32ef-4926-9328-c0b1887fbc1b
+2015-05-15 14:37:21.8486 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: c7e111e0-a709-4d68-9b03-86329e052dad
+2015-05-15 14:37:21.8486 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 53e49ae1-097f-4efc-a90b-afdd76ad2834
+2015-05-15 14:37:21.8486 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 55ee869c-446a-4e11-96d4-168283ff4ab5
+2015-05-15 14:37:21.8797 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 55ee869c-446a-4e11-96d4-168283ff4ab5
+2015-05-15 14:37:21.8797 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 4ac3428b-32ef-4926-9328-c0b1887fbc1b
+2015-05-15 14:37:21.8797 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: c7e111e0-a709-4d68-9b03-86329e052dad
+2015-05-15 14:37:21.8797 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 53e49ae1-097f-4efc-a90b-afdd76ad2834
+2015-05-15 14:37:21.8976 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 8457a131-ae11-41be-9fc7-a5edbf9d412d
+2015-05-15 14:37:21.8976 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: e7ab409b-c94e-4f60-9ffe-87ac7ba06336
+2015-05-15 14:37:21.8976 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 79c42d8d-fb4e-4143-9165-cb26c17c20ce
+2015-05-15 14:37:21.8797 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:37:21.8976 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 88e41073-5452-4489-9ceb-5b250292a2e9
+2015-05-15 14:37:21.9116 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: da6fdf5b-fddf-4f3e-aa79-b65e43e0a2fb
+2015-05-15 14:37:21.9116 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: b6e302c4-1b13-4e5d-8cff-8657b9b44ff2
+2015-05-15 14:37:21.9267 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 75b3e7ee-c5f1-49a8-801c-199dee34e615
+2015-05-15 14:37:21.9267 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 71429ed4-603e-45c5-9936-de08fe86ed40
+2015-05-15 14:37:21.9267 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 2fa22a8c-ac88-427e-bb2b-3a68675b290d
+2015-05-15 14:37:21.9267 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 6596fe1a-13ce-46f9-bab3-e1629f4a30ec dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:37:21.9267 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 71429ed4-603e-45c5-9936-de08fe86ed40
+2015-05-15 14:37:21.9267 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: da6fdf5b-fddf-4f3e-aa79-b65e43e0a2fb
+2015-05-15 14:37:21.9267 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: b6e302c4-1b13-4e5d-8cff-8657b9b44ff2
+2015-05-15 14:37:21.9267 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 75b3e7ee-c5f1-49a8-801c-199dee34e615
+2015-05-15 14:38:17.4165 |   INFO |                            DALEF.Helpers.EFRepositoryFactories.Dispose | _instanceId: 634125f0-ab74-4aac-a2cf-ee7ab5aceac6
+2015-05-15 14:39:20.7819 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/14@akaver.com/
+2015-05-15 14:39:20.8599 |   INFO |                              DALEF.Helpers.EFRepositoryFactories..ctor | _instanceId: d540d143-c367-4e66-8299-d06281832bc6
+2015-05-15 14:39:20.8889 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 136d847c-dd2f-4a2c-83eb-a7893911eb4e
+2015-05-15 14:39:21.1859 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 3cbd2fe4-eb22-4cd4-8375-f0fafdf41048
+2015-05-15 14:39:21.2099 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 4093ba46-48d4-4d6e-b62d-9f75bba52050
+2015-05-15 14:39:21.2239 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 1c98eaba-f45e-4e0d-bad2-d9473373f404
+2015-05-15 14:39:21.3909 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 7410c268-b6a4-4364-832c-a4ec5391c02f
+2015-05-15 14:39:21.5619 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | 7410c268-b6a4-4364-832c-a4ec5391c02f
+2015-05-15 14:39:21.5709 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 532dd107-19b3-49de-81c3-5bb5dd4ebe5b dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:39:25.4020 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | Found: 14@akaver.com
+2015-05-15 14:39:25.9419 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 1c98eaba-f45e-4e0d-bad2-d9473373f404
+2015-05-15 14:39:25.9599 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 136d847c-dd2f-4a2c-83eb-a7893911eb4e
+2015-05-15 14:39:25.9599 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 3cbd2fe4-eb22-4cd4-8375-f0fafdf41048
+2015-05-15 14:39:25.9599 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 4093ba46-48d4-4d6e-b62d-9f75bba52050
+2015-05-15 14:39:26.3609 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:39:26.3669 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: c47dfc13-2fb5-482c-ae68-1af4dd4a0566
+2015-05-15 14:39:26.3669 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: caa97fa9-4bf7-45fc-a2df-23b748347892
+2015-05-15 14:39:26.3669 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 63c0d5b8-f7b4-43e1-8bf7-970a4aa45981
+2015-05-15 14:39:26.3669 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 3c7378c1-c295-4b62-a8f6-4bf440ab70e2
+2015-05-15 14:39:26.3819 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 673e54e5-8092-44e1-afeb-f810156d0fda
+2015-05-15 14:39:26.3989 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: b32b129b-d110-4174-8391-e8abec02d774 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:39:26.4339 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 3c7378c1-c295-4b62-a8f6-4bf440ab70e2
+2015-05-15 14:39:26.4339 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: c47dfc13-2fb5-482c-ae68-1af4dd4a0566
+2015-05-15 14:39:26.4339 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: caa97fa9-4bf7-45fc-a2df-23b748347892
+2015-05-15 14:39:26.4339 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 63c0d5b8-f7b4-43e1-8bf7-970a4aa45981
+2015-05-15 14:39:26.4899 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:39:26.4899 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: ce9fe269-437b-4bec-af78-9942b29cf89f
+2015-05-15 14:39:26.4899 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 15477010-9e71-4ae7-9cb6-73198ab30a9d
+2015-05-15 14:39:26.4899 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: ab79f6e6-2861-49ab-9adc-a0860a6c9772
+2015-05-15 14:39:26.4899 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 7ebe2434-c296-44d7-89ca-c41dc2bedcb8
+2015-05-15 14:39:26.5049 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | f619adca-a4e5-4354-980c-ae1ee9f21766
+2015-05-15 14:39:26.5049 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: b21af7bd-33bd-49ec-9f59-568a11398635 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:39:26.5049 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 7ebe2434-c296-44d7-89ca-c41dc2bedcb8
+2015-05-15 14:39:26.5209 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: ce9fe269-437b-4bec-af78-9942b29cf89f
+2015-05-15 14:39:26.5209 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 15477010-9e71-4ae7-9cb6-73198ab30a9d
+2015-05-15 14:39:26.5209 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: ab79f6e6-2861-49ab-9adc-a0860a6c9772
+2015-05-15 14:39:26.5459 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:39:26.5519 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 2f08c4b5-b993-41a6-b3de-d67a393710fc
+2015-05-15 14:39:26.5519 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: bca8bccb-a984-4f96-88d0-3128e35a1289
+2015-05-15 14:39:26.5519 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: eee1195d-6d18-453c-bc6a-3b091644cb83
+2015-05-15 14:39:26.5519 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 1a526a6e-3fb5-4738-9a7c-d3a6f460e907
+2015-05-15 14:39:26.5679 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | c6c5c8bb-50de-49c3-9e9a-36b468e75829
+2015-05-15 14:39:26.5679 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 5aa06162-6f55-496f-8d98-856c804d3cf0 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:39:26.5679 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 1a526a6e-3fb5-4738-9a7c-d3a6f460e907
+2015-05-15 14:39:26.5679 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 2f08c4b5-b993-41a6-b3de-d67a393710fc
+2015-05-15 14:39:26.5679 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: bca8bccb-a984-4f96-88d0-3128e35a1289
+2015-05-15 14:39:26.5679 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: eee1195d-6d18-453c-bc6a-3b091644cb83
+2015-05-15 14:39:26.5999 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:39:26.5999 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: c27e3339-f7b3-46f5-bbae-b1a2f5fca436
+2015-05-15 14:39:26.5999 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: b847744e-c591-40a3-9b90-eda95b4307e7
+2015-05-15 14:39:26.5999 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 4aa8dfa7-68fb-4919-aaf8-07cd93c9b646
+2015-05-15 14:39:26.5999 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: d53c598f-056d-4288-95f7-6e59aa6b7710
+2015-05-15 14:39:26.6149 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 23bb6255-36a5-4c47-8723-21a3560f4c82
+2015-05-15 14:39:26.6149 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 0f05de98-c244-46ea-8aa5-ba0d0b8a04fe dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:39:26.6149 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: d53c598f-056d-4288-95f7-6e59aa6b7710
+2015-05-15 14:39:26.6149 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: c27e3339-f7b3-46f5-bbae-b1a2f5fca436
+2015-05-15 14:39:26.6149 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: b847744e-c591-40a3-9b90-eda95b4307e7
+2015-05-15 14:39:26.6149 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 4aa8dfa7-68fb-4919-aaf8-07cd93c9b646
+2015-05-15 14:39:26.6449 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:39:26.6499 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 31c653b0-efa1-4907-82d3-87b5bd3143e6
+2015-05-15 14:39:26.6499 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: fb5324e0-b094-4c37-baa9-e341479dd5ba
+2015-05-15 14:39:26.6499 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 9b2f489e-45fb-4f70-af13-cc8a8a491114
+2015-05-15 14:39:26.6499 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: cb8ce3b2-5e3d-4c76-be2f-cc2bc093a94c
+2015-05-15 14:39:26.6609 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 0a3fcb69-3100-4e49-b5b7-b9859f2d0cbd
+2015-05-15 14:39:26.6609 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 75c4f19e-7f30-4292-923b-43393d5c6e7f dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:39:26.6609 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: cb8ce3b2-5e3d-4c76-be2f-cc2bc093a94c
+2015-05-15 14:39:26.6609 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 31c653b0-efa1-4907-82d3-87b5bd3143e6
+2015-05-15 14:39:26.6609 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: fb5324e0-b094-4c37-baa9-e341479dd5ba
+2015-05-15 14:39:26.6609 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 9b2f489e-45fb-4f70-af13-cc8a8a491114
+2015-05-15 14:39:26.6919 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/RolesInt/GetRolesForUser/13
+2015-05-15 14:39:26.6919 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 14445821-d48c-4990-ab15-06078d28412e
+2015-05-15 14:39:26.6919 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 6d10baa4-8883-4436-84ee-d600a1a96e13
+2015-05-15 14:39:26.6919 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 066161d7-9216-4008-a6d5-8e57e6096499
+2015-05-15 14:39:26.6919 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 10b12e41-536d-4fec-b29e-50a472facaea
+2015-05-15 14:39:26.6919 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/RolesInt/GetRolesForUser/13
+2015-05-15 14:39:26.6919 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 76541ded-f752-4265-9607-12259c00acbf
+2015-05-15 14:39:26.7079 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: c9b38299-bf7d-45e9-8325-1ca137bdd5ed
+2015-05-15 14:39:26.7079 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: a0351863-9284-430b-beb0-8c0076d61569
+2015-05-15 14:39:26.7269 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 4396d7b7-7331-414f-bceb-7d006922f4d0
+2015-05-15 14:39:26.7459 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 4396d7b7-7331-414f-bceb-7d006922f4d0
+2015-05-15 14:39:26.7459 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 76541ded-f752-4265-9607-12259c00acbf
+2015-05-15 14:39:26.7629 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: c9b38299-bf7d-45e9-8325-1ca137bdd5ed
+2015-05-15 14:39:26.7629 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: a0351863-9284-430b-beb0-8c0076d61569
+2015-05-15 14:39:26.7739 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 10b12e41-536d-4fec-b29e-50a472facaea
+2015-05-15 14:39:26.7739 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:39:26.7739 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 14445821-d48c-4990-ab15-06078d28412e
+2015-05-15 14:39:26.7739 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 6d10baa4-8883-4436-84ee-d600a1a96e13
+2015-05-15 14:39:26.7739 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 066161d7-9216-4008-a6d5-8e57e6096499
+2015-05-15 14:39:26.7739 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: bd6f4114-b307-4d8f-9c71-cfd74e10abf5
+2015-05-15 14:39:26.7739 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 870a054b-779d-492f-a5e5-64aac5ef7cf1
+2015-05-15 14:39:26.7739 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 625ed4fd-4d54-46bb-a44f-11d1d5e84a39
+2015-05-15 14:39:26.7739 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 9d416523-26ef-4967-b680-e136796c4925
+2015-05-15 14:39:26.7869 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 44c9a95a-2e7a-4b86-a864-1cbdb88012e9
+2015-05-15 14:39:26.7869 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: bb9c4ad3-99d0-4cff-ada9-58bcb3c4c63c dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:39:26.8119 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 9d416523-26ef-4967-b680-e136796c4925
+2015-05-15 14:39:26.8119 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: bd6f4114-b307-4d8f-9c71-cfd74e10abf5
+2015-05-15 14:39:26.8119 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 870a054b-779d-492f-a5e5-64aac5ef7cf1
+2015-05-15 14:39:26.8119 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 625ed4fd-4d54-46bb-a44f-11d1d5e84a39
+2015-05-15 14:39:49.7290 |   INFO |                            DALEF.Helpers.EFRepositoryFactories.Dispose | _instanceId: d540d143-c367-4e66-8299-d06281832bc6
+2015-05-15 14:40:20.7424 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/14@akaver.com/
+2015-05-15 14:40:20.7984 |   INFO |                              DALEF.Helpers.EFRepositoryFactories..ctor | _instanceId: b3c888f6-74c7-4a4d-902a-5ec0b559c106
+2015-05-15 14:40:20.7984 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 3f0c3a21-fac7-40fe-8f54-c2cef8070444
+2015-05-15 14:40:20.8824 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 4036dbff-fe1e-4060-bebc-a99db2834dc3
+2015-05-15 14:40:20.8824 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: b1367aa4-6dda-4b79-af0c-1bc579efe29b
+2015-05-15 14:40:20.8824 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 2910b009-2a2b-4cf5-9ece-ba7047a60bcb
+2015-05-15 14:40:21.0094 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 2d765091-6339-4d5f-9f92-d12b0e0bd847
+2015-05-15 14:40:21.1624 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | 2d765091-6339-4d5f-9f92-d12b0e0bd847
+2015-05-15 14:40:21.1624 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 86ff4728-876c-424c-b8bc-59fba7e96f99 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:40:21.7204 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | Found: 14@akaver.com
+2015-05-15 14:40:22.1534 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 2910b009-2a2b-4cf5-9ece-ba7047a60bcb
+2015-05-15 14:40:22.1634 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 3f0c3a21-fac7-40fe-8f54-c2cef8070444
+2015-05-15 14:40:22.1634 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 4036dbff-fe1e-4060-bebc-a99db2834dc3
+2015-05-15 14:40:22.1634 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: b1367aa4-6dda-4b79-af0c-1bc579efe29b
+2015-05-15 14:40:22.5394 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:40:22.5394 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 3283eb9b-4b6c-4f45-85f2-cb61db61446b
+2015-05-15 14:40:22.5394 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 31f50128-a152-4827-8f91-74433b137087
+2015-05-15 14:40:22.5534 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: d92356e9-465e-4dfc-bee7-bc2f73d01449
+2015-05-15 14:40:22.5534 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: b255c058-cc73-4b4c-a2df-669fe21dd0ad
+2015-05-15 14:40:22.5534 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | de71a34c-8c51-403e-bc5f-c7141cf22df7
+2015-05-15 14:40:22.5694 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 7a33e5a3-2b9f-4e4b-a839-0789e2d941c1 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:40:22.5694 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: b255c058-cc73-4b4c-a2df-669fe21dd0ad
+2015-05-15 14:40:22.5854 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 3283eb9b-4b6c-4f45-85f2-cb61db61446b
+2015-05-15 14:40:22.5854 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 31f50128-a152-4827-8f91-74433b137087
+2015-05-15 14:40:22.5854 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: d92356e9-465e-4dfc-bee7-bc2f73d01449
+2015-05-15 14:40:22.6294 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:40:22.6294 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 2e77d131-6092-438e-b1c6-51459943cfe1
+2015-05-15 14:40:22.6474 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: e99c6b35-7bac-44e0-a3f5-0812ce26626c
+2015-05-15 14:40:22.6474 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 13a9dbf9-f044-4e7b-9a73-76d2766083ce
+2015-05-15 14:40:22.6614 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 8e4bff47-a0ce-4449-8f48-fb3648317e95
+2015-05-15 14:40:22.6614 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 0b8585ca-63f7-41e1-b47f-69ca61fad397
+2015-05-15 14:40:22.6614 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 9fd663a0-db3b-4a3c-8e89-e1f64ae8787c dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:40:22.7314 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 8e4bff47-a0ce-4449-8f48-fb3648317e95
+2015-05-15 14:40:22.7314 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 2e77d131-6092-438e-b1c6-51459943cfe1
+2015-05-15 14:40:22.7314 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: e99c6b35-7bac-44e0-a3f5-0812ce26626c
+2015-05-15 14:40:22.7314 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 13a9dbf9-f044-4e7b-9a73-76d2766083ce
+2015-05-15 14:40:22.7654 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:40:22.7704 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: a4639279-01db-4158-8a62-4db3fb326d85
+2015-05-15 14:40:22.7704 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 92f5c980-7191-4b84-ba10-5d9282865965
+2015-05-15 14:40:22.7704 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: a5218535-1114-4ecb-aa27-d211f2588321
+2015-05-15 14:40:22.7704 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: dc18631b-c361-4534-a761-5b44cd202cbc
+2015-05-15 14:40:22.7704 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 983ec6c8-02b0-48a3-a394-2e052258cdaf
+2015-05-15 14:40:22.7704 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 6a3edae4-95fe-45a5-9877-4c7c5b72ed26 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:40:22.7864 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: dc18631b-c361-4534-a761-5b44cd202cbc
+2015-05-15 14:40:22.7864 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: a4639279-01db-4158-8a62-4db3fb326d85
+2015-05-15 14:40:22.8024 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 92f5c980-7191-4b84-ba10-5d9282865965
+2015-05-15 14:40:22.8024 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: a5218535-1114-4ecb-aa27-d211f2588321
+2015-05-15 14:40:22.8264 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:40:22.8264 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: a09891f5-7e0f-4e09-b50b-9a6b99ba2063
+2015-05-15 14:40:22.8344 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 4b580666-5722-473c-9361-2c84570c55ed
+2015-05-15 14:40:22.8344 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 5af123aa-f4d0-4960-8eb2-650439134186
+2015-05-15 14:40:22.8344 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: f9b62e1a-3e91-4f15-9a58-8c61858ebf26
+2015-05-15 14:40:22.8344 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | b6220b76-ea3d-4e18-a9c9-b9c117c49561
+2015-05-15 14:40:22.8344 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: fc53fa1e-7d7d-4814-953e-bf5f09f66797 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:40:22.8514 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: f9b62e1a-3e91-4f15-9a58-8c61858ebf26
+2015-05-15 14:40:22.8514 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: a09891f5-7e0f-4e09-b50b-9a6b99ba2063
+2015-05-15 14:40:22.8514 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 4b580666-5722-473c-9361-2c84570c55ed
+2015-05-15 14:40:22.8514 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 5af123aa-f4d0-4960-8eb2-650439134186
+2015-05-15 14:40:22.9064 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:40:22.9064 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: e088b4c8-d568-485e-9d33-a1468351a997
+2015-05-15 14:40:22.9064 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 0c3dca43-cebe-4a09-b34a-65c899433026
+2015-05-15 14:40:22.9144 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 6305008b-1de8-487f-95e0-30416a1c5878
+2015-05-15 14:40:22.9144 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 69ce9e29-7e37-4e5a-b4e2-1ee8e145a60a
+2015-05-15 14:40:22.9144 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 9bf5aa50-e144-44bb-b5d7-5b5bcf40cc10
+2015-05-15 14:40:22.9144 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 37311a02-f515-4a17-b981-53771e05500b dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:40:22.9264 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 69ce9e29-7e37-4e5a-b4e2-1ee8e145a60a
+2015-05-15 14:40:22.9264 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: e088b4c8-d568-485e-9d33-a1468351a997
+2015-05-15 14:40:22.9264 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 0c3dca43-cebe-4a09-b34a-65c899433026
+2015-05-15 14:40:22.9264 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 6305008b-1de8-487f-95e0-30416a1c5878
+2015-05-15 14:40:22.9574 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/RolesInt/GetRolesForUser/13
+2015-05-15 14:40:22.9614 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 57a1ac2b-7bdc-4911-aca2-dfa64ce685f2
+2015-05-15 14:40:22.9614 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: f9637a52-c331-427f-b626-9d50926046ac
+2015-05-15 14:40:22.9614 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: c23fc02c-f1f7-4abe-b8ee-439c580591bf
+2015-05-15 14:40:22.9614 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 0c385dee-a1ab-4239-b14f-07c823629eb5
+2015-05-15 14:40:22.9744 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/RolesInt/GetRolesForUser/13
+2015-05-15 14:40:22.9744 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 76c945fd-a15a-4750-b508-e2944bf8ab7f
+2015-05-15 14:40:22.9894 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: b19ee082-af0b-43a7-92c4-26c740c8504f
+2015-05-15 14:40:22.9894 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 1b9bdeda-4eb9-4ed4-b26f-a4fc247bed7d
+2015-05-15 14:40:22.9894 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: db680fc6-96a7-4732-a855-1b22df81274c
+2015-05-15 14:40:23.0194 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: db680fc6-96a7-4732-a855-1b22df81274c
+2015-05-15 14:40:23.0214 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/13
+2015-05-15 14:40:23.0214 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 7c592437-64dc-4529-b04a-6a07bbdba5dc
+2015-05-15 14:40:23.0214 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 3837da2a-d850-4921-a82b-181649ca736e
+2015-05-15 14:40:23.0374 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: ac547666-3bc4-4f63-81ae-d90c666fb14e
+2015-05-15 14:40:23.0374 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: a5427e07-7b8e-44a6-b8b2-0df4f1a37b7f
+2015-05-15 14:40:23.0514 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | c3710387-d970-47ea-b1d0-f9694eead5be
+2015-05-15 14:40:23.0514 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: caade4c2-2793-4e74-8c54-69e79e792968 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:40:23.0514 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 76c945fd-a15a-4750-b508-e2944bf8ab7f
+2015-05-15 14:40:23.0514 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: b19ee082-af0b-43a7-92c4-26c740c8504f
+2015-05-15 14:40:23.0700 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 1b9bdeda-4eb9-4ed4-b26f-a4fc247bed7d
+2015-05-15 14:40:23.0700 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 0c385dee-a1ab-4239-b14f-07c823629eb5
+2015-05-15 14:40:23.0700 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 57a1ac2b-7bdc-4911-aca2-dfa64ce685f2
+2015-05-15 14:40:23.0700 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: f9637a52-c331-427f-b626-9d50926046ac
+2015-05-15 14:40:23.0864 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: c23fc02c-f1f7-4abe-b8ee-439c580591bf
+2015-05-15 14:40:23.0864 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: a5427e07-7b8e-44a6-b8b2-0df4f1a37b7f
+2015-05-15 14:40:23.1034 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 7c592437-64dc-4529-b04a-6a07bbdba5dc
+2015-05-15 14:40:23.1034 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 3837da2a-d850-4921-a82b-181649ca736e
+2015-05-15 14:40:23.1034 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: ac547666-3bc4-4f63-81ae-d90c666fb14e
+2015-05-15 14:40:23.1724 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(POST): /token
+2015-05-15 14:40:23.1724 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: c0818241-d490-4164-89d6-d0bf09c8266b
+2015-05-15 14:40:23.1774 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 4552c089-da74-4314-af6d-960079b2a462
+2015-05-15 14:40:23.1774 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 00b323d5-68ad-482e-a7f8-1218ea02dc24
+2015-05-15 14:40:23.1944 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad
+2015-05-15 14:40:23.2734 |   INFO |                                IdentityEF.UserStore`11.FindByNameAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad
+2015-05-15 14:40:23.2734 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: f6803a60-c81f-4286-874e-280a3c56a8fe dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:40:23.3094 |   INFO |                           IdentityEF.UserStore`11.GetPasswordHashAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad
+2015-05-15 14:40:23.3594 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad userId:13
+2015-05-15 14:40:23.3654 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:40:23.3654 |   INFO |                          IdentityEF.UserStore`11.GetSecurityStampAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad user.SecurityStamp:97f8f548-5ce1-453d-aafe-7a4ab5548cac
+2015-05-15 14:40:23.3804 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad userId:13
+2015-05-15 14:40:23.3804 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:40:23.3804 |   INFO |                                  IdentityEF.UserStore`11.GetRolesAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad user.Email:14@akaver.com
+2015-05-15 14:40:23.3974 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 0531bdcc-6dc1-42f6-809c-ef3fce1fedfe dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.RoleInt]
+2015-05-15 14:40:23.4504 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad userId:13
+2015-05-15 14:40:23.4504 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:40:23.4585 |   INFO |                                 IdentityEF.UserStore`11.GetClaimsAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad
+2015-05-15 14:40:23.4585 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad userId:13
+2015-05-15 14:40:23.4585 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:40:23.4585 |   INFO |                          IdentityEF.UserStore`11.GetSecurityStampAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad user.SecurityStamp:97f8f548-5ce1-453d-aafe-7a4ab5548cac
+2015-05-15 14:40:23.4585 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad userId:13
+2015-05-15 14:40:23.4585 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:40:23.4585 |   INFO |                                  IdentityEF.UserStore`11.GetRolesAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad user.Email:14@akaver.com
+2015-05-15 14:40:23.4734 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad userId:13
+2015-05-15 14:40:23.4734 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:40:23.4734 |   INFO |                                 IdentityEF.UserStore`11.GetClaimsAsync | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad
+2015-05-15 14:40:23.5284 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: a1f10d82-81ba-49b7-bb51-a32c0baae3ad
+2015-05-15 14:40:23.5284 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: c0818241-d490-4164-89d6-d0bf09c8266b
+2015-05-15 14:40:23.5404 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 4552c089-da74-4314-af6d-960079b2a462
+2015-05-15 14:40:23.5404 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 00b323d5-68ad-482e-a7f8-1218ea02dc24
+2015-05-15 14:40:33.1793 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/values/
+2015-05-15 14:40:33.1793 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 19455124-7d9c-4325-b9d0-ce74b8620bab
+2015-05-15 14:40:33.1793 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 79225fef-5891-4c4f-b144-b1a47348b9d7
+2015-05-15 14:40:33.1793 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 51557799-7504-4755-acc6-893965512a90
+2015-05-15 14:40:33.1793 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 05e595d8-c188-4c3c-88bc-9b2e40e0ff8d
+2015-05-15 14:40:33.1923 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 8eb4379c-deba-4dfb-a0b7-2f4293e05370
+2015-05-15 14:40:33.2083 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 8eb4379c-deba-4dfb-a0b7-2f4293e05370
+2015-05-15 14:40:33.2083 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 05e595d8-c188-4c3c-88bc-9b2e40e0ff8d
+2015-05-15 14:40:33.2083 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 19455124-7d9c-4325-b9d0-ce74b8620bab
+2015-05-15 14:40:33.2233 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 79225fef-5891-4c4f-b144-b1a47348b9d7
+2015-05-15 14:40:33.2233 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 51557799-7504-4755-acc6-893965512a90
+2015-05-15 14:40:39.2555 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/
+2015-05-15 14:40:39.2555 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: e38596a2-7d44-4416-b59a-89c864693de2
+2015-05-15 14:40:39.2555 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 0e17e5c4-998a-4bdc-8e7f-a12865c672bb
+2015-05-15 14:40:39.2555 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 16cf11c5-fab6-49a6-a58b-989f6007b9aa
+2015-05-15 14:40:39.2555 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: b47362ad-2fdd-4b24-8d0e-047cf344d89d
+2015-05-15 14:40:39.2706 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | d967a036-3f41-421a-9976-ec1789ab3a5d
+2015-05-15 14:40:39.2706 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 132d50c4-fe4b-48e6-af01-e9cb515373e7 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:40:39.3295 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: b47362ad-2fdd-4b24-8d0e-047cf344d89d
+2015-05-15 14:40:39.3325 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: e38596a2-7d44-4416-b59a-89c864693de2
+2015-05-15 14:40:39.3325 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 0e17e5c4-998a-4bdc-8e7f-a12865c672bb
+2015-05-15 14:40:39.3325 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 16cf11c5-fab6-49a6-a58b-989f6007b9aa
+2015-05-15 14:41:01.8848 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/1
+2015-05-15 14:41:01.8848 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 5c61af29-f7ff-44ce-9dc3-e816166dd44b
+2015-05-15 14:41:01.8848 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 2122de3d-8bbd-4f42-89f5-24fe4d07610b
+2015-05-15 14:41:01.8848 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: b7c2607c-6dea-4314-b334-9fe18579d4b7
+2015-05-15 14:41:01.8848 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 9570118e-0586-47b8-be04-35f1d8e4766a
+2015-05-15 14:41:01.8848 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 74702ac0-9ac1-4a08-875a-5bc86a7494bb
+2015-05-15 14:41:01.8958 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 1892fa43-85e8-4b61-a2bc-b2e0d0c62654 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:41:01.9158 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 9570118e-0586-47b8-be04-35f1d8e4766a
+2015-05-15 14:41:01.9158 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 5c61af29-f7ff-44ce-9dc3-e816166dd44b
+2015-05-15 14:41:01.9158 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 2122de3d-8bbd-4f42-89f5-24fe4d07610b
+2015-05-15 14:41:01.9158 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: b7c2607c-6dea-4314-b334-9fe18579d4b7
+2015-05-15 14:41:04.0070 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(DELETE): /api/UsersInt/1
+2015-05-15 14:41:04.0070 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: da58b9d9-c702-41e6-b469-452bec599789
+2015-05-15 14:41:04.0070 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 4c1fb931-4442-4b35-97db-06e02c812c38
+2015-05-15 14:41:04.0250 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 321a6a0a-8ed3-48dd-a2e8-1b1938b1e779
+2015-05-15 14:41:04.0250 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 3d196b98-1323-420f-aa93-6d489fc4defb
+2015-05-15 14:41:04.0250 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 5dde351f-b00b-4df9-ba60-acd59be2ffa2
+2015-05-15 14:41:04.0370 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 99b8c1e2-632e-4ba4-9534-9eb70e4e3b52 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:41:04.1100 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 3d196b98-1323-420f-aa93-6d489fc4defb
+2015-05-15 14:41:04.1100 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: da58b9d9-c702-41e6-b469-452bec599789
+2015-05-15 14:41:04.1100 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 4c1fb931-4442-4b35-97db-06e02c812c38
+2015-05-15 14:41:04.1140 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 321a6a0a-8ed3-48dd-a2e8-1b1938b1e779
+2015-05-15 14:41:04.1800 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/
+2015-05-15 14:41:04.1800 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 252af70e-ca26-4add-9dfc-6dfc48fb7ffe
+2015-05-15 14:41:04.1800 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: fa645bc2-ee69-4d01-b4c5-d5d693d7b881
+2015-05-15 14:41:04.1800 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: dd2bfc9b-7c79-4296-b40f-cd10c862ce57
+2015-05-15 14:41:04.1940 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 583c58fa-be85-40f3-80f9-c14fca422f5b
+2015-05-15 14:41:04.1940 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 0cc8c30d-9cf1-4f14-9256-2ebc5efb002b
+2015-05-15 14:41:04.1940 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 0ed7a9b8-fb44-4658-bf6a-aee4a7da33ba dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:41:04.2500 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 583c58fa-be85-40f3-80f9-c14fca422f5b
+2015-05-15 14:41:04.2500 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 252af70e-ca26-4add-9dfc-6dfc48fb7ffe
+2015-05-15 14:41:04.2610 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: fa645bc2-ee69-4d01-b4c5-d5d693d7b881
+2015-05-15 14:41:04.2610 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: dd2bfc9b-7c79-4296-b40f-cd10c862ce57
+2015-05-15 14:41:06.1345 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/2
+2015-05-15 14:41:06.1345 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 779192f8-0799-4391-97b1-0f656de18984
+2015-05-15 14:41:06.1345 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 17e9a4e3-80b1-43c4-b637-9fe580f140a7
+2015-05-15 14:41:06.1345 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: c21faac2-8e39-4eec-ae60-d538194e0673
+2015-05-15 14:41:06.1345 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: cd763cf0-7b70-4535-a6ef-fef6f80e4e00
+2015-05-15 14:41:06.1495 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 12f52a74-c5b0-4df3-ab5c-2a535b737041
+2015-05-15 14:41:06.1495 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: da6c08ed-5bab-4e03-a203-2579c089aec4 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:41:06.1655 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: cd763cf0-7b70-4535-a6ef-fef6f80e4e00
+2015-05-15 14:41:06.1655 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 779192f8-0799-4391-97b1-0f656de18984
+2015-05-15 14:41:06.1655 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 17e9a4e3-80b1-43c4-b637-9fe580f140a7
+2015-05-15 14:41:06.1655 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: c21faac2-8e39-4eec-ae60-d538194e0673
+2015-05-15 14:41:07.5728 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(DELETE): /api/UsersInt/2
+2015-05-15 14:41:07.5728 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: f593528a-d3b4-414a-9f76-e8a647ffe15b
+2015-05-15 14:41:07.5728 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 19eb04dc-37f4-4f5b-94cd-e1082e0dfdb7
+2015-05-15 14:41:07.5728 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 02ebf065-3ea8-4488-8d4c-0600570f0b50
+2015-05-15 14:41:07.5728 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: a7ac4479-2f29-4e42-8385-f7dc43284b80
+2015-05-15 14:41:07.5728 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 62fbb73a-dfeb-4a3f-a204-53119d22ca2e
+2015-05-15 14:41:07.5728 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 03440e62-ec0f-4143-be18-a4bf3637ecde dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:41:07.6079 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: a7ac4479-2f29-4e42-8385-f7dc43284b80
+2015-05-15 14:41:07.6079 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: f593528a-d3b4-414a-9f76-e8a647ffe15b
+2015-05-15 14:41:07.6079 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 19eb04dc-37f4-4f5b-94cd-e1082e0dfdb7
+2015-05-15 14:41:07.6079 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 02ebf065-3ea8-4488-8d4c-0600570f0b50
+2015-05-15 14:41:07.6788 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/
+2015-05-15 14:41:07.6788 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 78dda204-4ec2-4a19-880d-dfd0ef323615
+2015-05-15 14:41:07.6788 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: f9a46e18-1c4b-412a-ae14-387c2261b39e
+2015-05-15 14:41:07.6928 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 18074829-7108-4ffc-8128-a91d225b164a
+2015-05-15 14:41:07.6928 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 50df357c-196d-43cf-8da6-b28c0519bdfd
+2015-05-15 14:41:07.6928 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 5069374b-1c53-4157-814c-bc51b0106f69
+2015-05-15 14:41:07.6928 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: f7dc8858-85db-4dd0-ae35-c409b9dee7e0 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:41:08.7708 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 50df357c-196d-43cf-8da6-b28c0519bdfd
+2015-05-15 14:41:08.8058 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 78dda204-4ec2-4a19-880d-dfd0ef323615
+2015-05-15 14:41:08.8178 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: f9a46e18-1c4b-412a-ae14-387c2261b39e
+2015-05-15 14:41:08.8660 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 18074829-7108-4ffc-8128-a91d225b164a
+2015-05-15 14:41:11.3651 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/3
+2015-05-15 14:41:11.3651 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 3508a235-7db7-47de-87ab-162d3ad59e54
+2015-05-15 14:41:11.3651 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: d7e59d03-c644-4919-beb5-810495fd32a3
+2015-05-15 14:41:11.3651 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 512477e5-e457-4c6b-bc0b-a1ce828c9421
+2015-05-15 14:41:11.3801 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: dcb9457e-0c7e-4ca2-b8c0-2dce3a56bbbc
+2015-05-15 14:41:11.3801 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | b31f8e70-d9d5-44e0-b9c6-7cc187f45125
+2015-05-15 14:41:11.3951 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: e18f45f7-98cd-44a9-ad18-b399a80dcc70 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:41:11.4241 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: dcb9457e-0c7e-4ca2-b8c0-2dce3a56bbbc
+2015-05-15 14:41:11.4271 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 3508a235-7db7-47de-87ab-162d3ad59e54
+2015-05-15 14:41:11.4271 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: d7e59d03-c644-4919-beb5-810495fd32a3
+2015-05-15 14:41:11.4271 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 512477e5-e457-4c6b-bc0b-a1ce828c9421
+2015-05-15 14:41:12.8744 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(DELETE): /api/UsersInt/3
+2015-05-15 14:41:12.8744 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: c13197b4-dd4a-41d9-b98f-571e9289df38
+2015-05-15 14:41:12.8744 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 2c556f9f-edbe-41d9-b177-e2beffe7f3e6
+2015-05-15 14:41:12.8744 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 930187de-4300-4c21-aaf4-6a4da0093c98
+2015-05-15 14:41:12.8744 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 53de4af8-627b-43ca-84ec-f4d902c0f2c2
+2015-05-15 14:41:12.8794 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 535122a0-0444-4aa2-9d2b-4542a2e99c93
+2015-05-15 14:41:12.8794 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: bcc2f1c1-31d2-40a3-b0eb-10a8e6572984 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:41:12.9204 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 53de4af8-627b-43ca-84ec-f4d902c0f2c2
+2015-05-15 14:41:12.9204 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: c13197b4-dd4a-41d9-b98f-571e9289df38
+2015-05-15 14:41:12.9204 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 2c556f9f-edbe-41d9-b177-e2beffe7f3e6
+2015-05-15 14:41:12.9204 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 930187de-4300-4c21-aaf4-6a4da0093c98
+2015-05-15 14:41:13.1104 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/
+2015-05-15 14:41:13.1164 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 3bf44405-64d6-4c8f-a38d-31cc82d2ade0
+2015-05-15 14:41:13.1164 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 9207e1b7-5edb-45fa-b9b0-fe5a79d55c02
+2015-05-15 14:41:13.1164 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 2d719606-d8d0-4307-bafa-aee40c2afd29
+2015-05-15 14:41:13.1294 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 5d9d2331-fc33-4cf9-a99a-da8960e38d45
+2015-05-15 14:41:13.1294 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | e48c26bf-a1ef-4378-a6e3-15f1a6f65c20
+2015-05-15 14:41:13.1474 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 58a89368-2503-4b6d-a340-53e97802736a dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:41:13.2414 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 5d9d2331-fc33-4cf9-a99a-da8960e38d45
+2015-05-15 14:41:13.2414 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 3bf44405-64d6-4c8f-a38d-31cc82d2ade0
+2015-05-15 14:41:13.2414 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 9207e1b7-5edb-45fa-b9b0-fe5a79d55c02
+2015-05-15 14:41:13.2414 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 2d719606-d8d0-4307-bafa-aee40c2afd29
+2015-05-15 14:41:14.8456 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/4
+2015-05-15 14:41:14.8526 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 52fa2658-4bae-4c42-b715-e4f75569c6d3
+2015-05-15 14:41:14.8526 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: c5f79601-0356-40a6-b3c7-3121775254f6
+2015-05-15 14:41:14.8526 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: e6c99668-5422-4232-b426-7dcbd555f98e
+2015-05-15 14:41:14.8646 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 726eb795-992c-4987-9fd8-86861b003977
+2015-05-15 14:41:14.8646 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | a14ea0bd-cf5a-4ef1-8733-e5f66ae4e95b
+2015-05-15 14:41:14.8646 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 724fb3f4-81f6-4702-9886-a47636f66f08 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:41:14.8826 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 726eb795-992c-4987-9fd8-86861b003977
+2015-05-15 14:41:14.8826 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 52fa2658-4bae-4c42-b715-e4f75569c6d3
+2015-05-15 14:41:14.8826 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: c5f79601-0356-40a6-b3c7-3121775254f6
+2015-05-15 14:41:14.8826 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: e6c99668-5422-4232-b426-7dcbd555f98e
+2015-05-15 14:41:18.2655 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(DELETE): /api/UsersInt/4
+2015-05-15 14:41:18.2655 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 5a20245a-5400-442b-8ff0-cd16c7582eb3
+2015-05-15 14:41:18.2655 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 0adee9c5-3d92-4fc4-8848-5c3f8ab52e32
+2015-05-15 14:41:18.2755 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: e2e3ae94-87c8-4f36-9241-707202b4370b
+2015-05-15 14:41:18.2755 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 572c59da-e25f-4d76-bbd7-64b0017c0233
+2015-05-15 14:41:18.2755 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | de264615-9cec-403f-ab78-bbc34d20b7eb
+2015-05-15 14:41:18.2755 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: e391e95c-53ef-4957-88ac-a84e5cbbaccd dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:41:18.3035 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 572c59da-e25f-4d76-bbd7-64b0017c0233
+2015-05-15 14:41:18.3035 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 5a20245a-5400-442b-8ff0-cd16c7582eb3
+2015-05-15 14:41:18.3035 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 0adee9c5-3d92-4fc4-8848-5c3f8ab52e32
+2015-05-15 14:41:18.3035 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: e2e3ae94-87c8-4f36-9241-707202b4370b
+2015-05-15 14:41:18.4125 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/
+2015-05-15 14:41:18.4125 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 8c5ea6f0-f4f7-48a4-afaf-21990928d896
+2015-05-15 14:41:18.4125 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 1bc2a0d7-3e62-4edc-9fce-cb506f91ec6c
+2015-05-15 14:41:18.4305 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 753737f9-372d-4b68-80c4-b28642ef0ffc
+2015-05-15 14:41:18.4455 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 34353983-bdba-485c-85a8-5119021b375a
+2015-05-15 14:41:18.4455 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | e3eb96c9-8b6b-4d75-ac44-19eacd9320d6
+2015-05-15 14:41:18.4455 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: b6b1ffc6-3a02-4706-94bf-162e3c0d97ee dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:41:18.4912 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 34353983-bdba-485c-85a8-5119021b375a
+2015-05-15 14:41:18.4912 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 8c5ea6f0-f4f7-48a4-afaf-21990928d896
+2015-05-15 14:41:18.4912 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 1bc2a0d7-3e62-4edc-9fce-cb506f91ec6c
+2015-05-15 14:41:18.4912 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 753737f9-372d-4b68-80c4-b28642ef0ffc
+2015-05-15 14:53:47.4223 |   INFO |                            DALEF.Helpers.EFRepositoryFactories.Dispose | _instanceId: b3c888f6-74c7-4a4d-902a-5ec0b559c106
+2015-05-15 14:54:20.4766 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/1@akaver.com/
+2015-05-15 14:54:20.5486 |   INFO |                              DALEF.Helpers.EFRepositoryFactories..ctor | _instanceId: ce1a2f06-b891-47e9-ab0c-44a997293fec
+2015-05-15 14:54:20.5536 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 50042c9a-d5d9-44c3-b1af-2b1e1e072fed
+2015-05-15 14:54:20.8466 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: babbecb1-dbf6-4790-8e8b-d636bd3da931
+2015-05-15 14:54:20.8486 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 109fcd15-0f43-4430-a0d6-542be7476623
+2015-05-15 14:54:20.8486 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: d2807636-b57f-4574-a097-88ce78695a47
+2015-05-15 14:54:21.0146 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 0ffabd2d-e106-4e59-b3c4-ca51792ca9c5
+2015-05-15 14:54:21.1806 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | 0ffabd2d-e106-4e59-b3c4-ca51792ca9c5
+2015-05-15 14:54:21.2006 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 1ff72cdf-49c7-4ec5-a000-caf52ce0c672 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:54:26.7716 |   INFO |                WebApi.Controllers.UsersIntController.GetUserByUserName | NotFound: 1@akaver.com
+2015-05-15 14:54:26.8076 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: d2807636-b57f-4574-a097-88ce78695a47
+2015-05-15 14:54:26.8206 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 50042c9a-d5d9-44c3-b1af-2b1e1e072fed
+2015-05-15 14:54:26.8356 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: babbecb1-dbf6-4790-8e8b-d636bd3da931
+2015-05-15 14:54:26.8496 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 109fcd15-0f43-4430-a0d6-542be7476623
+2015-05-15 14:54:26.9046 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByEmail/1@akaver.com/
+2015-05-15 14:54:26.9136 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: c1b1c4a3-076f-4cb0-bf91-65f2b5c5f542
+2015-05-15 14:54:26.9136 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 84490ce1-3510-4607-884f-50bd6582f450
+2015-05-15 14:54:26.9136 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: e3e6fcd5-aef2-4d17-b015-a1d7388bd445
+2015-05-15 14:54:26.9136 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 859fbaee-bf6d-4685-9a10-b87382682f99
+2015-05-15 14:54:26.9266 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 08b033e5-3687-4a95-bd19-4f24561aaf0a
+2015-05-15 14:54:26.9426 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 262c6c2d-07b7-4bbc-b5ce-50e523bd027d dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:54:26.9426 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 859fbaee-bf6d-4685-9a10-b87382682f99
+2015-05-15 14:54:26.9426 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: c1b1c4a3-076f-4cb0-bf91-65f2b5c5f542
+2015-05-15 14:54:26.9426 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 84490ce1-3510-4607-884f-50bd6582f450
+2015-05-15 14:54:26.9576 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: e3e6fcd5-aef2-4d17-b015-a1d7388bd445
+2015-05-15 14:54:27.3286 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(POST): /api/UsersInt/
+2015-05-15 14:54:27.3396 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: c91973cf-ee54-4f24-9855-0980b1c5354f
+2015-05-15 14:54:27.3896 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 6080bfc6-52ba-45e3-9eb2-73692a58f595
+2015-05-15 14:54:27.3986 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 06f00657-aefa-443d-8c99-42dfbeca8fa9
+2015-05-15 14:54:27.4316 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 984ef593-071f-431c-be22-cbd0352734f2
+2015-05-15 14:54:27.4486 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 21185a5c-0e4b-4cc6-90b7-269760bf957e
+2015-05-15 14:54:27.8766 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 8d538fa2-cdaf-4e21-9c9e-f71a49fb2725 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:54:28.2866 |  DEBUG |                      WebApi.Controllers.UsersIntController.PostUserInt | 1@akaver.com (14)
+2015-05-15 14:54:28.4256 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 984ef593-071f-431c-be22-cbd0352734f2
+2015-05-15 14:54:28.4316 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: c91973cf-ee54-4f24-9855-0980b1c5354f
+2015-05-15 14:54:28.4316 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 6080bfc6-52ba-45e3-9eb2-73692a58f595
+2015-05-15 14:54:28.4456 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 06f00657-aefa-443d-8c99-42dfbeca8fa9
+2015-05-15 14:54:28.6156 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/GetUserByUserName/1@akaver.com/
+2015-05-15 14:54:28.6156 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 05024b19-6f37-48d3-913a-c744cb2e5482
+2015-05-15 14:54:28.6326 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 395dd91e-caae-4a35-a171-479bdc236df7
+2015-05-15 14:54:28.6326 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: fd4e5a7f-69fc-457e-b850-c5aae9617a7f
+2015-05-15 14:54:28.6476 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 3e4b47aa-f110-48ca-a6f4-f4a4552490b5
+2015-05-15 14:54:28.6476 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 6b2c8fd4-6cc5-433a-b64e-f2ff32a4bbcc
+2015-05-15 14:54:28.6476 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | 6b2c8fd4-6cc5-433a-b64e-f2ff32a4bbcc
+2015-05-15 14:54:28.6476 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: e66651dd-881e-4754-9121-d5dd965d3ef9 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:54:28.6786 |  DEBUG |                WebApi.Controllers.UsersIntController.GetUserByUserName | Found: 1@akaver.com
+2015-05-15 14:54:28.8613 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 3e4b47aa-f110-48ca-a6f4-f4a4552490b5
+2015-05-15 14:54:28.8613 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 05024b19-6f37-48d3-913a-c744cb2e5482
+2015-05-15 14:54:28.8613 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 395dd91e-caae-4a35-a171-479bdc236df7
+2015-05-15 14:54:28.8613 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: fd4e5a7f-69fc-457e-b850-c5aae9617a7f
+2015-05-15 14:54:28.8826 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/14
+2015-05-15 14:54:28.8826 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 34a9f7ea-6a7a-443c-a76a-cb8343c56dd6
+2015-05-15 14:54:28.8826 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 05d6a40b-2188-4d72-86c3-5c8225b9787f
+2015-05-15 14:54:28.8966 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 6176c1a6-21b1-4955-baf6-cf9022ccc45a
+2015-05-15 14:54:28.8966 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: c05bf54e-178a-4bb7-95d8-16906e64ccaf
+2015-05-15 14:54:28.8966 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 30926cdd-30e0-43f1-b5a3-0485e7e1143e
+2015-05-15 14:54:28.9136 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 03ebc279-0322-4bb9-bde0-292e6a8367fb dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:54:28.9406 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: c05bf54e-178a-4bb7-95d8-16906e64ccaf
+2015-05-15 14:54:28.9423 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 34a9f7ea-6a7a-443c-a76a-cb8343c56dd6
+2015-05-15 14:54:28.9423 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 05d6a40b-2188-4d72-86c3-5c8225b9787f
+2015-05-15 14:54:28.9423 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 6176c1a6-21b1-4955-baf6-cf9022ccc45a
+2015-05-15 14:54:28.9596 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/RolesInt/GetRolesForUser/14
+2015-05-15 14:54:28.9596 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 446b522a-80a1-46de-813d-6f3f831df580
+2015-05-15 14:54:28.9596 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 4f3b721d-94ec-455c-9720-2f959266b1e2
+2015-05-15 14:54:28.9746 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: ed7da947-4422-4702-8e25-303592b30f01
+2015-05-15 14:54:28.9746 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 9a181694-8166-45f8-ad8b-bfcf46e5e7f3
+2015-05-15 14:54:28.9746 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/RolesInt/GetRolesForUser/14
+2015-05-15 14:54:28.9746 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: a0608e84-7116-46b8-a635-96014aa71f4d
+2015-05-15 14:54:28.9896 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 8c08621b-1ff1-4dc1-8065-58f3d95b99b0
+2015-05-15 14:54:28.9896 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: 2945c0f0-e031-4849-9985-abbe8d5281a9
+2015-05-15 14:54:28.9896 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 3ea1daf9-5406-4af6-9265-03fc69295733
+2015-05-15 14:54:29.0326 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 3ea1daf9-5406-4af6-9265-03fc69295733
+2015-05-15 14:54:29.0326 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: a0608e84-7116-46b8-a635-96014aa71f4d
+2015-05-15 14:54:29.0326 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(GET): /api/UsersInt/14
+2015-05-15 14:54:29.0326 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 8c08621b-1ff1-4dc1-8065-58f3d95b99b0
+2015-05-15 14:54:29.0366 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: 2945c0f0-e031-4849-9985-abbe8d5281a9
+2015-05-15 14:54:29.0366 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 7d2b6ec9-85dd-445d-b51b-bc458a962d37
+2015-05-15 14:54:29.0516 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: 77530ca1-691a-44bf-b54f-086b22e673f1
+2015-05-15 14:54:29.0516 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: d9ff3571-a365-4157-882a-3b41361cc3f7
+2015-05-15 14:54:29.0516 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: 160a47df-e097-474e-9e52-fd7c0aa73a3f
+2015-05-15 14:54:29.0516 |  DEBUG |                            WebApi.Controllers.UsersIntController..ctor | 4c005d24-e420-4131-bfa5-d9195af9bf1a
+2015-05-15 14:54:29.0686 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 0394b58d-02c2-4367-8dd5-5137075b112f dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:54:29.0516 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 9a181694-8166-45f8-ad8b-bfcf46e5e7f3
+2015-05-15 14:54:29.0686 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 446b522a-80a1-46de-813d-6f3f831df580
+2015-05-15 14:54:29.0826 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 4f3b721d-94ec-455c-9720-2f959266b1e2
+2015-05-15 14:54:29.0826 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: ed7da947-4422-4702-8e25-303592b30f01
+2015-05-15 14:54:29.1146 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: 160a47df-e097-474e-9e52-fd7c0aa73a3f
+2015-05-15 14:54:29.1146 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 7d2b6ec9-85dd-445d-b51b-bc458a962d37
+2015-05-15 14:54:29.1486 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: 77530ca1-691a-44bf-b54f-086b22e673f1
+2015-05-15 14:54:29.1646 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: d9ff3571-a365-4157-882a-3b41361cc3f7
+2015-05-15 14:54:29.2046 |   INFO |                      WebApi.WebApiApplication.Application_BeginRequest | URL(POST): /token
+2015-05-15 14:54:29.2156 |   INFO |                               DALEF.Helpers.EFRepositoryProvider..ctor | _instanceId: 4cf8c800-2ad7-45ba-af14-c73ecdaa3a9f
+2015-05-15 14:54:29.2156 |   INFO |                                            DALEF.WebAppEFContext..ctor | _instanceId: df2e1cbd-8edc-4d44-b0af-626f3e3dbf9c
+2015-05-15 14:54:29.2156 |   INFO |                                                        DALEF.UOW..ctor | _instanceId: e6cd5186-e2a9-4b06-b95a-58538fb28469
+2015-05-15 14:54:29.2686 |   INFO |                                          IdentityEF.UserStore`11..ctor | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27
+2015-05-15 14:54:29.3376 |   INFO |                                IdentityEF.UserStore`11.FindByNameAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27
+2015-05-15 14:54:29.3376 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 500eb3c3-24fc-45cc-98d2-8efe289c29fc dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.UserInt]
+2015-05-15 14:54:29.3726 |   INFO |                           IdentityEF.UserStore`11.GetPasswordHashAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27
+2015-05-15 14:54:29.4220 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27 userId:14
+2015-05-15 14:54:29.4296 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | result: 1@akaver.com
+2015-05-15 14:54:29.4296 |   INFO |                          IdentityEF.UserStore`11.GetSecurityStampAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27 user.SecurityStamp:6ddab97a-0991-41f6-86cb-7714759c4630
+2015-05-15 14:54:29.4296 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27 userId:14
+2015-05-15 14:54:29.4446 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | result: 1@akaver.com
+2015-05-15 14:54:29.4446 |   INFO |                                  IdentityEF.UserStore`11.GetRolesAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27 user.Email:1@akaver.com
+2015-05-15 14:54:29.4586 |   INFO |                                DALEF.Repositories.EFRepository`1..ctor | _instanceId: 5597f580-2afa-47fa-81d5-cf62fc3fb327 dbSet: System.Data.Entity.DbSet`1[Domain.IdentityModels.RoleInt]
+2015-05-15 14:54:29.6346 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27 userId:14
+2015-05-15 14:54:29.6346 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | result: 1@akaver.com
+2015-05-15 14:54:29.6346 |   INFO |                                 IdentityEF.UserStore`11.GetClaimsAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27
+2015-05-15 14:54:29.6346 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27 userId:14
+2015-05-15 14:54:29.6516 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | result: 1@akaver.com
+2015-05-15 14:54:29.6516 |   INFO |                          IdentityEF.UserStore`11.GetSecurityStampAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27 user.SecurityStamp:6ddab97a-0991-41f6-86cb-7714759c4630
+2015-05-15 14:54:29.6626 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27 userId:14
+2015-05-15 14:54:29.6626 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | result: 1@akaver.com
+2015-05-15 14:54:29.6626 |   INFO |                                  IdentityEF.UserStore`11.GetRolesAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27 user.Email:1@akaver.com
+2015-05-15 14:54:29.6796 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27 userId:14
+2015-05-15 14:54:29.6796 |   INFO |                                  IdentityEF.UserStore`11.FindByIdAsync | result: 1@akaver.com
+2015-05-15 14:54:29.6796 |   INFO |                                 IdentityEF.UserStore`11.GetClaimsAsync | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27
+2015-05-15 14:54:29.7116 |   INFO |                                        IdentityEF.UserStore`11.Dispose | _instanceId: ce839378-51e4-489a-83f4-3facf6a81b27
+2015-05-15 14:54:29.7116 |   INFO |                             DALEF.Helpers.EFRepositoryProvider.Dispose | _instanceId: 4cf8c800-2ad7-45ba-af14-c73ecdaa3a9f
+2015-05-15 14:54:29.7116 |   INFO |                                          DALEF.WebAppEFContext.Dispose | Disposing: True _instanceId: df2e1cbd-8edc-4d44-b0af-626f3e3dbf9c
+2015-05-15 14:54:29.7236 |   INFO |                                                      DALEF.UOW.Dispose | Disposing: True _instanceId: e6cd5186-e2a9-4b06-b95a-58538fb28469

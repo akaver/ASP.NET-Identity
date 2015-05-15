@@ -1,0 +1,644 @@
+2015-05-15 13:48:05.1918 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 169e8515-a0f6-44e5-ba33-a622516fd007
+2015-05-15 13:48:05.2278 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 895c0ccd-52e8-4350-ad26-1551bb6c6f19
+2015-05-15 13:48:05.3920 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 3af82b5f-9320-43dc-b04c-fc1142f5d8e8
+2015-05-15 13:48:05.4038 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 666583a9-a2ba-424d-8f8d-055cc2bea413
+2015-05-15 13:48:05.4118 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: cf213328-593e-43b0-8d88-9f57ee81c89e
+2015-05-15 13:48:05.4118 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 5c6d5a2a-1aa6-4802-9cd9-61da0a422c44
+2015-05-15 13:48:05.4318 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: d364636d-5139-4932-ac41-06d472170703
+2015-05-15 13:48:05.4438 |  DEBUG |                                WebMVC.Providers.WebApiTokenStore..ctor | Created with id: 98f476d2-602f-4d5c-b3c5-4a85aed2bee7
+2015-05-15 13:48:05.4438 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: fc5d388f-5e5a-448f-90dd-04820a5424ea
+2015-05-15 13:48:05.6198 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 197d88ce-2d3c-40ae-9914-617a5c69a8cc
+2015-05-15 13:48:05.6198 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 13:48:05.6597 |   INFO |                       IdentityWebApi.UserStore`11.SetPasswordHashAsync | _instanceId: 3af82b5f-9320-43dc-b04c-fc1142f5d8e8
+2015-05-15 13:48:05.6646 |   INFO |                       IdentityWebApi.UserStore`11.SetPasswordHashAsync | User.Id: 0 PasswordHash: AOadYirN1PLVNatS5v9xMz2VpxHioWCaJq98/85jJyXZQJGTATNbTZVeNYjJuqkn9g==
+2015-05-15 13:48:05.6646 |   INFO |                      IdentityWebApi.UserStore`11.SetSecurityStampAsync | _instanceId: 3af82b5f-9320-43dc-b04c-fc1142f5d8e8 stamp:6e637a41-641c-4227-bdd6-6a11c13868c8
+2015-05-15 13:48:05.6646 |   INFO |                      IdentityWebApi.UserStore`11.SetSecurityStampAsync | _instanceId: 3af82b5f-9320-43dc-b04c-fc1142f5d8e8 stamp:3ea34f85-3507-4ec9-a9ed-08b43386e8ee
+2015-05-15 13:48:05.6798 |   INFO |                            IdentityWebApi.UserStore`11.FindByNameAsync | _instanceId: 3af82b5f-9320-43dc-b04c-fc1142f5d8e8
+2015-05-15 13:48:05.6998 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 13:48:05.6998 |  DEBUG |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | 12@akaver.com
+2015-05-15 13:48:10.3117 |  ERROR |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | Not Found 12@akaver.com http://localhost:30422/api/UsersInt/GetUserByUserName/12@akaver.com/
+2015-05-15 13:48:10.3238 |   INFO |                              IdentityWebApi.UserStore`11.GetEmailAsync | _instanceId: 3af82b5f-9320-43dc-b04c-fc1142f5d8e8
+2015-05-15 13:48:10.3238 |   INFO |                           IdentityWebApi.UserStore`11.FindByEmailAsync | _instanceId: 3af82b5f-9320-43dc-b04c-fc1142f5d8e8
+2015-05-15 13:48:10.3638 |  DEBUG |                 DALWebApi.Repositories.UserRepository`6.GetUserByEmail | 12@akaver.com
+2015-05-15 13:48:10.4438 |  ERROR |                 DALWebApi.Repositories.UserRepository`6.GetUserByEmail | Not Found
+2015-05-15 13:48:10.4438 |   INFO |                     IdentityWebApi.UserStore`11.SetLockoutEnabledAsync | _instanceId: 3af82b5f-9320-43dc-b04c-fc1142f5d8e8
+2015-05-15 13:48:10.4438 |   INFO |                                IdentityWebApi.UserStore`11.CreateAsync | _instanceId: 3af82b5f-9320-43dc-b04c-fc1142f5d8e8
+2015-05-15 13:48:10.4597 |  DEBUG |                          DALWebApi.Repositories.WebApiRepository`1.Add | Domain.IdentityModels.UserInt
+2015-05-15 13:48:14.6477 |  DEBUG |                          DALWebApi.Repositories.WebApiRepository`1.Add | http://localhost:30422/api/UsersInt/11
+2015-05-15 13:48:14.6477 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: cf213328-593e-43b0-8d88-9f57ee81c89e userId:0
+2015-05-15 13:48:14.6917 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 0
+2015-05-15 13:48:14.8958 |  ERROR |                      DALWebApi.Repositories.WebApiRepository`1.GetById | Not Found GetById http://localhost:30422/api/UsersInt/0 GetAsync Domain.IdentityModels.UserInt
+2015-05-15 13:48:14.8958 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: null
+2015-05-15 13:48:14.9198 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: fc5d388f-5e5a-448f-90dd-04820a5424ea
+2015-05-15 13:48:15.0157 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 169e8515-a0f6-44e5-ba33-a622516fd007
+2015-05-15 14:28:48.7830 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 59c530ac-521b-45d9-9b70-dc6ffc0bbbe7
+2015-05-15 14:28:48.8190 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 9bb6e97f-b6a3-4d48-a316-9142dc3a7253
+2015-05-15 14:28:48.9750 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 8a9e669b-9d00-418a-979c-54e3481a7ee5
+2015-05-15 14:28:48.9750 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 5609772e-6234-4b40-a1f2-3d7a50bfd880
+2015-05-15 14:28:48.9750 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: f1c414ac-a93a-446c-b5cc-ebd100fc0592
+2015-05-15 14:28:48.9750 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: c43f295e-1b0e-4537-8fd5-3621c58d0a53
+2015-05-15 14:28:48.9950 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: 4c432d53-e8d1-4760-8960-58853d9ada60
+2015-05-15 14:28:48.9950 |  DEBUG |                                WebMVC.Providers.WebApiTokenStore..ctor | Created with id: e7a57ebc-587d-4da9-b309-f29529b2bb4d
+2015-05-15 14:28:49.0050 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: 53dc243e-d012-4ea7-9099-83088b4f9a92
+2015-05-15 14:28:49.1970 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | bcd01b7d-2db5-43a0-a4be-6471091065d1
+2015-05-15 14:28:49.1970 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 14:28:49.2470 |   INFO |                       IdentityWebApi.UserStore`11.SetPasswordHashAsync | _instanceId: 8a9e669b-9d00-418a-979c-54e3481a7ee5
+2015-05-15 14:28:49.2470 |   INFO |                       IdentityWebApi.UserStore`11.SetPasswordHashAsync | User.Id: 0 PasswordHash: APMn0rEOonlvFBCSWY8M8b0LOBaoT8yhLgAMRiyO5QfL5kGwcfjNKstYqiZtRaEq3Q==
+2015-05-15 14:28:49.2580 |   INFO |                      IdentityWebApi.UserStore`11.SetSecurityStampAsync | _instanceId: 8a9e669b-9d00-418a-979c-54e3481a7ee5 stamp:063063de-530c-4fbe-83f7-5b05646d2260
+2015-05-15 14:28:49.2580 |   INFO |                      IdentityWebApi.UserStore`11.SetSecurityStampAsync | _instanceId: 8a9e669b-9d00-418a-979c-54e3481a7ee5 stamp:d16da74b-e2b2-4304-a69e-bb6d2d94caeb
+2015-05-15 14:28:49.2700 |   INFO |                            IdentityWebApi.UserStore`11.FindByNameAsync | _instanceId: 8a9e669b-9d00-418a-979c-54e3481a7ee5
+2015-05-15 14:28:49.3100 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:28:49.3100 |  DEBUG |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | 13@akaver.com
+2015-05-15 14:28:49.4010 |  ERROR |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | Not Found 13@akaver.com http://localhost:30422/api/UsersInt/GetUserByUserName/13@akaver.com/
+2015-05-15 14:28:49.4010 |   INFO |                              IdentityWebApi.UserStore`11.GetEmailAsync | _instanceId: 8a9e669b-9d00-418a-979c-54e3481a7ee5
+2015-05-15 14:28:49.4010 |   INFO |                           IdentityWebApi.UserStore`11.FindByEmailAsync | _instanceId: 8a9e669b-9d00-418a-979c-54e3481a7ee5
+2015-05-15 14:28:49.4010 |  DEBUG |                 DALWebApi.Repositories.UserRepository`6.GetUserByEmail | 13@akaver.com
+2015-05-15 14:28:49.4890 |  ERROR |                 DALWebApi.Repositories.UserRepository`6.GetUserByEmail | Not Found
+2015-05-15 14:28:49.4890 |   INFO |                     IdentityWebApi.UserStore`11.SetLockoutEnabledAsync | _instanceId: 8a9e669b-9d00-418a-979c-54e3481a7ee5
+2015-05-15 14:28:49.4890 |   INFO |                                IdentityWebApi.UserStore`11.CreateAsync | _instanceId: 8a9e669b-9d00-418a-979c-54e3481a7ee5
+2015-05-15 14:28:49.5060 |  DEBUG |                          DALWebApi.Repositories.WebApiRepository`1.Add | Domain.IdentityModels.UserInt
+2015-05-15 14:28:50.5070 |  DEBUG |                          DALWebApi.Repositories.WebApiRepository`1.Add | http://localhost:30422/api/UsersInt/12
+2015-05-15 14:28:50.5250 |   INFO |                            IdentityWebApi.UserStore`11.FindByNameAsync | _instanceId: f1c414ac-a93a-446c-b5cc-ebd100fc0592
+2015-05-15 14:28:50.5250 |  DEBUG |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | 13@akaver.com
+2015-05-15 14:28:50.6370 |  ERROR |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | Not Found 13@akaver.com http://localhost:30422/api/UsersInt/GetUserByUserName/13@akaver.com/
+2015-05-15 14:28:50.6491 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: 53dc243e-d012-4ea7-9099-83088b4f9a92
+2015-05-15 14:28:50.7130 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 59c530ac-521b-45d9-9b70-dc6ffc0bbbe7
+2015-05-15 14:32:42.0614 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 2d9ca18b-e23b-4b58-8c6d-c83bdc00acf0
+2015-05-15 14:32:42.1054 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 07568afa-6f09-48cd-803f-c6899f6317c8
+2015-05-15 14:32:42.1714 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: f0b4a143-1dd7-4f55-9490-9b89e75b6869
+2015-05-15 14:32:42.1714 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 0d0fc59d-f68e-4552-9ce9-faa10ff5438a
+2015-05-15 14:32:42.1714 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 91482fb3-c270-42bf-a75a-b4df08a12eba
+2015-05-15 14:32:42.1764 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 44a4eedf-ab4e-4e45-b7aa-2dccb06b2a17
+2015-05-15 14:32:42.1764 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: 09be2772-4c4c-4871-9405-d24a6cb45e56
+2015-05-15 14:32:42.1764 |  DEBUG |                                WebMVC.Providers.WebApiTokenStore..ctor | Created with id: 4e26b867-bde8-40aa-8924-6a61f8b39e6b
+2015-05-15 14:32:42.1934 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: 99182241-968b-452c-ae5d-fee1557ba0b6
+2015-05-15 14:32:42.4694 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | f591bf56-6893-4007-91ac-83159020da2b
+2015-05-15 14:32:42.4744 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 14:32:46.1414 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: 99182241-968b-452c-ae5d-fee1557ba0b6
+2015-05-15 14:32:46.1874 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 2d9ca18b-e23b-4b58-8c6d-c83bdc00acf0
+2015-05-15 14:32:47.3909 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 08fb0309-562e-4b20-af39-0265be49fddc
+2015-05-15 14:32:47.3909 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 96de82ae-adda-44fc-8f9f-1010511c2f49
+2015-05-15 14:32:47.4065 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 08fb0309-562e-4b20-af39-0265be49fddc
+2015-05-15 14:32:57.1414 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: b52eb08c-b5e2-49af-bd1d-290b61403f5b
+2015-05-15 14:32:57.1414 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 79180d86-25d9-404a-bb24-94f55d74434c
+2015-05-15 14:32:57.1514 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: bef51163-fa0e-4e1b-80ae-5665a849caa9
+2015-05-15 14:32:57.1514 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: b667c646-0b25-40a7-8ec5-721f86e69634
+2015-05-15 14:32:57.1514 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 340a9042-c414-4c17-84ef-f3b17a1ec2c8
+2015-05-15 14:32:57.1514 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 82f14a36-dcbd-42cd-a00f-1ffcf3be55fb
+2015-05-15 14:32:57.1514 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: b613cbf0-7397-43cf-b6ea-6b1c454945dc
+2015-05-15 14:32:57.1514 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: 2139d2e9-7e9b-41e2-a940-407e1c95130b
+2015-05-15 14:32:57.1514 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | f591bf56-6893-4007-91ac-83159020da2b
+2015-05-15 14:32:57.1514 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 14:32:57.1994 |   INFO |                       IdentityWebApi.UserStore`11.SetPasswordHashAsync | _instanceId: bef51163-fa0e-4e1b-80ae-5665a849caa9
+2015-05-15 14:32:57.2114 |   INFO |                       IdentityWebApi.UserStore`11.SetPasswordHashAsync | User.Id: 0 PasswordHash: AINMQe8KYcOY3MBlnr8sXXBoCWQKz0gAyvhkozMniwKLWfdwLXLveHIS9DOB1UD7PQ==
+2015-05-15 14:32:57.2114 |   INFO |                      IdentityWebApi.UserStore`11.SetSecurityStampAsync | _instanceId: bef51163-fa0e-4e1b-80ae-5665a849caa9 stamp:61e22d60-c149-4525-8ff3-b8bff6c050e1
+2015-05-15 14:32:57.2244 |   INFO |                      IdentityWebApi.UserStore`11.SetSecurityStampAsync | _instanceId: bef51163-fa0e-4e1b-80ae-5665a849caa9 stamp:97f8f548-5ce1-453d-aafe-7a4ab5548cac
+2015-05-15 14:32:57.2244 |   INFO |                            IdentityWebApi.UserStore`11.FindByNameAsync | _instanceId: bef51163-fa0e-4e1b-80ae-5665a849caa9
+2015-05-15 14:32:57.2606 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:32:57.2606 |  DEBUG |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | 14@akaver.com
+2015-05-15 14:32:57.3144 |  ERROR |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | Not Found 14@akaver.com http://localhost:30422/api/UsersInt/GetUserByUserName/14@akaver.com/
+2015-05-15 14:32:57.3274 |   INFO |                              IdentityWebApi.UserStore`11.GetEmailAsync | _instanceId: bef51163-fa0e-4e1b-80ae-5665a849caa9
+2015-05-15 14:32:57.3274 |   INFO |                           IdentityWebApi.UserStore`11.FindByEmailAsync | _instanceId: bef51163-fa0e-4e1b-80ae-5665a849caa9
+2015-05-15 14:32:57.3274 |  DEBUG |                 DALWebApi.Repositories.UserRepository`6.GetUserByEmail | 14@akaver.com
+2015-05-15 14:32:57.3784 |  ERROR |                 DALWebApi.Repositories.UserRepository`6.GetUserByEmail | Not Found
+2015-05-15 14:32:57.3804 |   INFO |                     IdentityWebApi.UserStore`11.SetLockoutEnabledAsync | _instanceId: bef51163-fa0e-4e1b-80ae-5665a849caa9
+2015-05-15 14:32:57.3804 |   INFO |                                IdentityWebApi.UserStore`11.CreateAsync | _instanceId: bef51163-fa0e-4e1b-80ae-5665a849caa9
+2015-05-15 14:32:57.3804 |  DEBUG |                          DALWebApi.Repositories.WebApiRepository`1.Add | Domain.IdentityModels.UserInt
+2015-05-15 14:32:58.2524 |  DEBUG |                          DALWebApi.Repositories.WebApiRepository`1.Add | http://localhost:30422/api/UsersInt/13
+2015-05-15 14:32:58.2584 |   INFO |                            IdentityWebApi.UserStore`11.FindByNameAsync | _instanceId: 340a9042-c414-4c17-84ef-f3b17a1ec2c8
+2015-05-15 14:32:58.2754 |  DEBUG |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | 14@akaver.com
+2015-05-15 14:32:58.4664 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 340a9042-c414-4c17-84ef-f3b17a1ec2c8 userId:13
+2015-05-15 14:32:58.4664 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:32:58.6134 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:32:58.6144 |   INFO |                              IdentityWebApi.UserStore`11.GetRolesAsync | _instanceId: 340a9042-c414-4c17-84ef-f3b17a1ec2c8 user.Email:14@akaver.com
+2015-05-15 14:32:58.6144 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/RolesInt/
+2015-05-15 14:32:58.7134 |  ERROR |                DALWebApi.Repositories.RoleRepository`6.GetRolesForUser | Not Found
+2015-05-15 14:32:58.7134 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 340a9042-c414-4c17-84ef-f3b17a1ec2c8 userId:13
+2015-05-15 14:32:58.7134 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:32:58.8064 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:32:58.8064 |   INFO |                             IdentityWebApi.UserStore`11.GetClaimsAsync | _instanceId: 340a9042-c414-4c17-84ef-f3b17a1ec2c8
+2015-05-15 14:32:58.8174 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: 2139d2e9-7e9b-41e2-a940-407e1c95130b
+2015-05-15 14:32:58.8374 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: b52eb08c-b5e2-49af-bd1d-290b61403f5b
+2015-05-15 14:32:58.8614 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 890b8ac2-e862-4a4d-b38b-95a2d195ea61
+2015-05-15 14:32:58.8614 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 9e41f95d-f3b5-4f4c-87ed-90c7608b3638
+2015-05-15 14:32:58.8794 |   INFO |                                WebMVC.Controllers.HomeController..ctor | _instanceId: 7fb72460-39ad-4cf6-893c-e6c2e9f42169
+2015-05-15 14:32:58.8794 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | f591bf56-6893-4007-91ac-83159020da2b
+2015-05-15 14:32:58.8794 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: home
+2015-05-15 14:32:58.8794 |   INFO |                              WebMVC.Controllers.HomeController.Dispose | Disposing: True _instanceId: 7fb72460-39ad-4cf6-893c-e6c2e9f42169
+2015-05-15 14:32:58.8994 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 890b8ac2-e862-4a4d-b38b-95a2d195ea61
+2015-05-15 14:32:58.9114 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: df742ac7-356e-4ff3-a88b-6a1796f01830
+2015-05-15 14:32:58.9114 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 88393f04-0f50-4e6a-80d2-562ceaff3cb5
+2015-05-15 14:32:58.9114 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 4e4db568-26fd-4ba4-b7a8-302becf26cb4
+2015-05-15 14:32:58.9114 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 93b139de-1627-4683-be41-d71d4443c157
+2015-05-15 14:32:58.9304 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 366dee68-3e1b-4644-a129-b22b06e22a8c
+2015-05-15 14:32:58.9304 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: dd04471a-17ad-4cfe-ba11-92790a292d85
+2015-05-15 14:32:58.9304 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: c97a5199-9dff-49ac-bc30-02bd8ae34b5f
+2015-05-15 14:32:58.9304 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: f923dec7-2cad-4e85-accb-511b8d34616b
+2015-05-15 14:32:58.9304 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | f591bf56-6893-4007-91ac-83159020da2b
+2015-05-15 14:32:58.9304 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: account
+2015-05-15 14:32:58.9304 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: f923dec7-2cad-4e85-accb-511b8d34616b
+2015-05-15 14:32:58.9454 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: df742ac7-356e-4ff3-a88b-6a1796f01830
+2015-05-15 14:32:58.9614 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: de30d796-dc23-4122-a161-82266a7d97b1
+2015-05-15 14:32:58.9614 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 4035de84-5891-448b-838c-79d98f7523bb
+2015-05-15 14:32:58.9614 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 6f1a3134-bbf8-4d2a-ab3c-ad7a53039817
+2015-05-15 14:32:58.9614 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 6e7cbbd0-4643-4a5e-9982-76d2275396f7
+2015-05-15 14:32:58.9614 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 7f3de1c9-786d-411d-88d1-7521c252f8f8
+2015-05-15 14:32:58.9614 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 190feffc-e133-42b3-88c0-8b75a42c049f
+2015-05-15 14:32:58.9614 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: dcb73244-67fc-4c13-8ec1-5a6571e3b646
+2015-05-15 14:32:58.9734 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: 5e8d908a-37aa-41fa-babb-2bc569859294
+2015-05-15 14:32:58.9734 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | f591bf56-6893-4007-91ac-83159020da2b
+2015-05-15 14:32:58.9734 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 14:32:59.0694 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: 5e8d908a-37aa-41fa-babb-2bc569859294
+2015-05-15 14:32:59.0694 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: de30d796-dc23-4122-a161-82266a7d97b1
+2015-05-15 14:33:00.2432 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 0892aae9-d7bd-4386-8b92-e8d43a21b918
+2015-05-15 14:33:00.2432 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 8f06f460-bc45-44ee-ba16-56f62764fb71
+2015-05-15 14:33:00.2588 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 0892aae9-d7bd-4386-8b92-e8d43a21b918
+2015-05-15 14:37:21.1886 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 1f024001-f021-4fd7-82a2-0331ee92256a
+2015-05-15 14:37:21.2106 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 66abc129-677f-4874-8158-de5b91c75dbe
+2015-05-15 14:37:21.2407 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: cc326fec-db1e-44b9-973b-11f26705d7cd
+2015-05-15 14:37:21.2547 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 73e0d3a4-bf38-47c5-813c-5d0cbc828ef6
+2015-05-15 14:37:21.2547 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45
+2015-05-15 14:37:21.2717 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 00b1e4e7-124f-42f6-8930-cfbca4eea26a
+2015-05-15 14:37:21.2717 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: c23c0356-8cca-47b2-ab51-b6aff94923d3
+2015-05-15 14:37:21.2717 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: 92052649-0b31-4c9c-a5af-2a91587d11b2
+2015-05-15 14:37:21.2717 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | f591bf56-6893-4007-91ac-83159020da2b
+2015-05-15 14:37:21.2717 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 14:37:21.2947 |   INFO |                            IdentityWebApi.UserStore`11.FindByNameAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45
+2015-05-15 14:37:21.2947 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:37:21.3016 |  DEBUG |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | 14@akaver.com
+2015-05-15 14:37:21.4726 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45 userId:13
+2015-05-15 14:37:21.4796 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:37:21.5577 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:37:21.5577 |   INFO |                     IdentityWebApi.UserStore`11.GetLockoutEnabledAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45
+2015-05-15 14:37:21.5577 |   INFO |                     IdentityWebApi.UserStore`11.GetLockoutEndDateAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45
+2015-05-15 14:37:21.5696 |   INFO |                       IdentityWebApi.UserStore`11.GetPasswordHashAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45
+2015-05-15 14:37:21.5936 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45 userId:13
+2015-05-15 14:37:21.5936 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:37:21.6620 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:37:21.6620 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45 userId:13
+2015-05-15 14:37:21.6620 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:37:21.7137 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:37:21.7137 |   INFO |                  IdentityWebApi.UserStore`11.GetAccessFailedCountAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45
+2015-05-15 14:37:21.7456 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45 userId:13
+2015-05-15 14:37:21.7456 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:37:21.7837 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:37:21.7837 |   INFO |                   IdentityWebApi.UserStore`11.GetTwoFactorEnabledAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45
+2015-05-15 14:37:21.7837 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45 userId:13
+2015-05-15 14:37:21.7876 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:37:21.8216 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:37:21.8216 |   INFO |                              IdentityWebApi.UserStore`11.GetRolesAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45 user.Email:14@akaver.com
+2015-05-15 14:37:21.8216 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/RolesInt/
+2015-05-15 14:37:21.8706 |  ERROR |                DALWebApi.Repositories.RoleRepository`6.GetRolesForUser | Not Found
+2015-05-15 14:37:21.8706 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45 userId:13
+2015-05-15 14:37:21.8706 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:37:21.9467 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:37:21.9467 |   INFO |                             IdentityWebApi.UserStore`11.GetClaimsAsync | _instanceId: 4d99468f-a856-4712-9823-0af483c36c45
+2015-05-15 14:37:21.9587 |  DEBUG |                     WebMVC.Providers.WebApiTokenStore.GetTokenResponse | userName: 14@akaver.com password: a
+2015-05-15 14:37:23.9776 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: 92052649-0b31-4c9c-a5af-2a91587d11b2
+2015-05-15 14:37:24.0046 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 1f024001-f021-4fd7-82a2-0331ee92256a
+2015-05-15 14:38:33.1842 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 92c99f41-e1b3-4c75-9a18-7ab38df05c42
+2015-05-15 14:38:33.2232 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: bcead532-9e26-4435-8679-72ab81325ad9
+2015-05-15 14:38:33.3882 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 5a21dd2d-df99-4123-aaeb-e0be428e6747
+2015-05-15 14:38:33.3882 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 6865886d-b673-4206-adc0-288c7236c0c4
+2015-05-15 14:38:33.3952 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 89874961-ff99-4ac5-a8b9-9c9849cd4fe2
+2015-05-15 14:38:33.3952 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: d3ed046c-9b00-400f-a2aa-3f9d2d7da906
+2015-05-15 14:38:33.4112 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: e1faf741-d5dd-4545-afb7-f80e762d7c79
+2015-05-15 14:38:33.4112 |  DEBUG |                                WebMVC.Providers.WebApiTokenStore..ctor | Created with id: e63d0ef6-9124-4e5d-9e3c-58c5df2f43e6
+2015-05-15 14:38:33.4282 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: 9ae6c789-8bd6-4c54-ada7-b6b4a053606c
+2015-05-15 14:38:33.5373 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: 9ae6c789-8bd6-4c54-ada7-b6b4a053606c
+2015-05-15 14:38:33.5752 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 92c99f41-e1b3-4c75-9a18-7ab38df05c42
+2015-05-15 14:39:05.4020 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 851d0a70-0bfd-40b3-949a-9d9e2e73fde4
+2015-05-15 14:39:05.4020 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: d4ed4a39-cb0c-450a-baf0-ff7eb68c14ac
+2015-05-15 14:39:05.4020 |   INFO |                                WebMVC.Controllers.HomeController..ctor | _instanceId: c494bae4-4467-4304-9bc5-ffa0678b6ae5
+2015-05-15 14:39:05.4190 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | bc77a6ea-f176-42a6-b174-638d02e293e9
+2015-05-15 14:39:05.4190 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: home
+2015-05-15 14:39:05.4760 |   INFO |                              WebMVC.Controllers.HomeController.Dispose | Disposing: True _instanceId: c494bae4-4467-4304-9bc5-ffa0678b6ae5
+2015-05-15 14:39:05.4900 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 851d0a70-0bfd-40b3-949a-9d9e2e73fde4
+2015-05-15 14:39:05.5120 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: f2eaf2d1-30e2-4f1c-a44c-ab306622abe0
+2015-05-15 14:39:05.5120 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 36618a39-1920-46b0-8ad5-6ee6f359b3ee
+2015-05-15 14:39:05.5120 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: de009753-d5f4-4659-9723-f996b0fc32c0
+2015-05-15 14:39:05.5120 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 33910f07-5c23-410f-abd2-39656e960cce
+2015-05-15 14:39:05.5120 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: f5d4779c-5f01-473c-a06b-e131c5e13eec
+2015-05-15 14:39:05.5220 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: fd54c04c-a270-4a13-af5d-708a9cc77437
+2015-05-15 14:39:05.5220 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: c5cfd43a-851c-44cc-942d-0ce5dd4c0c88
+2015-05-15 14:39:05.5220 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: 190c3b25-6c0c-4ea6-baf2-9910236ac969
+2015-05-15 14:39:05.5360 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | bc77a6ea-f176-42a6-b174-638d02e293e9
+2015-05-15 14:39:05.5360 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: account
+2015-05-15 14:39:05.5360 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: 190c3b25-6c0c-4ea6-baf2-9910236ac969
+2015-05-15 14:39:05.5600 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: f2eaf2d1-30e2-4f1c-a44c-ab306622abe0
+2015-05-15 14:39:05.5740 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 43433e5e-f1dc-41b6-87ab-cc8a07827245
+2015-05-15 14:39:05.5740 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 18de5414-3874-410c-99b1-d5c595d6c566
+2015-05-15 14:39:05.5740 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: bbfd6ae2-bc67-4bb2-a8cc-8267c1f3e590
+2015-05-15 14:39:05.5740 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 487aa976-afca-4316-8cd7-f9c60254a81e
+2015-05-15 14:39:05.5830 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: c017ad37-9d34-4b07-9e8d-5b79b2441555
+2015-05-15 14:39:05.5830 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 595c537b-4838-4b4e-bbf9-f27956a25ca9
+2015-05-15 14:39:05.5830 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: f3fd4c04-3e6a-4149-958e-48c1822be06e
+2015-05-15 14:39:05.5830 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: 36176d4e-6c53-4968-9a78-8ef7541ed6f8
+2015-05-15 14:39:05.6370 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | bc77a6ea-f176-42a6-b174-638d02e293e9
+2015-05-15 14:39:05.6370 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 14:39:08.9490 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: 36176d4e-6c53-4968-9a78-8ef7541ed6f8
+2015-05-15 14:39:08.9750 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 43433e5e-f1dc-41b6-87ab-cc8a07827245
+2015-05-15 14:39:09.8031 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: ce135149-3b35-4aca-adb4-b9f53511c9ab
+2015-05-15 14:39:09.8261 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 0189fa90-fae5-4556-9d12-551f3dab7fe7
+2015-05-15 14:39:09.8553 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: ce135149-3b35-4aca-adb4-b9f53511c9ab
+2015-05-15 14:39:11.9309 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: a3aad474-9e08-4d5e-959c-0844d99d8f2a
+2015-05-15 14:39:11.9309 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 30e26893-6a5d-4511-8c78-56fcebd579d7
+2015-05-15 14:39:11.9309 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: b3de3584-cb60-4074-a8db-c4ed8b9f5f8e
+2015-05-15 14:39:11.9449 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 38b712dd-7f96-4683-be8c-c85ef8eca093
+2015-05-15 14:39:11.9449 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: cef3de6c-3780-415e-87c6-9161a341fd22
+2015-05-15 14:39:11.9449 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 08c84d25-d52e-4272-93c3-b1d3b11e2a6c
+2015-05-15 14:39:11.9449 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: 1a400797-13a4-4f5b-a836-8f9db2e0e382
+2015-05-15 14:39:11.9449 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: c2fc9fa6-4945-4e01-bf38-0bd022e126f2
+2015-05-15 14:39:11.9449 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | bc77a6ea-f176-42a6-b174-638d02e293e9
+2015-05-15 14:39:11.9609 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 14:39:11.9609 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: c2fc9fa6-4945-4e01-bf38-0bd022e126f2
+2015-05-15 14:39:11.9749 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: a3aad474-9e08-4d5e-959c-0844d99d8f2a
+2015-05-15 14:39:12.8319 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 59596db5-9add-4d2f-981f-9fe4b4b74189
+2015-05-15 14:39:12.8475 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 548a9173-abda-44a2-a6aa-a893f6ef09d4
+2015-05-15 14:39:12.8475 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 59596db5-9add-4d2f-981f-9fe4b4b74189
+2015-05-15 14:39:17.7349 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 7d96de3b-da2d-487e-862e-d5098a980779
+2015-05-15 14:39:17.7399 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 6fdf37e0-0b83-4d7f-bc6b-df0a6b6c8490
+2015-05-15 14:39:17.7399 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 42944e2e-a0fd-43b4-a8f8-f2675fcdc61c
+2015-05-15 14:39:17.7399 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 1ff6cf18-77fe-412c-acf0-0d305d8cdb67
+2015-05-15 14:39:17.7399 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e
+2015-05-15 14:39:17.7399 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 45577ec7-2b18-470b-bc76-e5befc878d64
+2015-05-15 14:39:17.7399 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: 206851c1-7d47-4a82-843b-34cd4c5f290c
+2015-05-15 14:39:17.7399 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: c39a4af4-d04f-4c11-b4b7-0ddc60a3edf1
+2015-05-15 14:39:17.8289 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | bc77a6ea-f176-42a6-b174-638d02e293e9
+2015-05-15 14:39:17.8289 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 14:39:17.8519 |   INFO |                            IdentityWebApi.UserStore`11.FindByNameAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e
+2015-05-15 14:39:17.8809 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:39:17.8809 |  DEBUG |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | 14@akaver.com
+2015-05-15 14:39:26.3399 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e userId:13
+2015-05-15 14:39:26.3499 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:39:26.4369 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:39:26.4369 |   INFO |                     IdentityWebApi.UserStore`11.GetLockoutEnabledAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e
+2015-05-15 14:39:26.4439 |   INFO |                     IdentityWebApi.UserStore`11.GetLockoutEndDateAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e
+2015-05-15 14:39:26.4439 |   INFO |                       IdentityWebApi.UserStore`11.GetPasswordHashAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e
+2015-05-15 14:39:26.4789 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e userId:13
+2015-05-15 14:39:26.4789 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:39:26.5269 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:39:26.5359 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e userId:13
+2015-05-15 14:39:26.5359 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:39:26.5859 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:39:26.5859 |   INFO |                  IdentityWebApi.UserStore`11.GetAccessFailedCountAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e
+2015-05-15 14:39:26.5859 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e userId:13
+2015-05-15 14:39:26.5859 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:39:26.6299 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:39:26.6299 |   INFO |                   IdentityWebApi.UserStore`11.GetTwoFactorEnabledAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e
+2015-05-15 14:39:26.6299 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e userId:13
+2015-05-15 14:39:26.6299 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:39:26.6789 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:39:26.6789 |   INFO |                              IdentityWebApi.UserStore`11.GetRolesAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e user.Email:14@akaver.com
+2015-05-15 14:39:26.6789 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/RolesInt/
+2015-05-15 14:39:26.7429 |  ERROR |                DALWebApi.Repositories.RoleRepository`6.GetRolesForUser | Not Found
+2015-05-15 14:39:26.7429 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e userId:13
+2015-05-15 14:39:26.7589 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:39:26.8149 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:39:26.8149 |   INFO |                             IdentityWebApi.UserStore`11.GetClaimsAsync | _instanceId: f47dd61b-d419-41bb-8b5a-82e835afc26e
+2015-05-15 14:39:26.8209 |  DEBUG |                     WebMVC.Providers.WebApiTokenStore.GetTokenResponse | userName: 14@akaver.com password: a
+2015-05-15 14:39:26.8209 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: c39a4af4-d04f-4c11-b4b7-0ddc60a3edf1
+2015-05-15 14:39:26.8339 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 7d96de3b-da2d-487e-862e-d5098a980779
+2015-05-15 14:40:00.9164 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: d5669e52-1fef-4f8f-87e7-ac3b3677830e
+2015-05-15 14:40:00.9444 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: a91235a8-4a73-4f9f-b7d4-502c7d0bc957
+2015-05-15 14:40:00.9684 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 657819e9-2813-47c3-973b-b62f638d1a12
+2015-05-15 14:40:00.9994 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: a705e00a-1ddf-4a07-b2b8-6a467c18422e
+2015-05-15 14:40:01.2584 |   INFO |                                WebMVC.Controllers.HomeController..ctor | _instanceId: 6c3bfade-133b-41d1-acff-aeec91d2c9b8
+2015-05-15 14:40:01.2794 |   INFO |                                WebMVC.Controllers.HomeController..ctor | _instanceId: 07ab98fa-2ad3-4622-afe5-c9ed468f2f95
+2015-05-15 14:40:01.3294 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:40:01.3374 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:40:01.3374 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: home
+2015-05-15 14:40:01.3685 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: home
+2015-05-15 14:40:01.4264 |   INFO |                              WebMVC.Controllers.HomeController.Dispose | Disposing: True _instanceId: 6c3bfade-133b-41d1-acff-aeec91d2c9b8
+2015-05-15 14:40:01.4664 |   INFO |                              WebMVC.Controllers.HomeController.Dispose | Disposing: True _instanceId: 07ab98fa-2ad3-4622-afe5-c9ed468f2f95
+2015-05-15 14:40:01.5374 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 657819e9-2813-47c3-973b-b62f638d1a12
+2015-05-15 14:40:01.5374 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: d5669e52-1fef-4f8f-87e7-ac3b3677830e
+2015-05-15 14:40:01.5854 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: bfcf7afb-6bec-41af-b77b-f74c03e0dd3f
+2015-05-15 14:40:01.6024 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: e8abe402-dedc-4088-8aa3-925a9b59e15f
+2015-05-15 14:40:01.6024 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 4ccefa13-fe33-4b2f-ab87-ab63cbc3637a
+2015-05-15 14:40:01.6024 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 08e8a295-9f39-4421-b180-e9468c4cc79e
+2015-05-15 14:40:01.6024 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: b0a4b88c-155d-47e1-b365-7b5f143ea38e
+2015-05-15 14:40:01.6164 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 7e8a26c7-36a4-4970-aeac-b53f78afad6a
+2015-05-15 14:40:01.6164 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: b7963f23-ef4a-47aa-b025-5493f825c1cd
+2015-05-15 14:40:01.6314 |  DEBUG |                                WebMVC.Providers.WebApiTokenStore..ctor | Created with id: a5e7ed93-07a3-4e1a-8556-e43ff931b4dc
+2015-05-15 14:40:01.6314 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: 35ea0910-273e-49fc-9694-7bd10a63b12d
+2015-05-15 14:40:01.6314 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:40:01.6314 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: account
+2015-05-15 14:40:01.6534 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: 35ea0910-273e-49fc-9694-7bd10a63b12d
+2015-05-15 14:40:01.6744 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: bfcf7afb-6bec-41af-b77b-f74c03e0dd3f
+2015-05-15 14:40:01.6764 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: fb1cdd3d-7c83-4162-b969-191d58edb7ec
+2015-05-15 14:40:01.6764 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 57cebdca-407a-469c-a53e-6749476730c9
+2015-05-15 14:40:01.6764 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: c4dc2419-5e99-4efa-8c62-03b548d610dc
+2015-05-15 14:40:01.6764 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 00751832-b158-434f-8f05-6ee72a778b85
+2015-05-15 14:40:01.6934 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 14718662-7f9f-4250-8459-9531c9441e61
+2015-05-15 14:40:01.6934 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 5ad8f2ae-4269-4fad-8a57-7c0aa6091a51
+2015-05-15 14:40:01.6934 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: b16d9439-5bf6-44f3-b01f-d8ac89a66dd1
+2015-05-15 14:40:01.6934 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: b70feb7b-19b0-46af-b48b-9cb6e3e7a467
+2015-05-15 14:40:01.7354 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:40:01.7354 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 14:40:06.2334 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: b70feb7b-19b0-46af-b48b-9cb6e3e7a467
+2015-05-15 14:40:06.2414 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: fb1cdd3d-7c83-4162-b969-191d58edb7ec
+2015-05-15 14:40:06.9771 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 99a9b002-3d17-48d8-8fbe-a69311039dd9
+2015-05-15 14:40:06.9771 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 1a3c395d-36f7-4a91-98ef-95a2fd1ef211
+2015-05-15 14:40:06.9982 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 99a9b002-3d17-48d8-8fbe-a69311039dd9
+2015-05-15 14:40:17.2604 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 2c835314-f2ab-4d2e-bee9-0da9653e080d
+2015-05-15 14:40:17.2604 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: d34c211b-78c8-44be-b8de-adb89e0c077a
+2015-05-15 14:40:17.2604 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 89c262ed-1280-4ec3-9aba-9c3c2e21b8a8
+2015-05-15 14:40:17.2724 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: f15e99db-43c0-4c07-9f7c-add5a8b94c57
+2015-05-15 14:40:17.2724 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447
+2015-05-15 14:40:17.2864 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 36c2f5ca-2fcf-4674-afb4-f822deb55427
+2015-05-15 14:40:17.2864 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: 162eac0a-372a-4f6c-a919-ec2224a22b6a
+2015-05-15 14:40:17.2864 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: 65660768-0e3a-4c08-9611-2c363167bc78
+2015-05-15 14:40:17.3814 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:40:17.3814 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 14:40:17.4104 |   INFO |                            IdentityWebApi.UserStore`11.FindByNameAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447
+2015-05-15 14:40:17.4415 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:40:17.4514 |  DEBUG |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | 14@akaver.com
+2015-05-15 14:40:22.5284 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447 userId:13
+2015-05-15 14:40:22.5284 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:40:22.5934 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:40:22.5934 |   INFO |                     IdentityWebApi.UserStore`11.GetLockoutEnabledAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447
+2015-05-15 14:40:22.5994 |   INFO |                     IdentityWebApi.UserStore`11.GetLockoutEndDateAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447
+2015-05-15 14:40:22.5994 |   INFO |                       IdentityWebApi.UserStore`11.GetPasswordHashAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447
+2015-05-15 14:40:22.6224 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447 userId:13
+2015-05-15 14:40:22.6224 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:40:22.7364 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:40:22.7424 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447 userId:13
+2015-05-15 14:40:22.7544 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:40:22.8084 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:40:22.8084 |   INFO |                  IdentityWebApi.UserStore`11.GetAccessFailedCountAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447
+2015-05-15 14:40:22.8214 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447 userId:13
+2015-05-15 14:40:22.8214 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:40:22.8684 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:40:22.8684 |   INFO |                   IdentityWebApi.UserStore`11.GetTwoFactorEnabledAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447
+2015-05-15 14:40:22.8994 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447 userId:13
+2015-05-15 14:40:22.8994 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:40:22.9374 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:40:22.9374 |   INFO |                              IdentityWebApi.UserStore`11.GetRolesAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447 user.Email:14@akaver.com
+2015-05-15 14:40:22.9434 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/RolesInt/
+2015-05-15 14:40:23.0044 |  ERROR |                DALWebApi.Repositories.RoleRepository`6.GetRolesForUser | Not Found
+2015-05-15 14:40:23.0044 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447 userId:13
+2015-05-15 14:40:23.0044 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 13
+2015-05-15 14:40:23.1184 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 14@akaver.com
+2015-05-15 14:40:23.1184 |   INFO |                             IdentityWebApi.UserStore`11.GetClaimsAsync | _instanceId: 0f5def1c-3dab-42fc-8727-fd3c38566447
+2015-05-15 14:40:23.1654 |  DEBUG |                     WebMVC.Providers.WebApiTokenStore.GetTokenResponse | userName: 14@akaver.com password: a
+2015-05-15 14:40:23.5454 |  DEBUG |                     WebMVC.Providers.WebApiTokenStore.GetTokenResponse | Response statuscode: OK
+2015-05-15 14:40:23.5574 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: 65660768-0e3a-4c08-9611-2c363167bc78
+2015-05-15 14:40:23.5574 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 2c835314-f2ab-4d2e-bee9-0da9653e080d
+2015-05-15 14:40:23.5864 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 8d881617-533c-4790-9713-c3f2bdb83d39
+2015-05-15 14:40:23.5995 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: afc0b366-791b-4c5a-939a-be2e8b658d0c
+2015-05-15 14:40:23.5995 |   INFO |                                WebMVC.Controllers.HomeController..ctor | _instanceId: a31b0864-5966-43ad-b50a-38cc1dac0062
+2015-05-15 14:40:23.6144 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:40:23.6144 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: home
+2015-05-15 14:40:24.2244 |   INFO |                              WebMVC.Controllers.HomeController.Dispose | Disposing: True _instanceId: a31b0864-5966-43ad-b50a-38cc1dac0062
+2015-05-15 14:40:24.2244 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 8d881617-533c-4790-9713-c3f2bdb83d39
+2015-05-15 14:40:25.2958 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 94179a30-abb4-4f58-a941-a9a08d681e6d
+2015-05-15 14:40:25.3115 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 0ae43346-c088-45b6-aa84-cae062120b33
+2015-05-15 14:40:25.3740 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 94179a30-abb4-4f58-a941-a9a08d681e6d
+2015-05-15 14:40:33.1503 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: feab28eb-63a2-4da0-bd18-3bab332dbb49
+2015-05-15 14:40:33.1503 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: c4b4c5db-e339-4223-b398-8035791abf12
+2015-05-15 14:40:33.1633 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:40:33.1633 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: values
+2015-05-15 14:40:33.1633 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/values/
+2015-05-15 14:40:33.1633 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.get_All | 
+2015-05-15 14:40:33.7743 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: feab28eb-63a2-4da0-bd18-3bab332dbb49
+2015-05-15 14:40:34.4662 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 0631f6d6-d814-419f-be69-af90ba19b07c
+2015-05-15 14:40:34.4662 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: fb2d0399-d007-4f60-84d6-e71b17ca370a
+2015-05-15 14:40:34.4662 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 0631f6d6-d814-419f-be69-af90ba19b07c
+2015-05-15 14:40:39.2065 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 419c64f2-bf06-4328-b345-2f49b05418a0
+2015-05-15 14:40:39.2096 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 1a012344-e262-48c5-816c-aec110b60ff8
+2015-05-15 14:40:39.2096 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: 1cc18fec-34d3-4edf-96c6-ff96142f8966
+2015-05-15 14:40:39.2275 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:40:39.2275 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:40:39.2425 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:40:39.2425 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.get_All | 
+2015-05-15 14:40:40.0566 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: 1cc18fec-34d3-4edf-96c6-ff96142f8966
+2015-05-15 14:40:40.0566 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 419c64f2-bf06-4328-b345-2f49b05418a0
+2015-05-15 14:40:40.7956 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 44d10d4a-5ccd-48c6-8cd0-6f71f51e70cd
+2015-05-15 14:40:40.7956 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 7291db52-f68d-4ae0-af63-6fdc449ed0e9
+2015-05-15 14:40:40.8045 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 44d10d4a-5ccd-48c6-8cd0-6f71f51e70cd
+2015-05-15 14:40:49.1261 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 45beb994-f373-4446-ae4a-e7c9c5822c85
+2015-05-15 14:40:49.1261 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 72308c33-110b-4ff6-98a8-b089f23281a4
+2015-05-15 14:40:49.1511 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 45beb994-f373-4446-ae4a-e7c9c5822c85
+2015-05-15 14:41:01.8708 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 6ba15f56-66f2-44c7-b2aa-099745223aa4
+2015-05-15 14:41:01.8708 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 3c82cdc0-90b6-464e-a74e-65778039e0b5
+2015-05-15 14:41:01.8708 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: cdfd09eb-35d4-4279-ac8d-a4f46e6c4796
+2015-05-15 14:41:01.8798 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:41:01.8798 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:41:01.8798 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:41:01.8798 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 1
+2015-05-15 14:41:01.9798 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: cdfd09eb-35d4-4279-ac8d-a4f46e6c4796
+2015-05-15 14:41:01.9798 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 6ba15f56-66f2-44c7-b2aa-099745223aa4
+2015-05-15 14:41:03.0476 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: d5cee84a-0d39-48b0-aa21-bfb4b510c7dc
+2015-05-15 14:41:03.0789 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 5ad82865-92ae-4f43-bc04-f1384d939679
+2015-05-15 14:41:03.1259 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: d5cee84a-0d39-48b0-aa21-bfb4b510c7dc
+2015-05-15 14:41:03.9810 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 16105c85-e2f2-4f75-8a94-df8f321c982c
+2015-05-15 14:41:03.9810 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 352a088c-63db-4018-907c-550616bab3cc
+2015-05-15 14:41:03.9900 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: 7bd61eac-d54e-46ec-830f-a6dcbfd0fc56
+2015-05-15 14:41:03.9900 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:41:03.9900 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:41:03.9900 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:41:03.9900 |  DEBUG |                       DALWebApi.Repositories.WebApiRepository`1.Delete | 1
+2015-05-15 14:41:04.1160 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: 7bd61eac-d54e-46ec-830f-a6dcbfd0fc56
+2015-05-15 14:41:04.1160 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 16105c85-e2f2-4f75-8a94-df8f321c982c
+2015-05-15 14:41:04.1470 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: f0e16a39-1cbe-48e2-9f5a-dbbbab016ca0
+2015-05-15 14:41:04.1470 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 804b54b8-c148-410a-9494-59ef232558c6
+2015-05-15 14:41:04.1470 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: c44a7157-4161-43b8-a999-84bd82bb701f
+2015-05-15 14:41:04.1470 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:41:04.1680 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:41:04.1680 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:41:04.1772 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.get_All | 
+2015-05-15 14:41:04.2730 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: c44a7157-4161-43b8-a999-84bd82bb701f
+2015-05-15 14:41:04.2730 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: f0e16a39-1cbe-48e2-9f5a-dbbbab016ca0
+2015-05-15 14:41:05.4768 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 1284bc69-e03e-4f06-8191-6a8ac1d809cf
+2015-05-15 14:41:05.4924 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 5fa1469b-9aac-4e8f-83a1-8388160e08a0
+2015-05-15 14:41:05.5245 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 1284bc69-e03e-4f06-8191-6a8ac1d809cf
+2015-05-15 14:41:06.0965 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 4bcc815d-0dc4-4715-acff-d4b3775a2acb
+2015-05-15 14:41:06.1056 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: d1927c02-163d-4a1e-8c50-bd34e2ff2092
+2015-05-15 14:41:06.1145 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: b9d3bdaf-3b4e-4d28-87dd-e4c81efdaa33
+2015-05-15 14:41:06.1145 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:41:06.1145 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:41:06.1145 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:41:06.1305 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 2
+2015-05-15 14:41:06.1755 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: b9d3bdaf-3b4e-4d28-87dd-e4c81efdaa33
+2015-05-15 14:41:06.1766 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 4bcc815d-0dc4-4715-acff-d4b3775a2acb
+2015-05-15 14:41:07.3108 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: f5e16f8d-e4f7-4486-8909-23c1fae1a6bc
+2015-05-15 14:41:07.3436 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 57822703-6728-4493-8172-5be5c9ec80d5
+2015-05-15 14:41:07.3506 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: f5e16f8d-e4f7-4486-8909-23c1fae1a6bc
+2015-05-15 14:41:07.5448 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 3ac863b7-b12e-4d6e-be28-164373fcb747
+2015-05-15 14:41:07.5448 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 9b7c85e6-94f8-4f3d-951f-d5fb38d0365f
+2015-05-15 14:41:07.5528 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: 8ab6d63c-c64f-45ae-a4cc-910a6fa58ab5
+2015-05-15 14:41:07.5528 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:41:07.5528 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:41:07.5528 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:41:07.5528 |  DEBUG |                       DALWebApi.Repositories.WebApiRepository`1.Delete | 2
+2015-05-15 14:41:07.6118 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: 8ab6d63c-c64f-45ae-a4cc-910a6fa58ab5
+2015-05-15 14:41:07.6138 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 3ac863b7-b12e-4d6e-be28-164373fcb747
+2015-05-15 14:41:07.6448 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: f3e40b2e-128d-4fe4-85b2-05d2af1748ff
+2015-05-15 14:41:07.6498 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 53fed0f5-0a8f-4f34-9d9f-7d2d18801df8
+2015-05-15 14:41:07.6498 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: 9dda2ccd-6ed2-405b-aee8-b729fd722cc0
+2015-05-15 14:41:07.6610 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:41:07.6610 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:41:07.6610 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:41:07.6610 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.get_All | 
+2015-05-15 14:41:08.8998 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: 9dda2ccd-6ed2-405b-aee8-b729fd722cc0
+2015-05-15 14:41:08.8998 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: f3e40b2e-128d-4fe4-85b2-05d2af1748ff
+2015-05-15 14:41:10.3876 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: e187d142-9d3d-40a2-a00d-98a0f6ca9f94
+2015-05-15 14:41:10.4032 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 0ac57f76-9827-461c-ba3a-6bd93faade37
+2015-05-15 14:41:10.4189 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: e187d142-9d3d-40a2-a00d-98a0f6ca9f94
+2015-05-15 14:41:11.2191 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: a948d069-30b2-49a1-bce9-e4986e7d382e
+2015-05-15 14:41:11.3011 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: a9484103-99f5-4e14-a2b0-a36fb029af60
+2015-05-15 14:41:11.3201 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: 16bbe91b-5afe-437d-8683-a2b0f55895b4
+2015-05-15 14:41:11.3201 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:41:11.3201 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:41:11.3371 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:41:11.3481 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 3
+2015-05-15 14:41:11.4381 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: 16bbe91b-5afe-437d-8683-a2b0f55895b4
+2015-05-15 14:41:11.4381 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: a948d069-30b2-49a1-bce9-e4986e7d382e
+2015-05-15 14:41:12.4623 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 25a77071-899d-49ed-9373-a115835c4edc
+2015-05-15 14:41:12.4623 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 10ac0b30-d87b-418c-b271-41bc174a49b7
+2015-05-15 14:41:12.4779 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 25a77071-899d-49ed-9373-a115835c4edc
+2015-05-15 14:41:12.8434 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: bab71c72-d8e5-4632-ba50-c1c43a85ba77
+2015-05-15 14:41:12.8434 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 37f54860-a086-4163-9f52-3f8b4dd5d14a
+2015-05-15 14:41:12.8494 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: 369ffa69-2bd3-4207-a78b-ca11699ff2a7
+2015-05-15 14:41:12.8494 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:41:12.8494 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:41:12.8674 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:41:12.8674 |  DEBUG |                       DALWebApi.Repositories.WebApiRepository`1.Delete | 3
+2015-05-15 14:41:12.9284 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: 369ffa69-2bd3-4207-a78b-ca11699ff2a7
+2015-05-15 14:41:12.9284 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: bab71c72-d8e5-4632-ba50-c1c43a85ba77
+2015-05-15 14:41:12.9454 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 37ff172a-1ee3-4770-93a7-d5bbe91cf95d
+2015-05-15 14:41:12.9454 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 7e41ae4c-fc44-4e99-9029-ab96d958c97c
+2015-05-15 14:41:12.9684 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: 9666ba75-2206-4b74-9018-1ea8b6077a4c
+2015-05-15 14:41:13.0204 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:41:13.0534 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:41:13.0814 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:41:13.0974 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.get_All | 
+2015-05-15 14:41:13.2604 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: 9666ba75-2206-4b74-9018-1ea8b6077a4c
+2015-05-15 14:41:13.2604 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 37ff172a-1ee3-4770-93a7-d5bbe91cf95d
+2015-05-15 14:41:14.3294 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: fcd2e682-5540-453b-95b0-c2770360af1c
+2015-05-15 14:41:14.3294 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 50413186-eacb-4eef-b581-6932d52f8d6d
+2015-05-15 14:41:14.3451 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: fcd2e682-5540-453b-95b0-c2770360af1c
+2015-05-15 14:41:14.8126 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 94468313-2562-48c4-b9ce-81d6e60487fc
+2015-05-15 14:41:14.8126 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 059b9fec-822a-43db-b12f-88122eb0037d
+2015-05-15 14:41:14.8186 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: 00869895-d77b-474b-b7ec-a5cf12451912
+2015-05-15 14:41:14.8186 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:41:14.8186 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:41:14.8326 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:41:14.8326 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 4
+2015-05-15 14:41:14.8996 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: 00869895-d77b-474b-b7ec-a5cf12451912
+2015-05-15 14:41:14.8996 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 94468313-2562-48c4-b9ce-81d6e60487fc
+2015-05-15 14:41:15.9920 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 6e16aa16-1c93-400a-9a9f-9f3b5b02177a
+2015-05-15 14:41:15.9920 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 611e5da2-652d-4915-8f92-ae437b1d3622
+2015-05-15 14:41:16.0076 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 6e16aa16-1c93-400a-9a9f-9f3b5b02177a
+2015-05-15 14:41:18.2415 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 38a2793f-075d-46ea-85ff-b7bcc709f485
+2015-05-15 14:41:18.2415 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: dc4f907b-0d68-4f4f-95b6-8b9b1dd20610
+2015-05-15 14:41:18.2415 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: 5a729ed2-afcf-458a-8637-f359e246a303
+2015-05-15 14:41:18.2415 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:41:18.2415 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:41:18.2415 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:41:18.2415 |  DEBUG |                       DALWebApi.Repositories.WebApiRepository`1.Delete | 4
+2015-05-15 14:41:18.3065 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: 5a729ed2-afcf-458a-8637-f359e246a303
+2015-05-15 14:41:18.3065 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 38a2793f-075d-46ea-85ff-b7bcc709f485
+2015-05-15 14:41:18.3255 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: e8daf413-0a30-46e6-b13a-6cee53a96cc1
+2015-05-15 14:41:18.3255 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 0a93f1b1-841c-429b-9653-a1710a238117
+2015-05-15 14:41:18.3375 |   INFO |                               WebMVC.Controllers.UsersController..ctor | _instanceId: 8dba0866-e1f1-4a0b-bb18-2b622ca49421
+2015-05-15 14:41:18.3375 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | 78e76b59-4a46-4d04-b41a-c7f5254906f3
+2015-05-15 14:41:18.3505 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: users
+2015-05-15 14:41:18.3505 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:41:18.3505 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.get_All | 
+2015-05-15 14:41:18.5035 |   INFO |                             WebMVC.Controllers.UsersController.Dispose | Disposing: True _instanceId: 8dba0866-e1f1-4a0b-bb18-2b622ca49421
+2015-05-15 14:41:18.5055 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: e8daf413-0a30-46e6-b13a-6cee53a96cc1
+2015-05-15 14:41:19.1997 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 7360760f-c364-427f-afbf-1f152c7c8850
+2015-05-15 14:41:19.1997 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 1396c305-e995-47dc-8c0e-29b422c25e71
+2015-05-15 14:41:19.2084 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 7360760f-c364-427f-afbf-1f152c7c8850
+2015-05-15 14:54:01.6313 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: c161a929-4c08-4b83-84dc-71b143635066
+2015-05-15 14:54:01.6693 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: d3bc4f2d-21b8-4bcf-b950-c2667ded47f2
+2015-05-15 14:54:01.9083 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 228ffe21-61dd-4019-b616-3b7240cd7393
+2015-05-15 14:54:01.9293 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 8001a228-f75a-41fe-8023-9e44ff497177
+2015-05-15 14:54:01.9473 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 377a8252-94df-4c9e-9ba1-8ae79caafe6f
+2015-05-15 14:54:01.9813 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: a339f59d-a98d-4ac8-930b-4b26e8868325
+2015-05-15 14:54:02.0103 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: 4f78c5ee-4800-4b77-bd3b-8f926ae22c33
+2015-05-15 14:54:02.0203 |  DEBUG |                                WebMVC.Providers.WebApiTokenStore..ctor | Created with id: b0319369-c366-46bb-9f62-99c0cad82a89
+2015-05-15 14:54:02.0360 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: abb6b513-bed5-4d6a-8513-07b2cbcde77d
+2015-05-15 14:54:02.1237 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | b2717484-2c0d-462c-b5c3-178ba5bf29b3
+2015-05-15 14:54:02.1503 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: account
+2015-05-15 14:54:02.2513 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: abb6b513-bed5-4d6a-8513-07b2cbcde77d
+2015-05-15 14:54:02.2904 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: c161a929-4c08-4b83-84dc-71b143635066
+2015-05-15 14:54:02.3574 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: a293e830-4170-4649-a79b-14664aefac1d
+2015-05-15 14:54:02.3713 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 41f79931-db53-402f-9d69-0d73d1db9e16
+2015-05-15 14:54:02.3873 |   INFO |                                WebMVC.Controllers.HomeController..ctor | _instanceId: c9f48daf-4263-4ef9-a3e1-7da741ea45d8
+2015-05-15 14:54:02.3873 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | b2717484-2c0d-462c-b5c3-178ba5bf29b3
+2015-05-15 14:54:02.3964 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: home
+2015-05-15 14:54:06.1563 |   INFO |                              WebMVC.Controllers.HomeController.Dispose | Disposing: True _instanceId: c9f48daf-4263-4ef9-a3e1-7da741ea45d8
+2015-05-15 14:54:06.1613 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: a293e830-4170-4649-a79b-14664aefac1d
+2015-05-15 14:54:06.9625 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 2c24bdc7-5154-44f3-964f-0530571166cd
+2015-05-15 14:54:06.9625 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 4d8e2393-cfdd-4878-a0d6-240069b44438
+2015-05-15 14:54:06.9782 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 2c24bdc7-5154-44f3-964f-0530571166cd
+2015-05-15 14:54:08.5534 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 88b0d3b7-d4a5-4abf-8d93-af9a81bdecc4
+2015-05-15 14:54:08.5534 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 4dfe294e-c58f-4ede-8408-a54376fb031e
+2015-05-15 14:54:08.5534 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 1bf38c5a-88f3-4e92-85bc-136f85975d45
+2015-05-15 14:54:08.5674 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 0e99cb14-92ce-4fb2-b5b5-00ce800fc2b5
+2015-05-15 14:54:08.5674 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: adb6feac-8da9-4a57-bfd4-a15d9f941d70
+2015-05-15 14:54:08.5674 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: f6aff079-cc52-4c02-9209-be906b1736ab
+2015-05-15 14:54:08.5864 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: bc64a56c-d96b-4c7c-9413-e7b591101e33
+2015-05-15 14:54:08.5864 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: 7d297768-96fa-467f-8cc4-6458343125dc
+2015-05-15 14:54:08.6134 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | b2717484-2c0d-462c-b5c3-178ba5bf29b3
+2015-05-15 14:54:08.6204 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 14:54:09.6834 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: 7d297768-96fa-467f-8cc4-6458343125dc
+2015-05-15 14:54:09.6834 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 88b0d3b7-d4a5-4abf-8d93-af9a81bdecc4
+2015-05-15 14:54:10.6140 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: c2f5b1d0-4fc7-43dc-9510-2e5442b4fe95
+2015-05-15 14:54:10.6297 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 8cf60548-a314-4fdb-a73f-259c56fb96ca
+2015-05-15 14:54:10.6297 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: c2f5b1d0-4fc7-43dc-9510-2e5442b4fe95
+2015-05-15 14:54:15.7166 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 018f2b7d-56c5-4d25-ad11-cc08230c6a9a
+2015-05-15 14:54:15.7166 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: e4ab5b91-334d-43e5-b5cf-9b0455312e4c
+2015-05-15 14:54:15.7166 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: ee67c529-55e0-45c9-8053-00e273dddf72
+2015-05-15 14:54:15.7166 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 0d3976dc-d226-4185-b2e7-099cdeb3dd7a
+2015-05-15 14:54:15.7236 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 83e991da-536f-4594-8131-2ad2bcc4bfb0
+2015-05-15 14:54:15.7236 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 2ccfea24-32dc-48ce-990f-0477b85d64c0
+2015-05-15 14:54:15.7236 |   INFO |                                  WebMVC.ApplicationSignInManager..ctor | _instanceId: 1cff6079-d705-42dd-8051-f09b189290e4
+2015-05-15 14:54:15.7236 |   INFO |                             WebMVC.Controllers.AccountController..ctor | _instanceId: 37200127-bd96-414f-b0f2-654e865c4c0b
+2015-05-15 14:54:15.8536 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | b2717484-2c0d-462c-b5c3-178ba5bf29b3
+2015-05-15 14:54:15.8536 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:False controllerName: account
+2015-05-15 14:54:15.9096 |   INFO |                       IdentityWebApi.UserStore`11.SetPasswordHashAsync | _instanceId: ee67c529-55e0-45c9-8053-00e273dddf72
+2015-05-15 14:54:15.9146 |   INFO |                       IdentityWebApi.UserStore`11.SetPasswordHashAsync | User.Id: 0 PasswordHash: ABodk2OMfXRgD2cmE3ARYW70ZZRGNI5WevlaS5+WD4YSQtVX4B+U2+baddN51QHtgQ==
+2015-05-15 14:54:15.9306 |   INFO |                      IdentityWebApi.UserStore`11.SetSecurityStampAsync | _instanceId: ee67c529-55e0-45c9-8053-00e273dddf72 stamp:cf0149b2-6e15-4c27-8cd0-8a0b8ea3b9ac
+2015-05-15 14:54:15.9306 |   INFO |                      IdentityWebApi.UserStore`11.SetSecurityStampAsync | _instanceId: ee67c529-55e0-45c9-8053-00e273dddf72 stamp:6ddab97a-0991-41f6-86cb-7714759c4630
+2015-05-15 14:54:15.9666 |   INFO |                            IdentityWebApi.UserStore`11.FindByNameAsync | _instanceId: ee67c529-55e0-45c9-8053-00e273dddf72
+2015-05-15 14:54:15.9996 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/UsersInt/
+2015-05-15 14:54:15.9996 |  DEBUG |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | 1@akaver.com
+2015-05-15 14:54:26.8676 |  ERROR |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | Not Found 1@akaver.com http://localhost:30422/api/UsersInt/GetUserByUserName/1@akaver.com/
+2015-05-15 14:54:26.8676 |   INFO |                              IdentityWebApi.UserStore`11.GetEmailAsync | _instanceId: ee67c529-55e0-45c9-8053-00e273dddf72
+2015-05-15 14:54:26.8676 |   INFO |                           IdentityWebApi.UserStore`11.FindByEmailAsync | _instanceId: ee67c529-55e0-45c9-8053-00e273dddf72
+2015-05-15 14:54:26.8676 |  DEBUG |                 DALWebApi.Repositories.UserRepository`6.GetUserByEmail | 1@akaver.com
+2015-05-15 14:54:26.9606 |  ERROR |                 DALWebApi.Repositories.UserRepository`6.GetUserByEmail | Not Found
+2015-05-15 14:54:26.9606 |   INFO |                     IdentityWebApi.UserStore`11.SetLockoutEnabledAsync | _instanceId: ee67c529-55e0-45c9-8053-00e273dddf72
+2015-05-15 14:54:26.9606 |   INFO |                                IdentityWebApi.UserStore`11.CreateAsync | _instanceId: ee67c529-55e0-45c9-8053-00e273dddf72
+2015-05-15 14:54:26.9766 |  DEBUG |                          DALWebApi.Repositories.WebApiRepository`1.Add | Domain.IdentityModels.UserInt
+2015-05-15 14:54:28.5876 |  DEBUG |                          DALWebApi.Repositories.WebApiRepository`1.Add | http://localhost:30422/api/UsersInt/14
+2015-05-15 14:54:28.6036 |   INFO |                            IdentityWebApi.UserStore`11.FindByNameAsync | _instanceId: 83e991da-536f-4594-8131-2ad2bcc4bfb0
+2015-05-15 14:54:28.6036 |  DEBUG |              DALWebApi.Repositories.UserRepository`6.GetUserByUserName | 1@akaver.com
+2015-05-15 14:54:28.8716 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 83e991da-536f-4594-8131-2ad2bcc4bfb0 userId:14
+2015-05-15 14:54:28.8716 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 14
+2015-05-15 14:54:28.9446 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 1@akaver.com
+2015-05-15 14:54:28.9446 |   INFO |                              IdentityWebApi.UserStore`11.GetRolesAsync | _instanceId: 83e991da-536f-4594-8131-2ad2bcc4bfb0 user.Email:1@akaver.com
+2015-05-15 14:54:28.9446 |  DEBUG |                        DALWebApi.Repositories.WebApiRepository`1..ctor | http://localhost:30422/api/RolesInt/
+2015-05-15 14:54:29.0186 |  ERROR |                DALWebApi.Repositories.RoleRepository`6.GetRolesForUser | Not Found
+2015-05-15 14:54:29.0206 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | _instanceId: 83e991da-536f-4594-8131-2ad2bcc4bfb0 userId:14
+2015-05-15 14:54:29.0206 |  DEBUG |                      DALWebApi.Repositories.WebApiRepository`1.GetById | 14
+2015-05-15 14:54:29.1716 |   INFO |                              IdentityWebApi.UserStore`11.FindByIdAsync | result: 1@akaver.com
+2015-05-15 14:54:29.1716 |   INFO |                             IdentityWebApi.UserStore`11.GetClaimsAsync | _instanceId: 83e991da-536f-4594-8131-2ad2bcc4bfb0
+2015-05-15 14:54:29.1767 |  DEBUG |                     WebMVC.Providers.WebApiTokenStore.GetTokenResponse | userName: 1@akaver.com password: a
+2015-05-15 14:54:29.7256 |  DEBUG |                     WebMVC.Providers.WebApiTokenStore.GetTokenResponse | Response statuscode: OK
+2015-05-15 14:54:29.7256 |   INFO |                           WebMVC.Controllers.AccountController.Dispose | Disposing: True _instanceId: 37200127-bd96-414f-b0f2-654e865c4c0b
+2015-05-15 14:54:29.7456 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 018f2b7d-56c5-4d25-ad11-cc08230c6a9a
+2015-05-15 14:54:29.7760 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: e1f163db-d9d7-4b08-a45d-820581fe6bbd
+2015-05-15 14:54:29.7760 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 51e75f55-6f99-4d83-9a33-d1ad7b6a5c66
+2015-05-15 14:54:29.7876 |   INFO |                                WebMVC.Controllers.HomeController..ctor | _instanceId: 0030f6b5-8339-47fd-9af6-971aefc037ba
+2015-05-15 14:54:29.7876 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | b2717484-2c0d-462c-b5c3-178ba5bf29b3
+2015-05-15 14:54:29.8078 |  DEBUG |                     WebMVC.Filters.WebApiTokenFilter.OnActionExecuting | IsAuthenticated:True controllerName: home
+2015-05-15 14:54:29.8078 |   INFO |                              WebMVC.Controllers.HomeController.Dispose | Disposing: True _instanceId: 0030f6b5-8339-47fd-9af6-971aefc037ba
+2015-05-15 14:54:29.8176 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: e1f163db-d9d7-4b08-a45d-820581fe6bbd
+2015-05-15 14:54:30.8526 |   INFO |                                      IdentityWebApi.UserStore`11..ctor | _instanceId: 20bbc30f-8b3a-4ba6-851f-a86c87e3da78
+2015-05-15 14:54:30.8682 |   INFO |                                    WebMVC.ApplicationUserManager..ctor | _instanceId: 07b80639-a89d-4524-9be9-96ff4b861621
+2015-05-15 14:54:30.8682 |   INFO |                                    IdentityWebApi.UserStore`11.Dispose | _instanceId: 20bbc30f-8b3a-4ba6-851f-a86c87e3da78
